@@ -1,0 +1,9 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  <nav class="site-nav">
+    {% for item in site.data.navigation %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

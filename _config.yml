@@ -1,0 +1,21 @@
+title: Andrea Maselli
+subtitle: Associate Professor in Theoretical Physics
+email: andrea.maselli@gssi.it
+institution: Gran Sasso Science Institute
+baseurl: ""
+url: ""
+permalink: pretty
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+social:
+  inspire: https://inspirehep.net/authors/1077802
+  scholar: https://scholar.google.com/citations?user=PLACEHOLDER
+  orcid: https://orcid.org/PLACEHOLDER
+  github: https://github.com/PLACEHOLDER
+
+collections:
+  pages:
+    output: true
