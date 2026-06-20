@@ -28,7 +28,7 @@ body {
   justify-content: center;
   background: rgba(255,255,255,.88);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(0,0,0,.08);
+  border-bottom: 0.5px solid rgba(0,0,0,.08);
 }
 
 .brand { display: none; }
@@ -138,8 +138,8 @@ body {
 }
 
 .profile-buttons img {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
 }
 
 .nav-toggle {
