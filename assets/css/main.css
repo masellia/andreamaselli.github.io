@@ -47,7 +47,7 @@ body {
 /*this specifies the overall structure of the header*/
 .site-nav {
   display: flex;
-  gap: 2.5rem;
+  gap: 0.5rem;
   font-size: .85rem;
   text-transform: uppercase;
   letter-spacing: .12em;
@@ -93,7 +93,7 @@ body {
 
 .vertical-bar {
   width: 5px;
-  height: 200px;
+  height: 190px;
   background: var(--accent);
   margin-top: -110px;
 }
