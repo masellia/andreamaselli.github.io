@@ -131,11 +131,14 @@ body {
 }
 
 .identity-text p {
+  font-size: 22px;
+  white-space: nowrap;
+  color: white;
   margin: 0 0 1.8rem;
 }
 
 .identity-text a {
-  font-size: 28px;
+  font-size: 22px;
   white-space: nowrap;
   color: white;
   text-decoration: none;
