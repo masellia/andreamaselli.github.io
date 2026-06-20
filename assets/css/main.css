@@ -78,7 +78,7 @@ body {
 }
 
 .vertical-bar {
-  width: 4px;
+  width: 5px;
   height: 155px;
   background: var(--accent);
   margin-top: .35rem;
@@ -135,6 +135,11 @@ body {
 .profile-links a:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.profile-links img {
+  width: 18px;
+  height: 18px;
 }
 
 .nav-toggle {
