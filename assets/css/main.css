@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255,255,255,.88);
+  rgb(44,44,44);
   backdrop-filter: blur(14px);
   border-bottom: 0.5px solid rgba(0,0,0,.08);
 }
