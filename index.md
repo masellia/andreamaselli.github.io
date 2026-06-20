@@ -18,7 +18,7 @@ title: Home
 
          <div class="profile-buttons">
       <a href="https://inspirehep.net/authors/1074142" target="_blank">
-        <img src="{{ '/assets/img/inspire.png' | relative_url }}" alt="INSPIRE">
+        <img src="{{ '/assets/img/inspire.jpg' | relative_url }}" alt="INSPIRE">
       </a>
       <a href="https://scholar.google.com/" target="_blank">
         <img src="{{ '/assets/img/google-scholar.png' | relative_url }}" alt="Google Scholar">
@@ -28,4 +28,3 @@ title: Home
       </a>
     </div>
   </div>
-</section>
