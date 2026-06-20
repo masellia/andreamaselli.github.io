@@ -82,7 +82,7 @@ body {
 
 .home-identity {
   position: absolute;
-  top: 145px;
+  top: 100px;
   left: 50%;
   display: flex;
   align-items: flex-start;
