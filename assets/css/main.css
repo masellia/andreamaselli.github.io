@@ -148,7 +148,7 @@ body {
 }
 
 .affiliation-logo img {
-  width: 70px;
+  width: 90px;
   height: auto;
   display: block;
 }
@@ -164,7 +164,7 @@ body {
     font-size: 28px;
     white-space: nowrap;
     color: white;
-    margin: 0 0 1rem;
+    margin: 0 0 0.2rem;
     font-family: "DINBoldCond", sans-serif;
     font-weight: 400;
 }
