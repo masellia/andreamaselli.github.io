@@ -9,14 +9,19 @@
 * { box-sizing: border-box; }
 
 @font-face {
-  font-family: 'DIN Neuzeit Grotesk';
-  src: url('../fonts/DINNeuzeitGroteskLT-BoldCond.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
+  font-family: "DIN";
+  src: url("../fonts/DINNeuzeitGroteskLT-Light.woff2.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DINNeuzeitGroteskLT-BoldCond.woff2") format("woff2");
+  font-weight: 700;
 }
 
 body {
-  font-family: 'DIN Neuzeit Grotesk', sans-serif;
+  font-family: 'DIN', sans-serif;
 }
 
 body {
@@ -110,7 +115,7 @@ body {
   white-space: nowrap;
   line-height: 1.05;
   margin: 0 0 .5rem;
-  font-weight: 500;
+  font-weight: 700;
   color: white;
   top: -35px;
 }
