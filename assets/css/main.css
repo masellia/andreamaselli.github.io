@@ -47,11 +47,12 @@ body {
 /*this specifies the overall structure of the header*/
 .site-nav {
   display: flex;
-  gap: 0.5rem;
+  gap: 1.5rem;
   font-size: .85rem;
   text-transform: uppercase;
   letter-spacing: .12em;
   font-family: "DINLight", sans-serif;
+  font-weight: 300;
 }
 
 .site-nav a {
