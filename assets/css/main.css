@@ -178,7 +178,8 @@ body {
 .affiliation-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 0;
+  line-height: 1;
 }
 
 .affiliation-name {
@@ -191,7 +192,7 @@ body {
 }
 
 .affiliation-mail {
-  margin-top: 0;
+  margin: -4px 0 0 0;
 }
 
 .affiliation-mail a {
