@@ -135,7 +135,9 @@ body {
 }
 
 .identity-text a {
-  color: var(--text);
+  font-size: 28px;
+  white-space: nowrap;
+  color: white;
   text-decoration: none;
 }
 
