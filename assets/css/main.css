@@ -178,6 +178,7 @@ body {
 .affiliation-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0;
   line-height: 1;
 }
@@ -187,12 +188,14 @@ body {
   white-space: nowrap;
   color: white;
   margin: 0;
+  line-height: 1;
   font-family: "DINBoldCond", sans-serif;
   font-weight: 400;
 }
 
 .affiliation-mail {
-  margin: -4px 0 0 0;
+  margin-top: -2px;
+  line-height: 1;
 }
 
 .affiliation-mail a {
