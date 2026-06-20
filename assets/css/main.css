@@ -103,7 +103,6 @@ body {
   backdrop-filter: none;
   border: none;
   box-shadow: none;
-  top: -35px;
 }
 
 .identity-text h1 {
@@ -113,6 +112,7 @@ body {
   margin: 0 0 .5rem;
   font-weight: 500;
   color: white;
+  top: -35px;
 }
 
 .identity-text h2 {
