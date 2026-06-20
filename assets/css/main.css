@@ -78,7 +78,7 @@ body {
 }
 
 .vertical-bar {
-  width: 2px;
+  width: 4px;
   height: 155px;
   background: var(--accent);
   margin-top: .35rem;
