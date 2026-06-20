@@ -53,7 +53,7 @@ body {
 }
 
 .site-nav a {
-  color: var(--text);
+  color: white;;
   text-decoration: none;
   position: relative;
 }
