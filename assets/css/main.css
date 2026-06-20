@@ -93,7 +93,7 @@ body {
   width: 5px;
   height: 180px;
   background: var(--accent);
-  margin-top: -20px;
+  margin-top: -50px;
 }
 
 .identity-text {
@@ -106,7 +106,7 @@ body {
 }
 
 .identity-text h1 {
-  font-size: 3.45rem;
+  font-size: 5rem;
   line-height: 1.05;
   margin: 0 0 .5rem;
   font-weight: 500;
