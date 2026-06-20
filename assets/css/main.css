@@ -22,7 +22,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 52px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ body {
 
 .site-nav {
   display: flex;
-  gap: 2.2rem;
+  gap: 1.5rem;
   font-size: .85rem;
   text-transform: uppercase;
   letter-spacing: .12em;
@@ -51,7 +51,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -7px;
+  bottom: -3px;
   width: 0;
   height: 1px;
   background: var(--accent);
@@ -86,9 +86,9 @@ body {
 
 .identity-text {
   max-width: 390px;
-  padding: 1.7rem 1.9rem;
-  background: var(--panel);
-  backdrop-filter: blur(8px);
+  padding: 0;
+  background: transparent;
+  backdrop-filter: none;
   border: none;
   box-shadow: none;
 }
