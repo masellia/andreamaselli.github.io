@@ -63,9 +63,10 @@ body {
 }
 
 .home-wix {
-  min-height: 100vh;
+  min-height: 75vh;
   background: #ffffff url("../img/backgroundhome.jpg") center bottom / cover no-repeat;
   position: relative;
+  background-size: cover;
 }
 
 .home-identity {
@@ -118,7 +119,7 @@ body {
 
 .profile-links {
   display: flex;
-  gap: .7rem;
+  gap: 1.2rem;
   flex-wrap: wrap;
 }
 
