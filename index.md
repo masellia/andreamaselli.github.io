@@ -42,7 +42,16 @@ title: Home
 
     <div class="bio-left bio-text-left">
       <p>
-        Left-column introductory bio text goes here.
+        I was born in a small town in the deep south of Italy, 
+        where I grew up until I moved to the most beautiful city 
+        in the World, to study theoretical physics.
+
+        In 2013 I defended my Ph.D. thesis "Tidal Interaction in 
+        Compact Binary systems", under the supervision of Prof. Valeria Ferrari. 
+        Immediately after, I visited the Institute of Cosmology and Gravitation 
+        in Portsmouth, where I started collaborating with Prof. Marco Bruni to 
+        study cosmological density perturbations in the early Universe.
+.
       </p>
     </div>
 
