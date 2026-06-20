@@ -190,3 +190,68 @@ body {
     max-width: 100%;
   }
 }
+
+
+/* ===================================== */
+/* BIO SECTION                           */
+/* ===================================== */
+
+.bio-intro {
+  background: #ffffff;
+  padding: 8rem 0 7rem;
+  color: #222222;
+}
+
+.bio-split {
+  width: min(1150px, 86vw);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.bio-left {
+  text-align: right;
+}
+
+.bio-right {
+  text-align: left;
+}
+
+.bio-title {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.bio-line {
+  position: absolute;
+  left: 0;
+  top: -5rem;
+  width: 4px;
+  height: 14rem;
+  background: var(--accent);
+}
+
+.bio-title h2 {
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 4rem;
+  line-height: 1.05;
+  margin: 0 0 4rem;
+  color: #222222;
+}
+
+.bio-text-left,
+.bio-text-right {
+  font-family: "DINLight", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444444;
+}
+
+.bio-text-left {
+  padding-right: 2rem;
+}
+
+.bio-text-right {
+  padding-left: 2rem;
+}
