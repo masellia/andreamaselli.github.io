@@ -148,6 +148,42 @@ body {
   text-decoration: none;
 }
 
+/* GSSI affiliation block */
+
+.affiliation-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.affiliation-logo img {
+  width: 70px;
+  height: auto;
+  display: block;
+}
+
+.affiliation-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.affiliation-name {
+  font-family: "DINLight", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.affiliation-mail a {
+  font-family: "DINLight", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* profile icons */
+
 .profile-links {
   display: flex;
   gap: 0.5rem;

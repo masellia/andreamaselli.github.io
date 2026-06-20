@@ -11,10 +11,24 @@ title: Home
       <h1>Andrea Maselli</h1>
       <h2>Researcher in Theoretical Physics</h2>
 
-      <p>
-        Gran Sasso Science Institute<br>
-        <a href="mailto:andrea.maselli@gssi.it">andrea.maselli@gssi.it</a>
-      </p>
+     <div class="affiliation-block">
+
+     <div class="affiliation-logo">
+      <img src="{{ '/assets/img/gssi-logo.jpg' | relative_url }}" alt="GSSI">
+     </div>
+
+     <div class="affiliation-info">
+     <div class="affiliation-name">
+       Gran Sasso Science Institute
+     </div>
+
+     <div class="affiliation-mail">
+      <a href="mailto:andrea.maselli@gssi.it">
+        andrea.maselli@gssi.it
+      </a>
+     </div>
+   </div>
+  </div>
 
       <div class="profile-buttons">
         <a href="https://inspirehep.net/authors/1189872" target="_blank">
