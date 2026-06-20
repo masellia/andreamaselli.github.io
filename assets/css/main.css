@@ -1,3 +1,44 @@
+.site-header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.brand {
+  display: none;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-toggle {
+  display: none;
+}
+
 .home-wix {
   min-height: 100vh;
   background: #ffffff url("../img/backgroundhome.jpg") center bottom / cover no-repeat;
@@ -7,8 +48,8 @@
 
 .home-identity {
   position: absolute;
-  top: 115px;
-  right: 13vw;
+  top: 145px;
+  left: 50%;
   display: flex;
   align-items: flex-start;
   gap: 1.6rem;
