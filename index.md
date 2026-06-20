@@ -17,10 +17,10 @@ title: Home
       </p>
 
          <div class="profile-buttons">
-      <a href="https://inspirehep.net/authors/1074142" target="_blank">
+      <a href="https://inspirehep.net/authors/1189872" target="_blank">
         <img src="{{ '/assets/img/inspire.jpg' | relative_url }}" alt="INSPIRE">
       </a>
-      <a href="https://scholar.google.com/" target="_blank">
+      <a href="https://scholar.google.com/citations?user=fUBWIzgAAAAJ&hl=en/" target="_blank">
         <img src="{{ '/assets/img/google-scholar.png' | relative_url }}" alt="Google Scholar">
       </a>
       <a href="https://orcid.org/" target="_blank">
