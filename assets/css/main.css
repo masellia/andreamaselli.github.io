@@ -314,3 +314,29 @@ body {
 .bio-text-right {
   padding-left: 2rem;
 }
+
+/* ===================================== */
+/* FOOTER                                */
+/* ===================================== */
+
+.site-footer {
+  background: rgba(44,44,44,0.95);
+  color: white;
+  font-family: "DINLight", sans-serif;
+  padding: 0.9rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+.footer-quote {
+  grid-column: 2;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-copyright {
+  grid-column: 3;
+  text-align: right;
+  font-size: 0.8rem;
+}
