@@ -74,7 +74,7 @@ body {
 }
 
 .home-wix {
-  min-height: 75vh;
+  min-height: 85vh;
   background: #ffffff url("../img/backgroundhome.jpg") center bottom / cover no-repeat;
   position: relative;
   background-size: cover;
