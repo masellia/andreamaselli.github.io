@@ -106,7 +106,8 @@ body {
 }
 
 .identity-text h1 {
-  font-size: 5rem;
+  font-size: 48px;
+  white-space: nowrap
   line-height: 1.05;
   margin: 0 0 .5rem;
   font-weight: 500;
