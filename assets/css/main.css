@@ -149,10 +149,15 @@ body {
   color: var(--accent);
 }
 
+.profile-buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
 .profile-buttons img {
   width: 24px;
   height: 24px;
-  gap: 2rem;
 }
 
 .nav-toggle {
