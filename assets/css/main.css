@@ -131,20 +131,10 @@ body {
 }
 
 .identity-text p {
-  font-size: 28px;
-  white-space: nowrap;
-  color: white;
-  margin: 0 0 1.8rem;
-  font-family: "DINBoldCond", sans-serif;
-  font-weight: 400;
+  margin: 0;
 }
 
 .identity-text a {
-  font-size: 22px;
-  white-space: nowrap;
-  color: white;
-  font-family: "DINBoldCond", sans-serif;
-  font-weight: 400;
   text-decoration: none;
 }
 
@@ -169,16 +159,23 @@ body {
   justify-content: center;
 }
 
+
 .affiliation-name {
-  font-family: "DINLight", sans-serif;
-  font-size: 1rem;
-  color: white;
+    font-size: 28px;
+    white-space: nowrap;
+    color: white;
+    margin: 0 0 1.8rem;
+    font-family: "DINBoldCond", sans-serif;
+    font-weight: 400;
 }
 
 .affiliation-mail a {
   font-family: "DINLight", sans-serif;
-  font-size: 0.9rem;
+  font-size: 22px;
+  white-space: nowrap;
   color: white;
+  margin: 0 0 1.8rem;
+  font-weight: 400;
   text-decoration: none;
 }
 
