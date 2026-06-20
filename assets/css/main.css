@@ -9,16 +9,15 @@
 * { box-sizing: border-box; }
 
 @font-face {
-  font-family: "DIN";
-  src: url("../fonts/DINNeuzeitGroteskLT-Light.woff2.woff2") format("woff2");
-  font-weight: 300;
+  font-family: "DINLight";
+  src: url("../fonts/DINNeuzeitGroteskLT-Light.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "DIN";
+  font-family: "DINBoldCond";
   src: url("../fonts/DINNeuzeitGroteskLT-BoldCond.woff2") format("woff2");
-  font-weight: 700;
 }
+
 
 body {
   font-family: 'DIN', sans-serif;
@@ -115,7 +114,8 @@ body {
   white-space: nowrap;
   line-height: 1.05;
   margin: 0 0 .5rem;
-  font-weight: 700;
+  font-family: "DINBoldCond", sans-serif;
+  letter-spacing: 0.02em;
   color: white;
   top: -35px;
 }
