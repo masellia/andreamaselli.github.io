@@ -78,8 +78,8 @@ body {
 }
 
 .vertical-bar {
-  width: 5px;
-  height: 155px;
+  width: 7px;
+  height: 180px;
   background: var(--accent);
   margin-top: .35rem;
 }
@@ -137,7 +137,7 @@ body {
   color: var(--accent);
 }
 
-.profile-links img {
+.profile-buttons img {
   width: 18px;
   height: 18px;
 }
