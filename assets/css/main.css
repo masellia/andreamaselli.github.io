@@ -131,7 +131,7 @@ body {
 }
 
 .identity-text p {
-  font-size: 22px;
+  font-size: 28px;
   white-space: nowrap;
   color: white;
   margin: 0 0 1.8rem;
@@ -242,7 +242,7 @@ body {
 
 .bio-title h2 {
   font-family: "DINBoldCond", sans-serif;
-  font-size: 4rem;
+  font-size: 50px;
   line-height: 1.05;
   margin: 0 0 4rem;
   color: #222222;
