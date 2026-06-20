@@ -103,6 +103,7 @@ body {
   backdrop-filter: none;
   border: none;
   box-shadow: none;
+  top: -15px;
 }
 
 .identity-text h1 {
