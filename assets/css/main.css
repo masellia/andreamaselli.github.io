@@ -111,7 +111,8 @@ body {
   line-height: 1.05;
   margin: 0 0 .5rem;
   font-family: "DINBoldCond", sans-serif;
-  letter-spacing: 0.05em;
+  font-weight: 400;
+  letter-spacing: 0.03em;
   color: white;
   top: -35px;
 }
