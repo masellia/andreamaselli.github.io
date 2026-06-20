@@ -93,7 +93,7 @@ body {
 
 .vertical-bar {
   width: 5px;
-  height: 2000px;
+  height: 200px;
   background: var(--accent);
   margin-top: -110px;
 }
@@ -120,10 +120,11 @@ body {
 }
 
 .identity-text h2 {
-  font-size: 1.08rem;
+  font-size: 38px;
   margin: 0 0 1.8rem;
+  font-family: "DINBoldCond", sans-serif;
   font-weight: 400;
-  color: var(--muted);
+  color: white;
 }
 
 .identity-text p {
