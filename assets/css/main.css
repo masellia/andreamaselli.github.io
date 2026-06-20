@@ -106,7 +106,7 @@ body {
 }
 
 .identity-text h1 {
-  font-size: 2.45rem;
+  font-size: 3.45rem;
   line-height: 1.05;
   margin: 0 0 .5rem;
   font-weight: 500;
@@ -151,7 +151,7 @@ body {
 
 .profile-buttons {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 
