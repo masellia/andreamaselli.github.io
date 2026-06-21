@@ -78,7 +78,29 @@ title: Home
 </div>
 <div class="bio-right bio-text-right">
       <p>
-        Right-column introductory bio text goes here.
+        In 2013, I was VESF postdoctoral fellow, and then postdoctoral 
+        researcher in the gravity group at Sapienza University of Rome. 
+        My work focused on describing the interaction of black-hole and 
+        neutron star binaries in the last phases of their evolution. 
+        After that, I was postdoc at the Center for Relativistic Astrophysics 
+        in Atlanta, in the group led by Prof. Pablo Laguna. In October 
+        of 2015 I joined, as postdoc, the Theoretical Astrophysical 
+        Group of Prof. Kostas Kokkotas, at the University of Tuebingen. 
+        After two years I moved to Lisbon, where I have been postdoctoral 
+        researcher at CENTRA, in the grit group led by Prof. Vitor Cardoso. 
+        </p>
+        
+        <p>
+        I came back to R(h)ome in October 2018, as a researcher of the 
+        Gravity Theory and Gravitational wave phenomenology Group at the 
+        University "Sapienza" (in the historical department of Physics "Marconi", 
+        just close to the Minerva statue).
+        </p>
+        
+        <p>
+        In December 2020 I became assistant professor at the Gran Sasso 
+        Science Institute, where I am  associate professor since 2023. No 
+        more travelling for a while!
       </p>
     </div>
   </div>
