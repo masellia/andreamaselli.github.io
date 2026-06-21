@@ -305,14 +305,28 @@ body {
   font-weight: 300;
   line-height: 1.8;
   color: #444444;
+  text-align: justify;
+  max-width: 430px;
 }
 
 .bio-text-left {
+  margin-left: auto;
   padding-right: 2rem;
 }
 
 .bio-text-right {
+  margin-right: auto;
   padding-left: 2rem;
+}
+
+.accent-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: "DINBoldCond", sans-serif;
+}
+
+.accent-link:hover {
+  text-decoration: underline;
 }
 
 /* ===================================== */
