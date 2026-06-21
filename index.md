@@ -8,19 +8,21 @@ title: Home
     <div class="vertical-bar"></div>
 
     <div class="identity-text">
-      <h1>Andrea Maselli</h1>
-      <h2>Researcher in Theoretical Physics</h2>
+        <h1>Andrea Maselli</h1>
+        <h2>Researcher in Theoretical Physics</h2>
 
-     <div class="affiliation-block">
+    <div class="affiliation-block">
 
-     <div class="affiliation-logo">
-      <img src="{{ '/assets/img/gssi-logo.jpg' | relative_url }}" alt="GSSI">
-     </div>
+    <div class="affiliation-logo">
+        <a href="https://www.gssi.it/" target="_blank">
+            <img src="{{ '/assets/img/gssi-logo.jpg' | relative_url }}" alt="GSSI">
+        </a>    
+    </div>
 
-     <div class="affiliation-info">
-     <div class="affiliation-name">
-       Gran Sasso Science Institute
-     </div>
+    <div class="affiliation-info">
+    <div class="affiliation-name">
+        Gran Sasso Science Institute
+    </div>
 
      <div class="affiliation-mail">
       <a href="mailto:andrea.maselli@gssi.it">
