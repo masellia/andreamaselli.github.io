@@ -79,20 +79,21 @@ title: Home
 <div class="bio-right bio-text-right">
       <p>
         In 2013, I was VESF postdoctoral fellow, and then postdoctoral 
-        researcher in the gravity group at Sapienza University of Rome. 
+        researcher in the <a class="accent-link" href="https://www.roma1.infn.it/teongrav/index.html" target="_blank">gravity group</a> at Sapienza University of Rome. 
         My work focused on describing the interaction of black-hole and 
         neutron star binaries in the last phases of their evolution. 
-        After that, I was postdoc at the Center for Relativistic Astrophysics 
+        After that, I was postdoc at the <a class="accent-link" href="https://cra.gatech.edu" target="_blank">Center for Relativistic Astrophysics</a> 
         in Atlanta, in the group led by Prof. Pablo Laguna. In October 
-        of 2015 I joined, as postdoc, the Theoretical Astrophysical 
-        Group of Prof. Kostas Kokkotas, at the University of Tuebingen. 
+        of 2015 I joined, as postdoc, the <a class="accent-link" href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/physics/institutes/astronomy-astrophysics/theoretical-astrophysics/welcome/" target="_blank">Theoretical Astrophysical 
+        Group</a> of Prof. Kostas Kokkotas - one of my menthors - 
+        at the University of Tuebingen. 
         After two years I moved to Lisbon, where I have been postdoctoral 
-        researcher at CENTRA, in the grit group led by Prof. Vitor Cardoso. 
+        researcher at CENTRA, in the <a class="accent-link" href="https://vitorcardoso.strong-gr.com" target="_blank">grit group</a> led by Prof. Vitor Cardoso. 
         </p>
         
         <p>
         I came back to R(h)ome in October 2018, as a researcher of the 
-        Gravity Theory and Gravitational wave phenomenology Group at the 
+        <a class="accent-link" href="https://gmunu.web.uniroma1.it/it" target="_blank">Gravity Theory and Gravitational wave phenomenology Group</a> at the 
         University "Sapienza" (in the historical department of Physics "Marconi", 
         just close to the Minerva statue).
         </p>
