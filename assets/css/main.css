@@ -294,7 +294,7 @@ body {
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
-  margin: 0 0 4rem;
+  margin: 0 0 8rem;
   color: #222222;
 }
 
@@ -322,7 +322,7 @@ body {
 .bio-text-right {
   margin-right: auto;
   padding-left: 2rem;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .accent-link {
