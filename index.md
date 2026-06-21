@@ -67,13 +67,13 @@ title: Home
         <p>
         In 2013 I defended my Ph.D. thesis "Tidal Interaction in 
         Compact Binary systems", under the supervision of Prof. Valeria Ferrari. 
-        Immediately after, I visited the <a class="accent-link" href="http://www.icg.port.ac.uk" target="_blank">Institute of Cosmology and Gravitation</a>
+        Immediately after, I visited the <a class="accent-link" href="https://www.port.ac.uk/research/institute-of-cosmology-and-gravitation" target="_blank">Institute of Cosmology and Gravitation</a>
         in Portsmouth, where I started collaborating with Prof. Marco Bruni to 
         study cosmological density perturbations in the early Universe.
       </p>
     <img 
     class="bio-image"
-      src="{{ '/assets/img/myphoto.jpg' | relative_url }}"
+      src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
       alt="Andrea Maselli">
 </div>
 <div class="bio-right bio-text-right">
