@@ -307,7 +307,6 @@ body {
   color: #444444;
   text-align: justify;
   max-width: 430px;
-  background: rgba(255,0,0,0.05);
 }
 
 .bio-text-left p,
@@ -323,7 +322,7 @@ body {
 .bio-text-right {
   margin-right: auto;
   padding-left: 2rem;
-  margin-top: 2rem;
+  margin-top: 15px;
 }
 
 .accent-link {
