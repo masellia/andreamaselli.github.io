@@ -303,7 +303,7 @@ body {
   font-family: "DINLight", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.;
+  line-height: 0.3;
   color: #444444;
   text-align: justify;
   max-width: 430px;
@@ -336,7 +336,7 @@ body {
 
 .bio-image {
   display: block;
-  width: 70%;
+  width: 50%;
   max-width: 350px;
   margin: 3rem auto 0;
 }
