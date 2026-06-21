@@ -194,13 +194,13 @@ body {
 }
 
 .affiliation-mail {
-  margin-top: 3.5px;
+  margin-top: 4.5px;
   line-height: 1;
 }
 
 .affiliation-mail a {
   font-family: "DINLight", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   white-space: nowrap;
   color: white;
   font-weight: 400;
