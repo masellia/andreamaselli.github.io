@@ -93,9 +93,7 @@ title: Home
         
         <p>
         I came back to R(h)ome in October 2018, as a researcher of the 
-        <a class="accent-link" href="https://gmunu.web.uniroma1.it/it" target="_blank">Gravity Theory and Gravitational wave phenomenology Group</a> at the 
-        University "Sapienza" (in the historical department of Physics "Marconi", 
-        just close to the Minerva statue).
+        <a class="accent-link" href="https://gmunu.web.uniroma1.it/it" target="_blank">Gravity Theory and Gravitational wave phenomenology Group</a> at Sapienza University.
         </p>
         
         <p>
