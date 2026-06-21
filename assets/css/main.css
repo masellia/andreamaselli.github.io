@@ -307,6 +307,7 @@ body {
   color: #444444;
   text-align: justify;
   max-width: 430px;
+  background: rgba(255,0,0,0.05);
 }
 
 .bio-text-left p,
@@ -327,7 +328,7 @@ body {
 .accent-link {
   color: var(--accent);
   text-decoration: none;
-  font-family: "DINBoldCond", sans-serif;
+  font-family: "DINLight", sans-serif;
 }
 
 .accent-link:hover {
