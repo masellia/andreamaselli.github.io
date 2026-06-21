@@ -309,6 +309,11 @@ body {
   max-width: 430px;
 }
 
+.bio-text-left p,
+.bio-text-right p {
+  margin-bottom: 1rem;
+}
+
 .bio-text-left {
   margin-left: auto;
   padding-right: 2rem;
