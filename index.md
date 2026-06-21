@@ -51,56 +51,66 @@ title: Home
   <div class="bio-split">
     <div class="bio-left"></div>
 
-    <div class="bio-right bio-title">
-      <div class="bio-line"></div>
-      <h2>A BRIEF HISTORY OF<br>(MY) TIME</h2>
-    </div>
-
-    <div class="bio-left bio-text-left">
-      <p>
-        I was born in a small town in the deep south of Italy, 
-        where I grew up until I moved to the most beautiful 
-        a <a class="accent-link" href="https://en.wikipedia.org/wiki/Rome" target="_blank">city</a> 
-        in the World, to study theoretical physics.
-        </p>
-        
-        <p>
-        In 2013 I defended my Ph.D. thesis "Tidal Interaction in 
-        Compact Binary systems", under the supervision of Prof. Valeria Ferrari. 
-        Immediately after, I visited the <a class="accent-link" href="https://www.port.ac.uk/research/institute-of-cosmology-and-gravitation" target="_blank">Institute of Cosmology and Gravitation</a>
-        in Portsmouth, where I started collaborating with Prof. Marco Bruni to 
-        study cosmological density perturbations in the early Universe.
-      </p>
-    <img 
-    class="bio-image"
-      src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
-      alt="Andrea Maselli">
+<div class="bio-right bio-title">
+  <div class="bio-line"></div>
+  <h2>A BRIEF HISTORY OF<br>(MY) TIME</h2>
 </div>
+
+<div class="bio-left bio-text-left">
+  <p>
+    I was born in a small town in the deep south of Italy, where I grew up until I moved to the most beautiful
+    <a class="accent-link" href="https://en.wikipedia.org/wiki/Rome" target="_blank">city</a>
+    in the world to study theoretical physics.
+  </p>
+
+  <p>
+    In 2013, I defended my Ph.D. thesis, <em>Tidal Interaction in Compact Binary Systems</em>, under the supervision of Prof. Valeria Ferrari.
+    Shortly thereafter, I joined the
+    <a class="accent-link" href="https://www.port.ac.uk/research/institute-of-cosmology-and-gravitation" target="_blank">Institute of Cosmology and Gravitation</a>
+    in Portsmouth, where I started collaborating with Prof. Marco Bruni on cosmological density perturbations in the early Universe.
+  </p>
+
+  <img
+    class="bio-image"
+    src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
+    alt="Andrea Maselli">
+</div>
+
 <div class="bio-right bio-text-right">
-      <p>
-        In 2013, I was VESF postdoctoral fellow, and then postdoctoral 
-        researcher in the <a class="accent-link" href="https://www.roma1.infn.it/teongrav/index.html" target="_blank">gravity group</a> at Sapienza University of Rome. 
-        My work focused on describing the interaction of black-hole and 
-        neutron star binaries in the last phases of their evolution. 
-        After that, I was postdoc at the <a class="accent-link" href="https://cra.gatech.edu" target="_blank">Center for Relativistic Astrophysics</a> 
-        in Atlanta, in the group led by Prof. Pablo Laguna. In October 
-        of 2015 I joined, as postdoc, the <a class="accent-link" href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/physics/institutes/astronomy-astrophysics/theoretical-astrophysics/welcome/" target="_blank">Theoretical Astrophysical 
-        Group</a> of Prof. Kostas Kokkotas - one of my menthors - 
-        at the University of Tuebingen. 
-        After two years I moved to Lisbon, where I have been postdoctoral 
-        researcher at CENTRA, in the <a class="accent-link" href="https://vitorcardoso.strong-gr.com" target="_blank">grit group</a> led by Prof. Vitor Cardoso. 
-        </p>
-        
-        <p>
-        I came back to R(h)ome in October 2018, as a researcher of the 
-        <a class="accent-link" href="https://gmunu.web.uniroma1.it/it" target="_blank">Gravity Theory and Gravitational wave phenomenology Group</a> at Sapienza University.
-        </p>
-        
-        <p>
-        In December 2020 I became assistant professor at the Gran Sasso 
-        Science Institute, where I am  associate professor since 2023. No 
-        more travelling for a while!
-      </p>
-    </div>
+  <p>
+    In 2013, I was awarded a VESF postdoctoral fellowship and subsequently joined the
+    <a class="accent-link" href="https://www.roma1.infn.it/teongrav/index.html" target="_blank">Gravity Group</a>
+    at Sapienza University of Rome as a postdoctoral researcher. My work focused on modelling the interaction of black-hole and neutron-star binaries during the final stages of their evolution.
+  </p>
+
+  <p>
+    After that, I moved to the
+    <a class="accent-link" href="https://cra.gatech.edu" target="_blank">Center for Relativistic Astrophysics</a>
+    in Atlanta, where I worked in the group led by Prof. Pablo Laguna. In October 2015, I joined the
+    <a class="accent-link" href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/physics/institutes/astronomy-astrophysics/theoretical-astrophysics/welcome/" target="_blank">Theoretical Astrophysics Group</a>
+    at the University of Tübingen, led by Prof. Kostas Kokkotas, one of my mentors.
+  </p>
+
+  <p>
+    Two years later, I moved to Lisbon, where I was a postdoctoral researcher at CENTRA in the
+    <a class="accent-link" href="https://vitorcardoso.strong-gr.com" target="_blank">GRIT Group</a>
+    led by Prof. Vítor Cardoso.
+  </p>
+
+  <p>
+    I returned to R(h)ome in October 2018 as a researcher in the
+    <a class="accent-link" href="https://gmunu.web.uniroma1.it/it" target="_blank">Gravity Theory and Gravitational-Wave Phenomenology Group</a>
+    at Sapienza University.
+  </p>
+
+  <p>
+    In December 2020, I joined the Gran Sasso Science Institute as Assistant Professor and was promoted to Associate Professor in 2023.
+  </p>
+
+  <p>
+    No more travelling for a while!
+  </p>
+</div>
+
   </div>
 </section>
