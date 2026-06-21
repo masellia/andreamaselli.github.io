@@ -303,7 +303,7 @@ body {
   font-family: "DINLight", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 1.;
   color: #444444;
   text-align: justify;
   max-width: 430px;
@@ -332,6 +332,13 @@ body {
 
 .accent-link:hover {
   text-decoration: underline;
+}
+
+.bio-image {
+  display: block;
+  width: 70%;
+  max-width: 350px;
+  margin: 3rem auto 0;
 }
 
 /* ===================================== */
