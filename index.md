@@ -47,32 +47,33 @@ title: Home
   </div>
 </section>
 
-<section class="bio-intro">
-  <div class="bio-split">
-    <div class="bio-left"></div>
+    <section class="bio-intro">
+        <div class="bio-split">
+        <div class="bio-left"></div>
 
-    <div class="bio-right bio-title">
-      <div class="bio-line"></div>
-      <h2>A BRIEF HISTORY OF<br>(MY) TIME</h2>
-    </div>
+        <div class="bio-right bio-title">
+        <div class="bio-line"></div>
+            <h2>A BRIEF HISTORY OF<br>(MY) TIME</h2>
+        </div>
 
-    <div class="bio-left bio-text-left">
-      <p>
-        I was born in a small town in the deep south of Italy, 
-        where I grew up until I moved to the most beautiful 
-        a <class="accent-link" href="https://en.wikipedia.org/wiki/Rome" target="_blank">city</a> 
-        in the World, to study theoretical physics.
+        <div class="bio-left bio-text-left">
+            <p>
+                I was born in a small town in the deep south of Italy, 
+                where I grew up until I moved to the most beautiful 
+                <a class="accent-link" href="https://en.wikipedia.org/wiki/Rome" target="_blank">city</a> in the World, to study 
+                theoretical physics.
+            </p>
+        
+            </p>
+            In 2013 I defended my Ph.D. thesis "Tidal Interaction in Compact 
+            Binary systems", under the supervision of Prof. Valeria Ferrari. 
+            Immediately after, I visited the <a class="accent-link" href="http://www.icg.port.ac.uk" target="_blank">Institute of Cosmology and Gravitation</a> in Portsmouth, where I started collaborating 
+            with Prof. Marco Bruni to study cosmological density perturbations in the early Universe.
+            </p>
+        </div>
 
-        In 2013 I defended my Ph.D. thesis "Tidal Interaction in 
-        Compact Binary systems", under the supervision of Prof. Valeria Ferrari. 
-        Immediately after, I visited the <class="accent-link" href="http://www.icg.port.ac.uk" target="_blank">Institute of Cosmology and Gravitation</a>
-        in Portsmouth, where I started collaborating with Prof. Marco Bruni to 
-        study cosmological density perturbations in the early Universe.
-      </p>
-    </div>
-
-    <div class="bio-right bio-text-right">
-      <p>
+        <div class="bio-right bio-text-right">
+            <p>
         Right-column introductory bio text goes here.
       </p>
     </div>
