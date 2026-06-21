@@ -64,7 +64,6 @@ title: Home
         in the World, to study theoretical physics.
         </p>
         
-</p>
         <p>
         In 2013 I defended my Ph.D. thesis "Tidal Interaction in 
         Compact Binary systems", under the supervision of Prof. Valeria Ferrari. 
@@ -72,9 +71,12 @@ title: Home
         in Portsmouth, where I started collaborating with Prof. Marco Bruni to 
         study cosmological density perturbations in the early Universe.
       </p>
-    </div>
-
-    <div class="bio-right bio-text-right">
+    <img 
+    class="bio-image"
+      src="{{ '/assets/img/myphoto.jpg' | relative_url }}"
+      alt="Andrea Maselli">
+</div>
+<div class="bio-right bio-text-right">
       <p>
         Right-column introductory bio text goes here.
       </p>
