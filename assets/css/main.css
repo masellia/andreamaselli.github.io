@@ -315,8 +315,9 @@ body {
 }
 
 .bio-text-left {
+  margin-left: auto;
   padding-right: 2rem;
-  margin: 2rem auto 0 auto;
+  margin-top: 2rem;
 }
 
 .bio-text-right {
