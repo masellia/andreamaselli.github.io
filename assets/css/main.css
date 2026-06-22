@@ -279,6 +279,7 @@ body {
   position: relative;
   display: flex;
   align-items: flex-end;
+  padding-left: 0;
 }
 
 .bio-line {
