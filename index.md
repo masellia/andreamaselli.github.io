@@ -77,12 +77,18 @@ title: Home
   </p>
 
   <img
-    class="bio-image"
+    class="bio-image-left"
     src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
     alt="Andrea Maselli">
 </div>
 
 <div class="bio-right bio-text-right">
+  
+  <img
+    class="bio-image-right"
+    src="{{ '/assets/img/wall.jpg' | relative_url }}"
+    alt="Description">
+
   <p>
     In 2013, I was a VESF postdoctoral fellow and subsequently joined the
     <a class="accent-link" href="https://www.roma1.infn.it/teongrav/index.html" target="_blank">Gravity Group</a>

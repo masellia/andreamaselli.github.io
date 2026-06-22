@@ -335,12 +335,20 @@ body {
   text-decoration: underline;
 }
 
-.bio-image {
+.bio-image-left {
   display: block;
   width: 50%;
   max-width: 350px;
   margin: 3rem auto 0;
 }
+
+.bio-image-right {
+  display: block;
+  width: 50%;
+  max-width: 350px;
+  margin: 3rem auto 0;
+}
+
 
 /* ===================================== */
 /* FOOTER                                */
