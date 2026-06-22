@@ -346,8 +346,7 @@ body {
   display: block;
   width: 65%;
   max-width: 350px;
-  margin: 3rem auto 0;
-  margin-bottom: 2rem;
+  margin: 3rem auto 2rem auto;
 }
 
 
