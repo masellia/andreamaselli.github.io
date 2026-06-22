@@ -277,24 +277,24 @@ body {
 
 .bio-title {
   position: relative;
+  display: flex;
+  align-items: flex-end;
 }
 
 .bio-line {
-  position: absolute;
-  left: 0;
-  top: -5rem;
   width: 5px;
   height: 190px;
   background: var(--accent);
+  position: static;
 }
 
 .bio-title h2 {
+  margin: 0 0 0 1.7rem;
   font-family: "DINBoldCond", sans-serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
-  margin: 2rem 0 2rem;
   color: #222222;
 }
 
