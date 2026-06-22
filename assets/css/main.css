@@ -322,7 +322,7 @@ body {
 .bio-text-right {
   margin-right: auto;
   padding-left: 2rem;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .accent-link {
@@ -344,9 +344,10 @@ body {
 
 .bio-image-right {
   display: block;
-  width: 650%;
+  width: 65%;
   max-width: 350px;
-  margin: 0 0 2rem auto 0;
+  margin: 3rem auto 0;
+  margin-bottom: 2rem;
 }
 
 
