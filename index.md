@@ -94,10 +94,7 @@ title: Home
     <a class="accent-link" href="https://cra.gatech.edu" target="_blank">Center for Relativistic Astrophysics</a>
     in Atlanta, in the group led by Prof. Pablo Laguna. In October 2015, I joined, as a postdoctoral researcher, the
     <a class="accent-link" href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/physics/institutes/astronomy-astrophysics/theoretical-astrophysics/welcome/" target="_blank">Theoretical Astrophysics Group</a>
-    of Prof. Kostas Kokkotas, one of my mentors, at the University of Tübingen.
-  </p>
-
-  <p>
+    of Prof. Kostas Kokkotas, one of my mentors, at the University of Tübingen. 
     After two years, I moved to Lisbon, where I was a postdoctoral researcher at CENTRA in the
     <a class="accent-link" href="https://vitorcardoso.strong-gr.com" target="_blank">GRIT Group</a>
     led by Prof. Vítor Cardoso.
