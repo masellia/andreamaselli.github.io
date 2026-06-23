@@ -380,3 +380,82 @@ body {
   font-size: 12px;
   font-weight: 100;
 }
+
+/* ===================================== */
+/* PUBLICATIONS PAGE                     */
+/* ===================================== */
+
+.publications-page {
+  width: min(900px, 86vw);
+  margin: 0 auto;
+  padding: 3rem 0 6rem;
+}
+
+.pubs-year {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.pub-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.pub-title {
+  margin: 0;
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #222222;
+}
+
+.pub-authors {
+  margin-top: 0.25rem;
+  font-family: "DINLight", sans-serif;
+  font-size: 15px;
+  color: #444444;
+}
+
+.pub-journal {
+  margin-top: 0.15rem;
+  font-family: "DINLight", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #666666;
+}
+
+.pub-actions {
+  margin-top: 0.55rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pub-actions a,
+.pub-actions button {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-family: "DINLight", sans-serif;
+  font-size: 13px;
+  padding: 0.22rem 0.55rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pub-actions a:hover,
+.pub-actions button:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.pub-status {
+  font-size: 13px;
+  color: #777777;
+}

@@ -1,0 +1,29 @@
+- year: 2025
+  papers:
+    - title: "Example title for arXiv:2503.16649"
+      authors: "A. Maselli et al."
+      journal:
+      arxiv: "2503.16649"
+      doi:
+      bibtex: |
+        @article{Maselli2025a,
+          title = {Example title for arXiv:2503.16649},
+          author = {Maselli, A. and others},
+          year = {2025},
+          eprint = {2503.16649},
+          archivePrefix = {arXiv}
+        }
+
+    - title: "Example title for arXiv:2507.04471"
+      authors: "A. Maselli et al."
+      journal:
+      arxiv: "2507.04471"
+      doi:
+      bibtex: |
+        @article{Maselli2025b,
+          title = {Example title for arXiv:2507.04471},
+          author = {Maselli, A. and others},
+          year = {2025},
+          eprint = {2507.04471},
+          archivePrefix = {arXiv}
+        }
