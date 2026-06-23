@@ -439,19 +439,24 @@ body {
 
 .pub-actions a,
 .pub-actions button {
-  border: 1px solid var(--accent);
+  min-width: 80px;
+
+  border: 1px solid rgb(44,44,44);
   background: transparent;
-  color: var(--accent);
+  color: rgb(44,44,44);
+
   font-family: "DINLight", sans-serif;
   font-size: 13px;
   padding: 0.22rem 0.55rem;
+
+  text-align: center;
   text-decoration: none;
   cursor: pointer;
 }
 
 .pub-actions a:hover,
 .pub-actions button:hover {
-  background: var(--accent);
+  background: rgb(44,44,44);
   color: white;
 }
 
