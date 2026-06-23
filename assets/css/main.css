@@ -509,6 +509,18 @@ body {
   height: 32px;
 }
 
+.pubs-and {
+  font-family: "DINLight", sans-serif;
+  font-size: 16px;
+  color: #555555;
+}
+
+.publications-note {
+  margin-top: 1rem;
+  font-family: "DINLight", sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
 
 /* ===================================== */
 /* STANDARD PAGE HEADER                  */
