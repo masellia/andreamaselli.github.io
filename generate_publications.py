@@ -203,16 +203,15 @@ def format_journal(fields) -> str:
     year = clean_latex(fields.get("year", ""))
     doi = clean_latex(fields.get("doi", ""))
 
-    if not journal and booktitle:
-        journal = booktitle
+    venue = journal or booktitle
 
-    if not journal and doi.startswith("10.21468/SciPostPhysCommRep"):
-        journal = "SciPost Physics Community Reports"
+    if not venue and doi.startswith("10.21468/SciPostPhysCommRep"):
+        venue = "SciPost Physics Community Reports"
 
-    if not journal:
+    if not venue:
         return ""
 
-    text = journal
+    text = venue
 
     if volume:
         text += f" {volume}"
