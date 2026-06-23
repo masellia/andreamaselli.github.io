@@ -196,11 +196,15 @@ def format_authors(raw: str) -> str:
 
 def format_journal(fields) -> str:
     journal = clean_latex(fields.get("journal", ""))
+    booktitle = clean_latex(fields.get("booktitle", ""))
     volume = clean_latex(fields.get("volume", ""))
     number = clean_latex(fields.get("number", ""))
     pages = clean_latex(fields.get("pages", ""))
     year = clean_latex(fields.get("year", ""))
     doi = clean_latex(fields.get("doi", ""))
+
+    if not journal and booktitle:
+        journal = booktitle
 
     if not journal and doi.startswith("10.21468/SciPostPhysCommRep"):
         journal = "SciPost Physics Community Reports"
@@ -209,17 +213,21 @@ def format_journal(fields) -> str:
         return ""
 
     text = journal
+
     if volume:
         text += f" {volume}"
+
     if number:
         text += f"({number})"
+
     if pages:
-        text += f", {pages}"
+        text += f", pp. {pages}"
+
     if year:
         text += f" ({year})"
 
     return text
-
+    
 def make_bibtex(entry: str) -> str:
     return entry.strip() + "\n"
 
