@@ -200,6 +200,10 @@ def format_journal(fields) -> str:
     number = clean_latex(fields.get("number", ""))
     pages = clean_latex(fields.get("pages", ""))
     year = clean_latex(fields.get("year", ""))
+    doi = clean_latex(fields.get("doi", ""))
+
+    if not journal and doi.startswith("10.21468/SciPostPhysCommRep"):
+        journal = "SciPost Physics Community Reports"
 
     if not journal:
         return ""
@@ -215,7 +219,6 @@ def format_journal(fields) -> str:
         text += f" ({year})"
 
     return text
-
 
 def make_bibtex(entry: str) -> str:
     return entry.strip() + "\n"
