@@ -388,7 +388,7 @@ body {
 .publications-page {
   width: min(900px, 86vw);
   margin: 0 auto;
-  padding: 3rem 0 6rem;
+  padding: 1rem 0 6rem;
 }
 
 .pubs-year {
@@ -487,6 +487,28 @@ body {
   font-size: 13px;
   color: #777777;
 }
+
+.publications-intro {
+  width: min(900px, 86vw);
+  margin: -2rem auto 2.5rem auto;
+
+  font-family: "DINLight", sans-serif;
+  font-size: 16px;
+  color: #555555;
+}
+
+.publications-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.publications-links img {
+  width: 32px;
+  height: 32px;
+}
+
 
 /* ===================================== */
 /* STANDARD PAGE HEADER                  */

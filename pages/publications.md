@@ -12,6 +12,25 @@ permalink: /publications/
   </div>
 </div>
 
+<div class="publications-intro">
+
+  <p>
+    Here is my publication list. You can also find my papers on
+  </p>
+
+  <div class="publications-links">
+
+    <a href="https://inspirehep.net/authors/1189872" target="_blank">
+      <img src="{{ '/assets/img/inspire.jpg' | relative_url }}" alt="INSPIRE">
+    </a>
+
+    <a href="https://scholar.google.com/citations?user=fUBWIzgAAAAJ&hl=en" target="_blank">
+      <img src="{{ '/assets/img/google-scholar.png' | relative_url }}" alt="Google Scholar">
+    </a>
+
+  </div>
+
+</div>
 
 <section class="publications-page">
 
