@@ -437,9 +437,27 @@ body {
   align-items: center;
 }
 
-.pub-actions a,
+.pub-actions a {
+  min-width: 80px;
+  height: 30px;
+
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+
+  font-family: "DINLight", sans-serif;
+  font-size: 13px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
 .pub-actions button {
   min-width: 80px;
+  height: 30px;
 
   border: 1px solid rgb(44,44,44);
   background: transparent;
@@ -447,17 +465,30 @@ body {
 
   font-family: "DINLight", sans-serif;
   font-size: 13px;
-  padding: 0.22rem 0.55rem;
 
-  text-align: center;
-  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   cursor: pointer;
 }
 
-.pub-actions a:hover,
-.pub-actions button:hover {
-  background: rgb(44,44,44);
-  color: white;
+.pub-actions button {
+  min-width: 80px;
+  height: 30px;
+
+  border: 1px solid rgb(44,44,44);
+  background: transparent;
+  color: rgb(44,44,44);
+
+  font-family: "DINLight", sans-serif;
+  font-size: 13px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
 }
 
 .pub-status {
