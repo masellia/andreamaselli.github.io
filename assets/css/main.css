@@ -473,25 +473,45 @@ body {
   cursor: pointer;
 }
 
-.pub-actions button {
-  min-width: 80px;
-  height: 30px;
+.pub-actions a:hover {
+  background: var(--accent);
+  color: white;
+}
 
-  border: 1px solid rgb(44,44,44);
-  background: transparent;
-  color: rgb(44,44,44);
-
-  font-family: "DINLight", sans-serif;
-  font-size: 13px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  cursor: pointer;
+.pub-actions button:hover {
+  background: rgb(44,44,44);
+  color: white;
 }
 
 .pub-status {
   font-size: 13px;
   color: #777777;
+}
+
+/* ===================================== */
+/* STANDARD PAGE HEADER                  */
+/* ===================================== */
+
+.page-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.7rem;
+
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.page-header-line {
+  width: 5px;
+  height: 190px;
+  background: var(--accent);
+}
+
+.page-header-title {
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  color: #222222;
 }

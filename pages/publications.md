@@ -4,6 +4,15 @@ title: Publications
 permalink: /publications/
 ---
 
+<div class="page-header">
+  <div class="page-header-line"></div>
+
+  <div class="page-header-title">
+    PUBLICATIONS
+  </div>
+</div>
+
+
 <section class="publications-page">
 
   {% assign pubs = site.data.publications %}
