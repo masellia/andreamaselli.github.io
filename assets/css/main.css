@@ -507,6 +507,12 @@ body {
   margin-right: 0.25rem;
 }
 
+.publications-intro a {
+
+  text-decoration: none;
+
+}
+
 .publications-links {
   display: flex;
   gap: 1rem;

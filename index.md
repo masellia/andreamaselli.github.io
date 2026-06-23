@@ -33,6 +33,7 @@ title: Home
 
   </div>
 
+  <div class="profile-buttons">
     <a href="https://orcid.org/0000-0001-8515-8525/" target="_blank">
       <img src="{{ '/assets/img/orcid.png' | relative_url }}" alt="ORCID">
     </a>
