@@ -251,9 +251,6 @@ def main() -> int:
         arxiv = clean_latex(fields.get("eprint", ""))
         doi = clean_latex(fields.get("doi", ""))
         
-        if "Marcel Grossmann" in fields.get("booktitle", ""):
-            print("BOOKTITLE =", fields.get("booktitle"))
-
         rec = OrderedDict()
         rec["title"] = title
 

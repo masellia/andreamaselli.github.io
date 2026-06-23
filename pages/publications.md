@@ -15,8 +15,10 @@ permalink: /publications/
 <div class="publications-intro">
 
   <p>
-    Here is my publication list. You can also find my papers on
+    Here is my publication list.
   </p>
+  <p> 
+    You can also find my papers on
 
   <div class="publications-links">
 
