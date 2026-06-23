@@ -15,7 +15,8 @@ permalink: /publications/
 <div class="publications-intro">
 
   <p>
-    Here is my publication list. You can also find my papers on
+    Here is my (almost) updated publication list. 
+    You can also find my papers on
 
     <a href="https://inspirehep.net/authors/1189872" target="_blank">
       <img class="inline-icon"
