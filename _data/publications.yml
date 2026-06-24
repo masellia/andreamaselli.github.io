@@ -1572,10 +1572,11 @@
       @inproceedings{Maselli:2017qpe,
           author = "Maselli, Andrea and Gualtieri, Leonardo and Ferrari, Valeria and Pani, Paolo and Stella, Luigi",
           title = "{Testing the strong field gravity regime with QPO observations}",
-          booktitle = "{14th Marcel Grossmann Meeting on Recent Developments in Theoretical and Experimental General Relativity, Astrophysics, and Relativistic Field Theories}",
+          booktitle = "{The Fourteenth Marcel Grossmann Meeting}|,
+          journal = "{IMJP}",
           doi = "10.1142/9789813226609_0193",
-          volume = "2",
-          pages = "1850--1853",
+          volume = "{}",
+          pages = "1850-1853",
           year = "2017"
       }
   - title: Constraining black holes with light boson hair and boson stars using epicyclic frequencies and quasiperiodic oscillations
