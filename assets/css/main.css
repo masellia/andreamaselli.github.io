@@ -371,8 +371,8 @@ body {
 }
 
 .lightbox img {
-  max-width: 98vw;
-  max-height: 98vh;
+  max-width: 110vw;
+  max-height: 110vh;
   object-fit: contain;
 }
 
