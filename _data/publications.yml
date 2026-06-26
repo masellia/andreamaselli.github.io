@@ -1558,10 +1558,11 @@
       @inproceedings{Pani:2017ewx,
           author = "Pani, Paolo and Gualtieri, Leonardo and Maselli, Andrea and Ferrari, Valeria",
           title = "{Recent progress on the tidal deformability of spinning compact objects}",
-          booktitle = "{14th Marcel Grossmann Meeting on Recent Developments in Theoretical and Experimental General Relativity, Astrophysics, and Relativistic Field Theories}",
+          booktitle = "{The Fourteenth Marcel Grossmann Meeting}",
+          journal = "{}",
           doi = "10.1142/9789813226609_0151",
-          volume = "2",
-          pages = "1587--1593",
+          volume = "{}",
+          pages = "1587-1593",
           year = "2017"
       }
   - title: Testing the strong field gravity regime with QPO observations
@@ -1572,8 +1573,8 @@
       @inproceedings{Maselli:2017qpe,
           author = "Maselli, Andrea and Gualtieri, Leonardo and Ferrari, Valeria and Pani, Paolo and Stella, Luigi",
           title = "{Testing the strong field gravity regime with QPO observations}",
-          booktitle = "{The Fourteenth Marcel Grossmann Meeting}|,
-          journal = "{IMJP}",
+          booktitle = "{The Fourteenth Marcel Grossmann Meeting}",
+          journal = "Int. J. Mod. Phys. D",
           doi = "10.1142/9789813226609_0193",
           volume = "{}",
           pages = "1850-1853",
