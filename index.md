@@ -74,10 +74,23 @@ title: Home
     in Portsmouth, where I started collaborating with Prof. Marco Bruni to study cosmological density perturbations in the early Universe.
   </p>
 
+  <a href="#map-lightbox">
   <img
-    class="bio-image-left"
-    src="{{ '/assets/img/maptrips.jpg' | relative_url }}"
-    alt="Andrea Maselli">
+    class="bio-image-left travel-map-thumb"
+    src="{{ '/assets/img/maptrips.png' | relative_url }}"
+    alt="Academic journey map">
+</a>
+
+<div id="map-lightbox" class="lightbox">
+  <a href="#" class="lightbox-close">×</a>
+
+  <img
+    src="{{ '/assets/img/maptrips.png' | relative_url }}"
+    alt="Academic journey map">
+</div>
+
+
+
 </div>
 
 <div class="bio-right bio-text-right">
