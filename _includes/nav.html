@@ -1,9 +1,18 @@
 <header class="site-header">
   <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
   <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
   <nav class="site-nav">
     {% for item in site.data.navigation %}
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% if item.url contains 'http' %}
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+          {{ item.title }}
+        </a>
+      {% else %}
+        <a href="{{ item.url | relative_url }}">
+          {{ item.title }}
+        </a>
+      {% endif %}
     {% endfor %}
   </nav>
 </header>
