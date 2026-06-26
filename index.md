@@ -76,7 +76,7 @@ title: Home
 
   <img
     class="bio-image-left"
-    src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
+    src="{{ '/assets/img/maptrips.jpg' | relative_url }}"
     alt="Andrea Maselli">
 </div>
 
@@ -84,7 +84,7 @@ title: Home
   
   <img
     class="bio-image-right"
-    src="{{ '/assets/img/wall.jpg' | relative_url }}"
+    src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
     alt="Description">
 
   <p>
