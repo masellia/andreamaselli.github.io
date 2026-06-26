@@ -1562,7 +1562,7 @@
           journal = "{}",
           doi = "10.1142/9789813226609_0151",
           volume = "{}",
-          pages = "1587-1593",
+          pages = "1587--1593",
           year = "2017"
       }
   - title: Testing the strong field gravity regime with QPO observations
@@ -1577,7 +1577,7 @@
           journal = "Int. J. Mod. Phys. D",
           doi = "10.1142/9789813226609_0193",
           volume = "{}",
-          pages = "1850-1853",
+          pages = "1850--1853",
           year = "2017"
       }
   - title: Constraining black holes with light boson hair and boson stars using epicyclic frequencies and quasiperiodic oscillations
@@ -1833,7 +1833,7 @@
       @inproceedings{Maselli:2013loa,
           author = "Maselli, Andrea and Gualtieri, Leonardo and Ferrari, Valeria and Pannarale, Francesco",
           title = "{On the validity of the adiabatic approximation in compact binary inspirals}",
-          booktitle = "{13th Marcel Grossmann Meeting on Recent Developments in Theoretical and Experimental General Relativity, Astrophysics, and Relativistic Field Theories}",
+          booktitle = "{The Thirteenth Marcel Grossmann Meeting}",
           eprint = "1302.5249",
           archivePrefix = "arXiv",
           primaryClass = "gr-qc",
