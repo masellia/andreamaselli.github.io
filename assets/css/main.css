@@ -339,14 +339,14 @@ body {
 
 .bio-image-left {
   display: block;
-  width: 50%;
+  width: 100%;
   max-width: 350px;
   margin: 3rem auto 0;
 }
 
 .bio-image-right {
   display: block;
-  width: 65%;
+  width: 50%;
   max-width: 350px;
   margin: 2rem auto 2.5rem auto;
 }
