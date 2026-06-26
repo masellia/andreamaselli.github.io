@@ -28,4 +28,21 @@
           pages = "1850-1853",
           year = "2017"
       }
+  - title: On the validity of the adiabatic approximation in compact binary inspirals
+    authors: A. Maselli, L. Gualtieri, V. Ferrari, F. Pannarale
+    journal: 13th Marcel Grossmann Meeting on Recent Developments in Theoretical and Experimental General Relativity, Astrophysics, and Relativistic Field Theories, pp. 951--953 (2015)
+    arxiv: '1302.5249'
+    doi: 10.1142/9789814623995_0052
+    bibtex: |
+      @inproceedings{Maselli:2013loa,
+          author = "Maselli, Andrea and Gualtieri, Leonardo and Ferrari, Valeria and Pannarale, Francesco",
+          title = "{On the validity of the adiabatic approximation in compact binary inspirals}",
+          booktitle = "{The Thirteenth Marcel Grossmann Meeting}",
+          eprint = "1302.5249",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1142/9789814623995_0052",
+          pages = "951--953",
+          year = "2015"
+      }
 
