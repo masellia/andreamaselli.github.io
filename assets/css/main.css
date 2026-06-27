@@ -644,14 +644,14 @@ body {
 
 .thesis-year {
   font-family: "DINLight", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #111111;
   margin-bottom: 0.25rem;
 }
 
 .thesis-student {
   font-family: "DINBoldCond", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   color: #111111;
   margin-bottom: 0.25rem;
@@ -659,14 +659,14 @@ body {
 
 .thesis-advisor {
   font-family: "DINLight", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #111111;
   margin-bottom: 0.35rem;
 }
 
 .thesis-title {
   font-family: "DINLight", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--accent);
   line-height: 1.35;
 }
