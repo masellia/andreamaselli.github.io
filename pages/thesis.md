@@ -17,7 +17,7 @@ permalink: /thesis/
   <div class="thesis-entry thesis-left">
     <div class="thesis-year">2025-on</div>
     <div class="thesis-student"> Akshita Mittal @ Gran Sasso Science Institute </div>
-    <div class="thesis-title">TBA</div>
+    <div class="thesis-title">Stellar Oscillations as Probes of Neutron Star Interiors</div>
   </div>
 
   <div class="thesis-entry thesis-right">
@@ -84,5 +84,41 @@ sources for future ground and space based interferometers </div>
     <div class="thesis-advisor">Co-advisor: V. Ferrari </div>
     <div class="thesis-title"> Constraining the equation of  state of neutron stars with astrophysical and GWs observations </div>
   </div>
+
+</section>
+
+<section class="master-thesis-section">
+
+  <div class="master-header">
+    <div class="master-header-title">
+      MASTER THESIS
+    </div>
+    <div class="master-header-line"></div>
+  </div>
+
+  <section class="thesis-timeline master-timeline">
+
+    <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2024</div>
+      <div class="thesis-student">Student Name @ University</div>
+      <div class="thesis-advisor">Co-advisor: Name Surname</div>
+      <div class="thesis-title">Title of the Master thesis goes here</div>
+    </div>
+
+    <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2023</div>
+      <div class="thesis-student">Student Name @ University</div>
+      <div class="thesis-advisor">Co-advisor: Name Surname</div>
+      <div class="thesis-title">Title of the Master thesis goes here</div>
+    </div>
+
+    <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2022</div>
+      <div class="thesis-student">Student Name @ University</div>
+      <div class="thesis-advisor">Co-advisor: Name Surname</div>
+      <div class="thesis-title">Title of the Master thesis goes here</div>
+    </div>
+
+  </section>
 
 </section>
