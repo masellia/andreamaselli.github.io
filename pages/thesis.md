@@ -44,6 +44,7 @@ permalink: /thesis/
     <div class="thesis-student"> Anjali Kugarajh @ Gran Sasso Science Institute </div>
     <div class="thesis-advisor">Co-advisor: S. Matarrese & A. Ricciardone </div>
     <div class="thesis-title">Scalar Induced GWs in the multimessenger era: from fundamental physics in the early universe to PBH evolution</div>
+  </div>
 
 
   <div class="thesis-entry thesis-right">
@@ -51,6 +52,7 @@ permalink: /thesis/
     <div class="thesis-student"> Susanna Barsanti @ Sapienza University of Rome </div>
     <div class="thesis-advisor">Co-advisor: L. Gualtieri </div>
     <div class="thesis-title"> Testing fundamental physics with extreme mass ratio binaries </div>
+  </div>
 
   <div class="thesis-entry thesis-left">
     <div class="thesis-year">2019-2022</div>
@@ -59,28 +61,28 @@ permalink: /thesis/
     <div class="thesis-title"> Nuclear dynamics in modeling Neutron Star structure and its
 implications in Gravitational Waves phenomenology
  </div>
+  </div>
 
   <div class="thesis-entry thesis-right">
     <div class="thesis-year">2019-2022</div>
     <div class="thesis-student"> Massimo Vaglio @ Sapienza University of Rome </div>
     <div class="thesis-advisor">Co-advisor: P. Pani </div>
     <div class="thesis-title"> Modelling and phenomenology of boson stars as gravitational
-sources for future ground and space based interferometers
- </div>
+sources for future ground and space based interferometers </div>
+  </div>
 
   <div class="thesis-entry thesis-left">
     <div class="thesis-year">2018-2022</div>
     <div class="thesis-student"> Gabriel Piovano @ Sapienza University of Rome </div>
     <div class="thesis-advisor">Co-advisor: P. Pani </div>
     <div class="thesis-title"> Gravitational waves from exotic compact objects in extreme mass ratio inspirals </div>
+  </div>
 
   <div class="thesis-entry thesis-right">
     <div class="thesis-year">2017-2020</div>
     <div class="thesis-student"> Margherita Fasano @ Sapienza University of Rome </div>
     <div class="thesis-advisor">Co-advisor: V. Ferrari </div>
     <div class="thesis-title"> Constraining the equation of  state of neutron stars with astrophysical and GWs observations </div>
-
-
   </div>
 
 </section>
