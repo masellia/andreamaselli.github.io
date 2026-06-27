@@ -627,18 +627,18 @@ body {
 .thesis-entry {
   position: relative;
   width: 50%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .thesis-left {
   margin-right: auto;
-  padding-right: 3rem;
+  padding-right: 1rem;
   text-align: right;
 }
 
 .thesis-right {
   margin-left: auto;
-  padding-left: 3rem;
+  padding-left: 1rem;
   text-align: left;
 }
 
