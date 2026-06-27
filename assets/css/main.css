@@ -581,7 +581,7 @@ body {
     position: relative;
 
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
@@ -627,7 +627,7 @@ body {
 .thesis-entry {
   position: relative;
   width: 50%;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .thesis-left {
