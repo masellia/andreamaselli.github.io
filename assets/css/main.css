@@ -720,6 +720,7 @@ body {
   width: 5px;
   height: 190px;
   background: var(--accent);
+  margin-top: -20px;
 }
 
 .master-timeline {
