@@ -42,7 +42,7 @@ permalink: /thesis/
   <div class="thesis-entry thesis-left">
     <div class="thesis-year">2022-on</div>
     <div class="thesis-student"> Anjali Kugarajh @ Gran Sasso Science Institute </div>
-    <div class="thesis-advisor">Co-advisor: S. Matarrese & A. Ricciardone </div>
+    <div class="thesis-advisor">Co-advisors: S. Matarrese & A. Ricciardone </div>
     <div class="thesis-title">Scalar Induced GWs in the multimessenger era: from fundamental physics in the early universe to PBH evolution</div>
   </div>
 
@@ -99,25 +99,84 @@ sources for future ground and space based interferometers </div>
   <section class="thesis-timeline master-timeline">
 
     <div class="thesis-entry thesis-left master-entry">
-      <div class="thesis-year">2024</div>
-      <div class="thesis-student">Student Name @ University</div>
-      <div class="thesis-advisor">Co-advisor: Name Surname</div>
-      <div class="thesis-title">Title of the Master thesis goes here</div>
+      <div class="thesis-year">2025-2026</div>
+      <div class="thesis-student">Giorgio Monti @ University of Milano-Bicocca</div>
+      <div class="thesis-advisor">Co-advisor: Davide Gerosa</div>
+      <div class="thesis-title">Evolution of Extreme Mass Ratio Inspirals in
+Dense Environments: A Multi-Parameter
+Study</div>
     </div>
 
     <div class="thesis-entry thesis-right master-entry">
-      <div class="thesis-year">2023</div>
-      <div class="thesis-student">Student Name @ University</div>
-      <div class="thesis-advisor">Co-advisor: Name Surname</div>
-      <div class="thesis-title">Title of the Master thesis goes here</div>
+      <div class="thesis-year">2024-2025</div>
+      <div class="thesis-student"> Serafino Bruscia @ University of Pisa</div>
+      <div class="thesis-advisor">Co-advisor: L. Gualtieri</div>
+      <div class="thesis-title"> Extreme Mass Ratio Inspirals with
+Scalarized Neutron Stars </div>
     </div>
 
     <div class="thesis-entry thesis-left master-entry">
-      <div class="thesis-year">2022</div>
-      <div class="thesis-student">Student Name @ University</div>
-      <div class="thesis-advisor">Co-advisor: Name Surname</div>
-      <div class="thesis-title">Title of the Master thesis goes here</div>
+      <div class="thesis-year">2024</div>
+      <div class="thesis-student"> Elisabet Keppler @ University of Trieste</div>
+      <div class="thesis-advisor">Co-advisors: F. Longo, M. Branchesi & S. Ansoldi </div>
+      <div class="thesis-title"> A Multimessenger approach to Tidal Disruption Events </div>
     </div>
+
+    <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2024</div>
+      <div class="thesis-student"> Niccolo' D'onofrio @ Sapienza University of Rome </div>
+      <div class="thesis-advisor">Co-advisor: S. Barsanti</div>
+      <div class="thesis-title"> Scalar fields and Extreme Mass Ratio Inspirals: where do we look with LISA </div>
+    </div>
+
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2024</div>
+      <div class="thesis-student"> Chiara Anselmo @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Ringdown tests of General Relativity with future
+space gravitational wave detectors
+ </div>
+    </div>
+
+    <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2023-2024</div>
+      <div class="thesis-student"> Alessandro Agapito @ Sapienza University of Rome </div>
+      <div class="thesis-advisor">Co-advisor: P. Pani</div>
+      <div class="thesis-title"> GWs inspiral tests of General Relativity in the framework of the Einstein Telescope </div>
+    </div>
+
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2023</div>
+      <div class="thesis-student"> Laura Pezzella @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Quasi Normal Mode of dirty Black Holes embedded by dark matter halos
+ </div>
+    </div>
+
+
+ <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2021-2022</div>
+      <div class="thesis-student"> Lavinia Paiella @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Anatomy of a binary neutron star merger
+ </div>
+    </div>
+
+
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2021-2022</div>
+      <div class="thesis-student"> Matteo della Rocca @ Sapienza University of Rome </div>
+      <div class="thesis-advisor">Co-advisor: L. Gualtieri </div>
+      <div class="thesis-title"> Scalar Flux from an EMRI: inclined circular orbits around Kerr Black holes
+ </div>
+    </div>
+
+
+ <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2020-2021</div>
+      <div class="thesis-student"> Viola De Renzis @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Distinguishing Black Holes from Exotic Compact objects with gravitational observations </div>
+    </div>
+
+
+
 
   </section>
 
