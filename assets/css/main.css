@@ -777,9 +777,7 @@ body {
 }
 
 .bachelor-header-title {
-  position: absolute;
   right: calc(50% + 20px);
-
   font-family: "DINBoldCond", sans-serif;
   font-size: 50px;
   font-weight: 400;
@@ -788,8 +786,10 @@ body {
 
   color: #222222;
   text-align: right;
-
   bottom: 0;
+  position: relative;
+  top: 8px;
+
 }
 
 .bachelor-timeline {
