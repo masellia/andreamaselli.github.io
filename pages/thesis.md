@@ -260,6 +260,24 @@ A data-analysis framework
       <div class="thesis-advisor"> Bachelor </div>
     </div>
 
+    <div class="thesis-entry thesis-right bachelor-entry">
+      <div class="thesis-year">2020</div>
+      <div class="thesis-student"> Francesca Attadio @ Sapienza University of Rome </div>
+      <div class="thesis-advisor"> Bachelor </div>
+    </div>
+
+    <div class="thesis-entry thesis-left bachelor-entry">
+      <div class="thesis-year">2019</div>
+      <div class="thesis-student"> Simone D'onofrio & Andrea Falzetti & Danilo di Ludovico @ Sapienza University of Rome </div>
+      <div class="thesis-advisor"> Bachelor </div>
+    </div>
+
+    <div class="thesis-entry thesis-right bachelor-entry">
+      <div class="thesis-year">2017</div>
+      <div class="thesis-student"> Verena Krall @ University of Tübingen </div>
+      <div class="thesis-advisor"> Bachelor co-supervised with K. Kokkotas </div>
+    </div>
+
   </section>
 
 </section>
