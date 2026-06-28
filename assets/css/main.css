@@ -689,6 +689,28 @@ body {
 /* MASTER THESIS SECTION                 */
 /* ===================================== */
 
+.thesis-jump-links {
+  width: min(950px, 86vw);
+  margin: -2rem auto 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.thesis-jump-links a {
+  font-family: "DINLight", sans-serif;
+  font-size: 14px;
+  color: rgb(44,44,44);
+  text-decoration: none;
+  border: 1px solid rgb(44,44,44);
+  padding: 0.25rem 0.7rem;
+}
+
+.thesis-jump-links a:hover {
+  background: rgb(44,44,44);
+  color: white;
+}
+
 .master-thesis-section {
   background: rgba(44,44,44,0.95);
   padding: 0;
@@ -779,7 +801,7 @@ body {
 
 .bachelor-header-title {
   position: absolute;
-  right: calc(50% + 20px);
+  left: calc(50% + 20px);
 
   font-family: "DINBoldCond", sans-serif;
   font-size: 50px;
