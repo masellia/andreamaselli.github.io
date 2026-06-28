@@ -229,7 +229,34 @@ A data-analysis framework
       <div class="thesis-title"> Prospects for testing General Relativity with multiband gravitational wave detections
  </div>
     </div>
+  </section>
+
+<section class="bachelor-thesis-section">
+
+  <div class="bachelor-header">
+    <div class="bachelor-header-title">
+      BACHELORS<br>AND INTERNSHIPS
+    </div>
+    <div class="bachelor-header-line"></div>
+  </div>
+
+  <section class="thesis-timeline bachelor-timeline">
+
+    <div class="thesis-entry thesis-left bachelor-entry">
+      <div class="thesis-year">2024</div>
+      <div class="thesis-student">Student Name @ University</div>
+      <div class="thesis-advisor">Co-advisor: Name Surname</div>
+      <div class="thesis-title">Title of the Bachelor thesis or internship project</div>
+    </div>
+
+    <div class="thesis-entry thesis-right bachelor-entry">
+      <div class="thesis-year">2023</div>
+      <div class="thesis-student">Student Name @ University</div>
+      <div class="thesis-advisor">Co-advisor: Name Surname</div>
+      <div class="thesis-title">Title of the Bachelor thesis or internship project</div>
+    </div>
 
   </section>
 
+</section>
 </section>
