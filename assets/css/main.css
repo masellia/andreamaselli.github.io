@@ -834,7 +834,7 @@ body {
 
 .master-timeline::before {
   bottom: auto;
-  height: calc(100% - 3.1rem);
+  height: calc(100% - 5rem);
 }
 
 .bachelor-timeline::before {
