@@ -715,7 +715,7 @@ body {
 
 .master-thesis-section {
   background: rgba(44,44,44,0.95);
-  padding: 0 0 0;
+  padding: 0 0 1rem;
   margin-top: 8rem;
 }
 
@@ -834,7 +834,7 @@ body {
 
 .master-timeline::before {
   bottom: auto;
-  height: calc(100% - 1rem);
+  height: calc(100% - 2rem);
 }
 
 .bachelor-timeline::before {
