@@ -243,17 +243,21 @@ A data-analysis framework
   <section class="thesis-timeline bachelor-timeline">
 
     <div class="thesis-entry thesis-left bachelor-entry">
-      <div class="thesis-year">2024</div>
-      <div class="thesis-student">Student Name @ University</div>
-      <div class="thesis-advisor">Co-advisor: Name Surname</div>
-      <div class="thesis-title">Title of the Bachelor thesis or internship project</div>
+      <div class="thesis-year">2025</div>
+      <div class="thesis-student"> Albert Radulea @ Gran Sasso Science Institute </div>
+      <div class="thesis-advisor">Internship form Institut Polytechnique de Paris</div>
     </div>
 
     <div class="thesis-entry thesis-right bachelor-entry">
-      <div class="thesis-year">2023</div>
-      <div class="thesis-student">Student Name @ University</div>
-      <div class="thesis-advisor">Co-advisor: Name Surname</div>
-      <div class="thesis-title">Title of the Bachelor thesis or internship project</div>
+      <div class="thesis-year"> 2022 - 2023</div>
+      <div class="thesis-student"> Enzo Figueiredo @ Gran Sasso Science Institute</div>
+      <div class="thesis-advisor">Co post-master from Ecole Normale Superieure of Lyone </div>
+    </div>
+
+    <div class="thesis-entry thesis-left bachelor-entry">
+      <div class="thesis-year">2020 - 2021</div>
+      <div class="thesis-student"> Alessandro Buchicchio @ Sapienza University of Rome </div>
+      <div class="thesis-advisor"> Bachelor </div>
     </div>
 
   </section>

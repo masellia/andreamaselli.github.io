@@ -753,61 +753,35 @@ body {
 /* BACHELORS AND INTERNSHIPS SECTION     */
 /* ===================================== */
 
-.bachelor-thesis-section {
-  background: #ffffff;
-  padding: 0 0 7rem;
-  margin-top: 5rem;
-}
-
 .bachelor-header {
+  position: relative;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  height: 190px;
   margin-bottom: 4rem;
-  padding-left: calc(50% - 2.5px);
 }
 
 .bachelor-header-line {
+  position: absolute;
+  left: 50%;
   width: 5px;
   height: 190px;
   background: var(--accent);
+  transform: translateX(-50%);
   margin-top: -60px;
 }
 
 .bachelor-header-title {
-  margin-left: 1.7rem;
+  position: absolute;
+  right: calc(50% + 20px);
+
   font-family: "DINBoldCond", sans-serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
+
   color: #222222;
-  text-align: left;
-  position: relative;
-  top: 12px;
-}
+  text-align: right;
 
-.bachelor-timeline {
-  margin-bottom: 0;
-}
-
-.bachelor-timeline::before {
-  border-left: 1.5px dashed #222222;
-}
-
-.bachelor-entry .thesis-year,
-.bachelor-entry .thesis-advisor {
-  color: #111111;
-  font-family: "DINLight", sans-serif;
-}
-
-.bachelor-entry .thesis-student {
-  color: #111111;
-  font-family: "DINBoldCond", sans-serif;
-}
-
-.bachelor-entry .thesis-title {
-  color: var(--accent);
-  font-family: "DINLight", sans-serif;
+  bottom: 0;
 }
