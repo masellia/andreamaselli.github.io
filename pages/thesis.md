@@ -93,7 +93,7 @@ sources for future ground and space based interferometers </div>
 
 </section>
 
-<section id="master" id="master class="master-thesis-section">
+<section id="bachelor" id="master class="master-thesis-section">
 
   <div class="master-header">
     <div class="master-header-title">
@@ -238,7 +238,7 @@ A data-analysis framework
   </section>
   </section>
 
-<section id="bachelor" class="bachelor-thesis-section">
+<section class="bachelor-thesis-section">
 
   <div class="bachelor-header">
     <div class="bachelor-header-title">
