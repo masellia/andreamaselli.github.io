@@ -702,7 +702,7 @@ body {
   align-items: flex-end;
   margin-bottom: 4rem;
   padding-right: 50%;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .master-header-title {
@@ -720,7 +720,7 @@ body {
   width: 5px;
   height: 190px;
   background: var(--accent);
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 .master-timeline {
