@@ -755,7 +755,7 @@ body {
 
 .bachelor-thesis-section {
   background: #ffffff;
-  padding: 5rem 0 2rem;
+  padding: 2rem 0 2rem;
   margin-top: 0rem;
   padding-bottom: 2rem
 }
@@ -789,7 +789,7 @@ body {
 
   color: #222222;
   text-align: right;
-  bottom: -12px;
+  bottom: -8px;
 }
 
 .bachelor-timeline {
