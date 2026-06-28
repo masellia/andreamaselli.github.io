@@ -685,16 +685,13 @@ body {
   }
 }
 
-/* ===================================== */
-/* MASTER THESIS SECTION                 */
-/* ===================================== */
-
 .thesis-jump-links {
-  width: min(950px, 86vw);
-  margin: -2rem auto 3rem;
+  margin-left: calc(50% + 1.7rem);
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+
   display: flex;
   gap: 1rem;
-  justify-content: center;
 }
 
 .thesis-jump-links a {
@@ -710,6 +707,11 @@ body {
   background: rgb(44,44,44);
   color: white;
 }
+
+
+/* ===================================== */
+/* MASTER THESIS SECTION                 */
+/* ===================================== */
 
 .master-thesis-section {
   background: rgba(44,44,44,0.95);

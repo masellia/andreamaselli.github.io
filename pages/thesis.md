@@ -12,13 +12,7 @@ permalink: /thesis/
   </div>
 </div>
 
-<div class="thesis-jump-links">
-  <a href="#phd">PhD</a>
-  <a href="#master">Master</a>
-  <a href="#bachelor">Bachelors & Internships</a>
-</div>
-
-<section id="phd" class="thesis-timeline">
+<section class="thesis-timeline">
 
   <div class="thesis-entry thesis-left">
     <div class="thesis-year">2025-on</div>
@@ -93,7 +87,7 @@ sources for future ground and space based interferometers </div>
 
 </section>
 
-<section id="bachelor" id="master class="master-thesis-section">
+<section class="master-thesis-section">
 
   <div class="master-header">
     <div class="master-header-title">
