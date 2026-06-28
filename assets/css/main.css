@@ -753,6 +753,12 @@ body {
 /* BACHELORS AND INTERNSHIPS SECTION     */
 /* ===================================== */
 
+.bachelor-thesis-section {
+  background: #ffffff;
+  padding: 0 0 7rem;
+  margin-top: 5rem;
+}
+
 .bachelor-header {
   position: relative;
   width: 100%;
