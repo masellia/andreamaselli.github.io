@@ -692,7 +692,7 @@ body {
 .master-thesis-section {
   background: rgba(44,44,44,0.95);
   padding: 0rem 0 7rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .master-header {
@@ -702,7 +702,7 @@ body {
   align-items: flex-end;
   margin-bottom: 4rem;
   padding-right: 50%;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .master-header-title {
