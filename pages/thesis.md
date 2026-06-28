@@ -230,6 +230,7 @@ A data-analysis framework
  </div>
     </div>
   </section>
+  </section>
 
 <section class="bachelor-thesis-section">
 
@@ -280,5 +281,4 @@ A data-analysis framework
 
   </section>
 
-</section>
 </section>
