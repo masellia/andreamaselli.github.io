@@ -839,5 +839,5 @@ body {
 
 .bachelor-timeline::before {
   bottom: auto;
-  height: calc(100% - 5rem);
+  height: calc(100% - 1rem);
 }
