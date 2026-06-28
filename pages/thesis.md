@@ -223,7 +223,7 @@ A data-analysis framework
     </div>
 
  <div class="thesis-entry thesis-left master-entry">
-      <div class="thesis-year">2019-2020</div>
+      <div class="thesis-year">2017-2018</div>
       <div class="thesis-student"> Giuseppe Gnocchi @ Sapienza University of Rome </div>
       <div class="thesis-advisor">Co-advisor: V. Ferrari</div>
       <div class="thesis-title"> Prospects for testing General Relativity with multiband gravitational wave detections
