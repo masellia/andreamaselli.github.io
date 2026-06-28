@@ -812,7 +812,7 @@ body {
   letter-spacing: 0.02em;
 
   color: #222222;
-  text-align: right;
+  text-align: left;
   bottom: -8px;
 }
 
@@ -823,4 +823,22 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 
+}
+
+/* Fine-tune thesis dashed-line endings */
+
+.thesis-timeline::before {
+  bottom: 1rem;
+}
+
+.thesis-timeline .thesis-entry:last-child {
+  margin-bottom: 0;
+}
+
+.master-timeline::before {
+  bottom: 4rem;
+}
+
+.bachelor-timeline::before {
+  bottom: 0;
 }
