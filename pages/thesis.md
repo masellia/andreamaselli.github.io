@@ -176,7 +176,59 @@ space gravitational wave detectors
     </div>
 
 
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2020-2021</div>
+      <div class="thesis-student"> Tommaso Garbin @ Sapienza University of Rome </div>
+      <div class="thesis-advisor">Co-advisor: L. Gualtieri </div>
+      <div class="thesis-title"> Black holes in Einstein-scalar-Gauss-Bonnet gravity:
+numerical analysis and analytical approximation for the numerical solutions
+ </div>
+    </div>
 
+ <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2019-2020</div>
+      <div class="thesis-student"> Irene Fabbri @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Constraining the neutron star composition with QPO observations
+ </div>
+    </div>
+
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2020</div>
+      <div class="thesis-student"> Susanna Barsanti @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Scalar fields around Kerr black holes in extreme mass ratio inspirals </div>
+    </div>
+
+
+ <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2020</div>
+      <div class="thesis-student"> Giulio Danella @ Sapienza University of Rome </div>
+      <div class="thesis-title"> Multi-band analysis of the neutron star EoS with future gravitational wave and electromagnetic observatories </div>
+    </div>
+
+
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2019-2020</div>
+      <div class="thesis-student"> Vania Vellucci @ Sapienza University of Rome </div>
+      <div class="thesis-advisor">Co-advisors: L. Gualtieri & P. Pani</div>
+      <div class="thesis-title"> Black-hole spectroscopy with multiple event:
+A data-analysis framework
+ </div>
+    </div>
+
+ <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2017-2018</div>
+      <div class="thesis-student"> Goncalo Castro @ Instituto Superior Tecnico, Lisbon </div>
+      <div class="thesis-advisor">Co-advisor: V. Cardoso </div>
+      <div class="thesis-title"> Gravitational waves and massive gravitons </div>
+    </div>
+
+ <div class="thesis-entry thesis-left master-entry">
+      <div class="thesis-year">2019-2020</div>
+      <div class="thesis-student"> Giuseppe Gnocchi @ Sapienza University of Rome </div>
+      <div class="thesis-advisor">Co-advisor: V. Ferrari</div>
+      <div class="thesis-title"> Prospects for testing General Relativity with multiband gravitational wave detections
+ </div>
+    </div>
 
   </section>
 
