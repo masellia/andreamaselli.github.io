@@ -693,6 +693,8 @@ body {
   background: rgba(44,44,44,0.95);
   padding: 0rem 0 5rem;
   margin-top: 5rem;
+  margin-bottom: 5rem;
+
 }
 
 .master-header {
@@ -777,7 +779,9 @@ body {
 }
 
 .bachelor-header-title {
+  position: absolute;
   right: calc(50% + 20px);
+
   font-family: "DINBoldCond", sans-serif;
   font-size: 50px;
   font-weight: 400;
@@ -787,9 +791,6 @@ body {
   color: #222222;
   text-align: right;
   bottom: 0;
-  position: relative;
-  top: 8px;
-
 }
 
 .bachelor-timeline {
