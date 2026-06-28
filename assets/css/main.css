@@ -751,7 +751,7 @@ body {
 
 .master-timeline {
   margin-bottom: 0;
-  padding-bottom: 2rem
+  padding-bottom: 4rem
 }
 
 .master-timeline::before {
@@ -829,7 +829,7 @@ body {
 
 .thesis-timeline::before {
   bottom: auto;
-  height: calc(100% - 3rem);
+  height: calc(100% - 3.5rem);
 }
 
 .master-timeline::before {
