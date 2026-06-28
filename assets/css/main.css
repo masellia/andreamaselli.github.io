@@ -714,7 +714,7 @@ body {
   letter-spacing: 0.02em;
   color: white;
   text-align: right;
-  margin-top: 10px;
+  margin: -35px 0 0 0;
 }
 
 .master-header-line {
