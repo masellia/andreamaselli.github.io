@@ -757,6 +757,7 @@ body {
   background: #ffffff;
   padding: 5rem 0 2rem;
   margin-top: 0rem;
+  padding-bottom: 2rem
 }
 
 .bachelor-header {
@@ -793,4 +794,5 @@ body {
 
 .bachelor-timeline {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
