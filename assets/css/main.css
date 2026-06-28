@@ -691,7 +691,7 @@ body {
 
 .master-thesis-section {
   background: rgba(44,44,44,0.95);
-  padding: 0rem 0 7rem;
+  padding: 0rem 0 5rem;
   margin-top: 5rem;
 }
 
@@ -755,7 +755,7 @@ body {
 
 .bachelor-thesis-section {
   background: #ffffff;
-  padding: 0 0 7rem;
+  padding: 5rem 0 2rem;
   margin-top: 5rem;
 }
 
@@ -773,7 +773,7 @@ body {
   height: 190px;
   background: var(--accent);
   transform: translateX(-50%);
-  margin-top: -60px;
+  margin-top: 0px;
 }
 
 .bachelor-header-title {
@@ -790,4 +790,8 @@ body {
   text-align: right;
 
   bottom: 0;
+}
+
+.bachelor-timeline {
+  margin-bottom: 0;
 }
