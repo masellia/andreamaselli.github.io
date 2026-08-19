@@ -97,7 +97,19 @@ title: Home
 
   <p>
 
-    «Considerate la vostra semenza:<br>
+    «O frati," dissi, "che per cento milia <br>
+
+     perigli siete giunti a l'occidente, <br>
+
+    a questa tanto picciola vigilia. <br>
+
+    d'i nostri sensi ch'è del rimanente <br>
+   
+    non vogliate negar l'esperïenza, <br>
+
+    di retro al sol, del mondo sanza gente. <br>
+
+    Considerate la vostra semenza:<br>
 
     fatti non foste a viver come bruti,<br>
 
