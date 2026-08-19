@@ -82,14 +82,32 @@ title: Home
 </a>
 
 <div id="map-lightbox" class="lightbox">
+
   <a href="#" class="lightbox-close">×</a>
 
   <img
+
     src="{{ '/assets/img/maptrips.png' | relative_url }}"
+
     alt="Academic journey map">
+
 </div>
 
+<div class="dante-quote">
 
+  <p>
+
+    «Considerate la vostra semenza:<br>
+
+    fatti non foste a viver come bruti,<br>
+
+    ma per seguir virtute e canoscenza.»
+
+  </p>
+
+  <span>Dante Alighieri, <em>Inferno</em>, Canto XXVI</span>
+
+</div>
 
 </div>
 
