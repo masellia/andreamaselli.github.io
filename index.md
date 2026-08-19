@@ -101,13 +101,13 @@ title: Home
 
      perigli siete giunti a l'occidente, <br>
 
-    a questa tanto picciola vigilia. <br>
+    a questa tanto picciola vigilia. <br><br>
 
     d'i nostri sensi ch'è del rimanente <br>
    
     non vogliate negar l'esperïenza, <br>
 
-    di retro al sol, del mondo sanza gente. <br>
+    di retro al sol, del mondo sanza gente. <br><br>
 
     Considerate la vostra semenza:<br>
 
