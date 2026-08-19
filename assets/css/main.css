@@ -386,6 +386,27 @@ body {
   line-height: 1;
 }
 
+.dante-quote {
+  max-width: 400px;
+  margin: 2.5rem auto 0;
+  text-align: center;
+}
+
+.dante-quote p {
+  font-family: "DINLight", sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #444444;
+  margin: 0;
+}
+
+.dante-quote span {
+  display: block;
+  margin-top: 0.8rem;
+  font-family: "DINLight", sans-serif;
+  font-size: 13px;
+  color: var(--accent);
+}
 
 /* ===================================== */
 /* FOOTER                                */
