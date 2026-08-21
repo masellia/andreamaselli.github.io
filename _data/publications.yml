@@ -129,9 +129,11 @@
       }
 - year: 2025
   papers:
+
   - title: Quasinormal ringing of Kerr black holes. III. Excitation coefficients for equatorial inspirals from the innermost stable circular orbit
     authors: M. Della Rocca, L. Pezzella, E. Berti, L. Gualtieri, A. Maselli
     arxiv: '2512.07959'
+    doi: 10.1103/ydp5-ktpn
     bibtex: |
       @article{DellaRocca:2025zbe,
           author = "Della Rocca, Matteo and Pezzella, Laura and Berti, Emanuele and Gualtieri, Leonardo and Maselli, Andrea",
@@ -149,23 +151,23 @@
   - title: 'Black hole spectroscopy: from theory to experiment'
     authors: E. Berti et al.
     arxiv: '2505.23895'
+    doi: 10.1088/1361-6382/ae59e2
     bibtex: |
-        @article{Berti:2025hly,
-            author = "Berti, Emanuele and others",
-            editor = "Berti, Emanuele and Cardoso, Vitor and Carullo, Gregorio",
-            title = "{Black hole spectroscopy: from theory to experiment}",
-            eprint = "2505.23895",
-            archivePrefix = "arXiv",
-            primaryClass = "gr-qc",
-            reportNumber = "RUP-25-10; YITP-25-64; RIKEN-iTHEMS-Report-25",
-            doi = "10.1088/1361-6382/ae59e2",
-            journal = "Class. Quant. Grav.",
-            volume = "43",
-            number = "12",
-            pages = "123001",
-            year = "2026"
-        }
-    - title: 'Black hole mimickers: from theory to observation'
+      @article{Berti:2025hly,
+          author = "Berti, Emanuele and others",
+          editor = "Berti, Emanuele and Cardoso, Vitor and Carullo, Gregorio",
+          title = "{Black hole spectroscopy: from theory to experiment}",
+          eprint = "2505.23895",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          reportNumber = "RUP-25-10; YITP-25-64; RIKEN-iTHEMS-Report-25",
+          doi = "10.1088/1361-6382/ae59e2",
+          journal = "Class. Quant. Grav.",
+          volume = "43",
+          number = "12",
+          pages = "123001",
+          year = "2026"
+      }    - title: 'Black hole mimickers: from theory to observation'
     authors: C. Bambi et al.
     arxiv: '2505.09014'
     bibtex: |
