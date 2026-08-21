@@ -108,7 +108,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/outreach-fertilising-ideas.jpg' | relative_url }}"
+        src="{{ '/assets/img/fertilising.png' | relative_url }}"
         alt="Fertilising Ideas">
     </div>
 
@@ -121,7 +121,7 @@ permalink: /outreach/
         An essay written for the project <em>The Birth of an Idea</em>.
       </p>
 
-      <a class="outreach-link" href="YOUR-LINK-HERE" target="_blank" rel="noopener">
+      <a class="outreach-link" href="https://birthofidea.tecnico.ulisboa.pt/#maselli" target="_blank" rel="noopener">
         READ
       </a>
     </div>
@@ -175,7 +175,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/outreach-gw-window.jpg' | relative_url }}"
+        src="{{ '/assets/img/AmaldiRC.png' | relative_url }}"
         alt="Gravitational waves: a new window on the nature of gravity">
     </div>
 
@@ -188,7 +188,7 @@ permalink: /outreach/
         A public talk for the European Researchers' Night.
       </p>
 
-      <a class="outreach-link" href="YOUR-LINK-HERE" target="_blank" rel="noopener">
+      <a class="outreach-link" href="https://www.youtube.com/watch?v=1xByqz6YFJY" target="_blank" rel="noopener">
         WATCH
       </a>
     </div>
