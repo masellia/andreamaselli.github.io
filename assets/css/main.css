@@ -1275,7 +1275,7 @@ body {
   order: 2;
   justify-content: flex-start;
   padding-right: 0;
-  padding-left: 2rem;
+  padding-left: -2rem;
 }
 
 .outreach-reverse .outreach-text {
