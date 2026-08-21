@@ -39,7 +39,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
+        src="{{ '/assets/img/sidecarlogo.png' | https://www.youtube.com/watch?v=2MUrJoFW4uQ }}"
         alt="Sarà scienza o sarà fake?">
     </div>
 
