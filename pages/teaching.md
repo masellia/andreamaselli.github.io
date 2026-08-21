@@ -39,17 +39,10 @@ permalink: /teaching/
   <section class="teaching-timeline">
 
     <div class="teaching-entry teaching-left">
-      <div class="teaching-year">2025–2026</div>
-      <div class="teaching-course">Course Title</div>
+      <div class="teaching-year">2026–on</div>
+      <div class="teaching-course">The Dynamics of Asymmetric Binaries</div>
       <div class="teaching-info">Gran Sasso Science Institute</div>
-      <div class="teaching-details">PhD Course · Semester I</div>
-    </div>
-
-    <div class="teaching-entry teaching-right">
-      <div class="teaching-year">2025–2026</div>
-      <div class="teaching-course">Course Title</div>
-      <div class="teaching-info">Gran Sasso Science Institute</div>
-      <div class="teaching-details">MSc / PhD Course · Semester II</div>
+      <div class="teaching-details">PhD Course · Semester II</div>
     </div>
 
   </section>
