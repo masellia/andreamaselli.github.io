@@ -1118,6 +1118,16 @@ body {
   padding-bottom: 0;
 }
 
+.teaching-course a {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.teaching-course a:hover {
+  color: var(--accent);
+}
+
 
 /* ===================================== */
 /* MOBILE TEACHING                       */

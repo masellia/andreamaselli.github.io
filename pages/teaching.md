@@ -164,6 +164,15 @@ permalink: /teaching/
 
   <section class="teaching-timeline phd-schools-timeline">
 
+    <div class="teaching-entry teaching-right">
+      <div class="teaching-year"> Sep 2026 </div>
+      <div class="teaching-course">13th Aegean Summer school, recent developments in
+theory and observations in gravity and cosmology</div>
+      <div class="teaching-info"> Kasos, Greece </div>
+      <div class="teaching-details">Lecture "Environmental effects and where to find them"</div>
+    </div>
+
+
     <div class="teaching-entry teaching-left">
       <div class="teaching-year"> Mar 2025 </div>
       <div class="teaching-course">Theoretical aspects of Astroparticle physics, Cosmology and Gravitation</div>
@@ -175,7 +184,7 @@ permalink: /teaching/
       <div class="teaching-year"> Dec 2024 </div>
       <div class="teaching-course">I Gravitas School on Fields and Gravity</div>
       <div class="teaching-info"> Federal University of Pará, Salinópolis-Brazil </div>
-      <div class="teaching-details"> Lecture on Black hole perturbation theory
+      <div class="teaching-details"> Lectures "Black hole perturbation theory"
 </div>
     </div>
 
@@ -184,14 +193,14 @@ permalink: /teaching/
       <div class="teaching-course">12th Aegean Summer school, recent developments in
 theory and observations in gravity and cosmology</div>
       <div class="teaching-info"> Sifnos, Greece </div>
-      <div class="teaching-details">Lecture on Black hole spectroscopy beyond GR: theory and phenomenology</div>
+      <div class="teaching-details">Lecture "Black hole spectroscopy beyond GR: theory and phenomenology"</div>
     </div>
 
     <div class="teaching-entry teaching-right">
       <div class="teaching-year"> Feb 2023 </div>
       <div class="teaching-course">59th Winter school of Theoretical Physics</div>
       <div class="teaching-info"> Pałac Wojanów, Poland </div>
-      <div class="teaching-details"> Lecture on Astrophysical black holes: theory and experiments</div>
+      <div class="teaching-details"> Lectures "Astrophysical black holes: theory and experiments"</div>
     </div>
 
 
@@ -200,7 +209,7 @@ theory and observations in gravity and cosmology</div>
       <div class="teaching-course">11th Aegean Summer school, recent developments in
 theory and observations in gravity and cosmology</div>
       <div class="teaching-info"> Syros, Greece </div>
-      <div class="teaching-details"> Lecture on Environmental effects around EMRIs </div>
+      <div class="teaching-details"> Lecture "Environmental effects around EMRIs" </div>
     </div>
 
     <div class="teaching-entry teaching-right">
@@ -208,21 +217,25 @@ theory and observations in gravity and cosmology</div>
       <div class="teaching-course">Theoretical aspects of Astroparticle physics,
 Cosmology and Gravitation</div>
       <div class="teaching-info"> Galileo Galilei Institute, Florence, Italy </div>
-      <div class="teaching-details">Exercise Gravitational Waves I-II</div>
+      <div class="teaching-details">Exercise Lecture on Gravitational Waves I-II</div>
     </div>
 
     <div class="teaching-entry teaching-left">
       <div class="teaching-year"> Sep 2018 </div>
       <div class="teaching-course"> 9th School of Astrophysics and Gravitation EAG9 </div>
       <div class="teaching-info"> Instituto Superior Tecnico, Lisbon, Portugal </div>
-      <div class="teaching-details"> Lecture on Compact Objects </div>
+      <div class="teaching-details"> Lecture "Compact Objects" </div>
     </div>
 
     <div class="teaching-entry teaching-right">
       <div class="teaching-year"> Aug 2018 </div>
-      <div class="teaching-course"> Summer school on gravitational-wave astronomy </div>
+      <div class="teaching-course">
+       <a href="https://www.icts.res.in/program/gws2018" target="_blank" rel="noopener">
+         Summer school on gravitational-wave astronomy
+       </a>
+      </div>
       <div class="teaching-info"> ICTS , Bangalore, India </div>
-      <div class="teaching-details"> Lecture on Exotic compact objects and their gravitational-wave signatures
+      <div class="teaching-details"> Lectures "Exotic compact objects and their gravitational-wave signatures"
 </div>
     </div>
 
