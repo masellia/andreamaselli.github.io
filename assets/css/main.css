@@ -1249,25 +1249,46 @@ body {
   align-items: center;
 }
 
+
+/* ===================================== */
+/* NORMAL ROW                            */
+/* Image LEFT / Text RIGHT               */
+/* ===================================== */
+
+.outreach-image {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.outreach-text {
+  padding-left: 2rem;
+}
+
+
+/* ===================================== */
+/* REVERSED ROW                          */
+/* Text LEFT / Image RIGHT               */
+/* ===================================== */
+
 .outreach-reverse .outreach-image {
   order: 2;
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: 2rem;
 }
 
 .outreach-reverse .outreach-text {
   order: 1;
   text-align: right;
-}
-
-
-/* Images */
-
-/* Normal row: image in LEFT column, pushed toward centre */
-
-.outreach-image {
+  padding-left: 0;
   padding-right: 2rem;
-  display: flex;
-  justify-content: flex-end;
 }
+
+
+/* ===================================== */
+/* OUTREACH IMAGES                       */
+/* ===================================== */
 
 .outreach-image img {
   display: block;
@@ -1278,7 +1299,9 @@ body {
 }
 
 
-/* Text */
+/* ===================================== */
+/* OUTREACH TEXT                         */
+/* ===================================== */
 
 .outreach-type {
   font-family: "DINLight", sans-serif;
@@ -1310,7 +1333,9 @@ body {
 }
 
 
-/* READ / LISTEN / WATCH */
+/* ===================================== */
+/* READ / LISTEN / WATCH LINKS           */
+/* ===================================== */
 
 .outreach-link {
   display: inline-block;
@@ -1344,37 +1369,41 @@ body {
     flex-wrap: wrap;
   }
 
+  /* Switch from two columns to one */
+
   .outreach-item {
-    width: 100%;
-    margin: 0 auto 6rem;
-
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
+    grid-template-columns: 1fr;
+    width: 86vw;
+    margin: 0 auto 4rem;
   }
 
-  /* Normal row: image left, text right */
+  /* Images centered on mobile */
 
-  .outreach-image {
-    padding-right: 2rem;
-  }
-
-  .outreach-text {
-    padding-left: 2rem;
-  }
-
-  /* Reversed row: text left, image right */
-
+  .outreach-image,
   .outreach-reverse .outreach-image {
-    order: 2;
+    order: initial;
+    justify-content: center;
+    padding-left: 0;
     padding-right: 0;
-    padding-left: 2rem;
-    justify-content: flex-start;
+    margin-bottom: 1.5rem;
   }
 
-  .outreach-reverse .outreach-text {
-    order: 1;
-    text-align: right;
-    padding-left: 0;
-    padding-right: 2rem;
+  .outreach-image img {
+    width: 70%;
+    max-width: 400px;
   }
+
+  /* Text always left-aligned on mobile */
+
+  .outreach-text,
+  .outreach-reverse .outreach-text {
+    order: initial;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .outreach-text h3 {
+    font-size: 28px;
+  }
+}
