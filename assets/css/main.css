@@ -1337,21 +1337,35 @@ body {
   }
 
   .outreach-item {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-bottom: 4rem;
+    width: 100%;
+    margin: 0 auto 6rem;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
   }
 
-  .outreach-reverse .outreach-image,
+  /* Normal row: image left, text right */
+
+  .outreach-image {
+    padding-right: 2rem;
+  }
+
+  .outreach-text {
+    padding-left: 2rem;
+  }
+
+  /* Reversed row: text left, image right */
+
+  .outreach-reverse .outreach-image {
+    order: 2;
+    padding-right: 0;
+    padding-left: 2rem;
+  }
+
   .outreach-reverse .outreach-text {
-    order: initial;
+    order: 1;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 2rem;
   }
-
-  .outreach-reverse .outreach-text {
-    text-align: left;
-  }
-
-  .outreach-text h3 {
-    font-size: 28px;
-  }
-}
