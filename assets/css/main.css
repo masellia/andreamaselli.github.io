@@ -922,7 +922,7 @@ body {
   bottom: -8px;
 
   font-family: "DINBoldCond", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
@@ -982,14 +982,14 @@ body {
 
 .teaching-year {
   font-family: "DINLight", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #111111;
   margin-bottom: 0.25rem;
 }
 
 .teaching-course {
   font-family: "DINBoldCond", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #111111;
   margin-bottom: 0.25rem;
@@ -997,14 +997,14 @@ body {
 
 .teaching-info {
   font-family: "DINLight", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   color: #111111;
   margin-bottom: 0.25rem;
 }
 
 .teaching-details {
   font-family: "DINLight", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--accent);
   line-height: 1.35;
 }
@@ -1032,7 +1032,7 @@ body {
 .past-courses-title {
   margin-right: 1.7rem;
   font-family: "DINBoldCond", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
