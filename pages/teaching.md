@@ -165,24 +165,50 @@ permalink: /teaching/
   <section class="teaching-timeline phd-schools-timeline">
 
     <div class="teaching-entry teaching-left">
-      <div class="teaching-year">2025</div>
-      <div class="teaching-course">School Name</div>
-      <div class="teaching-info">Institution · Location</div>
-      <div class="teaching-details">Lecture topic / course title</div>
+      <div class="teaching-year"> Mar 2025 </div>
+      <div class="teaching-course">Theoretical aspects of Astroparticle physics, Cosmology and Gravitation</div>
+      <div class="teaching-info"> Galileo Galilei Institute, Florence, Italy </div>
+      <div class="teaching-details"> Lecture on Tidal effects in compact binaries </div>
     </div>
 
     <div class="teaching-entry teaching-right">
-      <div class="teaching-year">2024</div>
-      <div class="teaching-course">School Name</div>
-      <div class="teaching-info">Institution · Location</div>
-      <div class="teaching-details">Lecture topic / course title</div>
+      <div class="teaching-year"> Dec 2024 </div>
+      <div class="teaching-course">I Gravitas School on Fields and Gravity</div>
+      <div class="teaching-info"> Federal University of Pará, Salinópolis-Brazil </div>
+      <div class="teaching-details"> Lecture on Black hole perturbation theory
+</div>
     </div>
 
     <div class="teaching-entry teaching-left">
-      <div class="teaching-year">2023</div>
-      <div class="teaching-course">School Name</div>
-      <div class="teaching-info">Institution · Location</div>
-      <div class="teaching-details">Lecture topic / course title</div>
+      <div class="teaching-year"> Sep 2024 </div>
+      <div class="teaching-course">12th Aegean Summer school, recent developments in
+theory and observations in gravity and cosmology</div>
+      <div class="teaching-info"> Sifnos, Greece </div>
+      <div class="teaching-details">Lecture on Black hole spectroscopy beyond GR: theory and phenomenology</div>
+    </div>
+
+    <div class="teaching-entry teaching-right">
+      <div class="teaching-year"> Feb 2023 </div>
+      <div class="teaching-course">59th Winter school of Theoretical Physics</div>
+      <div class="teaching-info"> Pałac Wojanów, Poland </div>
+      <div class="teaching-details"> Lecture on Astrophysical black holes: theory and experiments</div>
+    </div>
+
+
+    <div class="teaching-entry teaching-left">
+      <div class="teaching-year"> Sep 2022 </div>
+      <div class="teaching-course">11th Aegean Summer school, recent developments in
+theory and observations in gravity and cosmology</div>
+      <div class="teaching-info"> Syros, Greece </div>
+      <div class="teaching-details"> Lecture on Environmental effects around EMRIs </div>
+    </div>
+
+    <div class="teaching-entry teaching-right">
+      <div class="teaching-year"> Mar 2019 </div>
+      <div class="teaching-course">Theoretical aspects of Astroparticle physics,
+Cosmology and Gravitation</div>
+      <div class="teaching-info"> Galileo Galilei Institute, Florence, Italy </div>
+      <div class="teaching-details">Exercise Gravitational Waves I-II</div>
     </div>
 
   </section>
