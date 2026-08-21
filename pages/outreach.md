@@ -39,7 +39,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/outreach-sidecar-fake.jpg' | relative_url }}"
+        src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
         alt="Sarà scienza o sarà fake?">
     </div>
 
@@ -64,7 +64,7 @@ permalink: /outreach/
   <div class="outreach-item outreach-reverse">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/outreach-sidecar-sapiens.jpg' | relative_url }}"
+        src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
         alt="La solitudine dell'Homo Sapiens">
     </div>
 
