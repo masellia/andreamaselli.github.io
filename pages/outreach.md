@@ -146,8 +146,11 @@ permalink: /outreach/
         An article for <em>Accastampato</em>, in Italian.
       </p>
 
-      <a class="outreach-link" href="YOUR-LINK-HERE" target="_blank" rel="noopener">
-        READ
+      <a class="outreach-link"
+       href="{{ '/assets/pdf/Accastampato09.pdf' | relative_url }}"
+       target="_blank"
+       rel="noopener">
+       READ
       </a>
     </div>
   </div>
