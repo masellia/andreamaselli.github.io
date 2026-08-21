@@ -112,28 +112,28 @@ permalink: /teaching/
         <div class="teaching-details"> MSc · Semester II </div>
       </div>
 
-      <div class="teaching-entry teaching-left past-teaching-entry">
+      <div class="teaching-entry teaching-right past-teaching-entry">
         <div class="teaching-year"> 2015 - 2017 </div>
         <div class="teaching-course"> Introduction to General Relativity [Assistant]</div>
         <div class="teaching-info"> Tübingen University </div>
         <div class="teaching-details"> BSc · Semester I </div>
       </div>
 
-      <div class="teaching-entry teaching-right past-teaching-entry">
+      <div class="teaching-entry teaching-left past-teaching-entry">
         <div class="teaching-year"> 2015 - 2016 </div>
         <div class="teaching-course"> Numerical methods for physics & astrophysics  [Assistant]</div>
         <div class="teaching-info"> Tübingen University </div>
         <div class="teaching-details"> BSc · Semester I </div>
       </div>
 
-      <div class="teaching-entry teaching-left past-teaching-entry">
+      <div class="teaching-entry teaching-right past-teaching-entry">
         <div class="teaching-year"> 2016 - 2017 </div>
         <div class="teaching-course"> Astronomy and Astrophysics [Assistant]</div>
         <div class="teaching-info"> Tübingen University </div>
         <div class="teaching-details"> BSc · Semester II </div>
       </div>
 
-      <div class="teaching-entry teaching-right past-teaching-entry">
+      <div class="teaching-entry teaching-left past-teaching-entry">
         <div class="teaching-year"> 2016 - 2017 </div>
         <div class="teaching-course"> Experimental course of applied physics [Assistant]</div>
         <div class="teaching-info"> Tübingen University </div>
