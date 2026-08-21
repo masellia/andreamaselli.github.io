@@ -166,8 +166,12 @@ permalink: /teaching/
 
     <div class="teaching-entry teaching-right">
       <div class="teaching-year"> Sep 2026 </div>
-      <div class="teaching-course">13th Aegean Summer school, recent developments in
-theory and observations in gravity and cosmology</div>
+      <div class="teaching-course">
+       <a href="https://www.physics.ntua.gr/cosmo26/Kasos2026/index.html" target="_blank" rel="noopener">
+         13th Aegean Summer school, recent developments in
+theory and observations in gravity and cosmology
+       </a>
+      </div>
       <div class="teaching-info"> Kasos, Greece </div>
       <div class="teaching-details">Lecture "Environmental effects and where to find them"</div>
     </div>
@@ -175,14 +179,22 @@ theory and observations in gravity and cosmology</div>
 
     <div class="teaching-entry teaching-left">
       <div class="teaching-year"> Mar 2025 </div>
-      <div class="teaching-course">Theoretical aspects of Astroparticle physics, Cosmology and Gravitation</div>
+      <div class="teaching-course">
+       <a href="https://agenda.infn.it/event/42906/overview" target="_blank" rel="noopener">
+         Theoretical aspects of Astroparticle physics, Cosmology and Gravitation
+       </a>
+      </div>
       <div class="teaching-info"> Galileo Galilei Institute, Florence, Italy </div>
       <div class="teaching-details"> Lecture on Tidal effects in compact binaries </div>
     </div>
 
     <div class="teaching-entry teaching-right">
       <div class="teaching-year"> Dec 2024 </div>
-      <div class="teaching-course">I Gravitas School on Fields and Gravity</div>
+      <div class="teaching-course">
+       <a href="https://igravschool.ufpa.br/home" target="_blank" rel="noopener">
+         I Gravitas School on Fields and Gravity
+       </a>
+      </div>
       <div class="teaching-info"> Federal University of Pará, Salinópolis-Brazil </div>
       <div class="teaching-details"> Lectures "Black hole perturbation theory"
 </div>
@@ -190,8 +202,12 @@ theory and observations in gravity and cosmology</div>
 
     <div class="teaching-entry teaching-left">
       <div class="teaching-year"> Sep 2024 </div>
-      <div class="teaching-course">12th Aegean Summer school, recent developments in
-theory and observations in gravity and cosmology</div>
+      <div class="teaching-course">
+       <a href="https://www.physics.ntua.gr/cosmo24/Sifnos2024/gen_info.html" target="_blank" rel="noopener">
+         12th Aegean Summer school, recent developments in
+theory and observations in gravity and cosmology
+       </a>
+      </div>
       <div class="teaching-info"> Sifnos, Greece </div>
       <div class="teaching-details">Lecture "Black hole spectroscopy beyond GR: theory and phenomenology"</div>
     </div>
