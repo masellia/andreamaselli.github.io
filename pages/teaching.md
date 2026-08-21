@@ -198,7 +198,11 @@ theory and observations in gravity and cosmology</div>
 
     <div class="teaching-entry teaching-right">
       <div class="teaching-year"> Feb 2023 </div>
-      <div class="teaching-course">59th Winter school of Theoretical Physics</div>
+      <div class="teaching-course">
+       <a href="https://indico.capa.unizar.es/event/30/page/71-lecturers" target="_blank" rel="noopener">
+         59th Winter school of Theoretical Physics
+       </a>
+      </div>
       <div class="teaching-info"> Pałac Wojanów, Poland </div>
       <div class="teaching-details"> Lectures "Astrophysical black holes: theory and experiments"</div>
     </div>
@@ -206,16 +210,24 @@ theory and observations in gravity and cosmology</div>
 
     <div class="teaching-entry teaching-left">
       <div class="teaching-year"> Sep 2022 </div>
-      <div class="teaching-course">11th Aegean Summer school, recent developments in
-theory and observations in gravity and cosmology</div>
+      <div class="teaching-course">
+       <a href="http://www.physics.ntua.gr/cosmo22/Syros2022/gen_info.html" target="_blank" rel="noopener">
+         11th Aegean Summer school, recent developments in
+theory and observations in gravity and cosmology
+       </a>
+      </div>
       <div class="teaching-info"> Syros, Greece </div>
       <div class="teaching-details"> Lecture "Environmental effects around EMRIs" </div>
     </div>
 
     <div class="teaching-entry teaching-right">
       <div class="teaching-year"> Mar 2019 </div>
-      <div class="teaching-course">Theoretical aspects of Astroparticle physics,
-Cosmology and Gravitation</div>
+      <div class="teaching-course">
+       <a href="https://agenda.infn.it/event/17246/" target="_blank" rel="noopener">
+         Theoretical aspects of Astroparticle physics,
+Cosmology and Gravitation
+       </a>
+      </div>
       <div class="teaching-info"> Galileo Galilei Institute, Florence, Italy </div>
       <div class="teaching-details">Exercise Lecture on Gravitational Waves I-II</div>
     </div>

@@ -20,6 +20,12 @@ permalink: /thesis/
 
 <section id="phd" class="thesis-timeline">
 
+  <div class="thesis-entry thesis-right">
+    <div class="thesis-year">2026-on</div>
+    <div class="thesis-student"> Nicole Grillo @ Gran Sasso Science Institute </div>
+    <div class="thesis-title">TBA</div>
+  </div>
+
   <div class="thesis-entry thesis-left">
     <div class="thesis-year">2025-on</div>
     <div class="thesis-student"> Akshita Mittal @ Gran Sasso Science Institute </div>
@@ -40,13 +46,13 @@ permalink: /thesis/
   </div>
 
   <div class="thesis-entry thesis-right">
-    <div class="thesis-year">2023-on</div>
+    <div class="thesis-year">2023-2026</div>
     <div class="thesis-student"> Sara Gliorio @ Gran Sasso Science Institute </div>
     <div class="thesis-title"> Asymmetric Binaries as fundamental physics probes</div>
   </div>
 
   <div class="thesis-entry thesis-left">
-    <div class="thesis-year">2022-on</div>
+    <div class="thesis-year">2022-2025</div>
     <div class="thesis-student"> Anjali Kugarajh @ Gran Sasso Science Institute </div>
     <div class="thesis-advisor">Co-advisors: S. Matarrese & A. Ricciardone </div>
     <div class="thesis-title">Scalar Induced GWs in the multimessenger era: from fundamental physics in the early universe to PBH evolution</div>
@@ -103,6 +109,12 @@ sources for future ground and space based interferometers </div>
   </div>
 
   <section class="thesis-timeline master-timeline">
+
+    <div class="thesis-entry thesis-right master-entry">
+      <div class="thesis-year">2026</div>
+      <div class="thesis-student">Giovanni Benetti @ University of Padova</div>
+      <div class="thesis-title">TBA</div>
+    </div>
 
     <div class="thesis-entry thesis-left master-entry">
       <div class="thesis-year">2025-2026</div>
