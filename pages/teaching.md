@@ -211,6 +211,21 @@ Cosmology and Gravitation</div>
       <div class="teaching-details">Exercise Gravitational Waves I-II</div>
     </div>
 
+    <div class="teaching-entry teaching-left">
+      <div class="teaching-year"> Sep 2018 </div>
+      <div class="teaching-course"> 9th School of Astrophysics and Gravitation EAG9 </div>
+      <div class="teaching-info"> Instituto Superior Tecnico, Lisbon, Portugal </div>
+      <div class="teaching-details"> Lecture on Compact Objects </div>
+    </div>
+
+    <div class="teaching-entry teaching-right">
+      <div class="teaching-year"> Aug 2018 </div>
+      <div class="teaching-course"> Summer school on gravitational-wave astronomy </div>
+      <div class="teaching-info"> ICTS , Bangalore, India </div>
+      <div class="teaching-details"> Lecture on Exotic compact objects and their gravitational-wave signatures
+</div>
+    </div>
+
   </section>
 
 </section>
