@@ -1263,7 +1263,7 @@ body {
 
 .outreach-image img {
   display: block;
-  width: 100%;
+  width: 80%;
   height: auto;
   max-height: none;
   object-fit: contain;

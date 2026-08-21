@@ -39,7 +39,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/sidecarlogo.png' | https://www.youtube.com/watch?v=2MUrJoFW4uQ }}"
+        src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
         alt="Sarà scienza o sarà fake?">
     </div>
 
@@ -52,7 +52,7 @@ permalink: /outreach/
         An episode of the podcast <em>Sidecar</em>, in Italian.
       </p>
 
-      <a class="outreach-link" href="YOUR-LINK-HERE" target="_blank" rel="noopener">
+      <a class="outreach-link" href=" https://www.youtube.com/watch?v=2MUrJoFW4uQ" target="_blank" rel="noopener">
         LISTEN
       </a>
     </div>
