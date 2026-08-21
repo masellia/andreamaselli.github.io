@@ -1188,7 +1188,7 @@ body {
 
 .outreach-section {
   background: #ffffff;
-  padding: 2rem 0 10rem;
+  padding: 2rem 0 2rem;
 }
 
 .outreach-section-header {
@@ -1298,6 +1298,20 @@ body {
   object-fit: contain;
 }
 
+.outreach-image img.img-small {
+  width: 30%;
+  max-width: 300px;
+}
+
+.outreach-image img.img-medium {
+  width: 50%;
+  max-width: 400px;
+}
+
+.outreach-image img.img-large {
+  width: 65%;
+  max-width: 500px;
+}
 
 /* ===================================== */
 /* OUTREACH TEXT                         */

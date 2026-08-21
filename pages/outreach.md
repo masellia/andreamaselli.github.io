@@ -108,6 +108,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
+        class="class="outreach-img img-small"
         src="{{ '/assets/img/fertilising.png' | relative_url }}"
         alt="Fertilising Ideas">
     </div>
@@ -133,6 +134,7 @@ permalink: /outreach/
   <div class="outreach-item outreach-reverse">
     <div class="outreach-image">
       <img
+        class="class="outreach-img img-large"
         src="{{ '/assets/img/accastampato.png' | relative_url }}"
         alt="Non si sorpassa in tunnel">
     </div>
@@ -178,6 +180,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
+        class="class="outreach-img img-large"
         src="{{ '/assets/img/AmaldiRC.png' | relative_url }}"
         alt="Gravitational waves: a new window on the nature of gravity">
     </div>
