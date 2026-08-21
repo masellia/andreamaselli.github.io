@@ -1,28 +1,142 @@
 ---
-layout: page
+layout: section
 title: Teaching
-eyebrow: Courses and schools
-description: University courses, PhD lectures and schools.
 permalink: /teaching/
 ---
 
-## University courses
+<div class="page-header">
+  <div class="page-header-line"></div>
 
-### Gran Sasso Science Institute
+  <div class="page-header-title">
+    TEACHING
+  </div>
+</div>
 
-- Black Hole Perturbation Theory — Lecturer, PhD, 2023
-- Gravitation & Cosmology — Lecturer, PhD, 2021–2024
-- Physics of Compact Stars — Lecturer, PhD, 2022
-- Physics of Black Holes — Lecturer, PhD, 2023
+<div class="teaching-jump-links">
+  <a href="#university-courses">University Courses</a>
+  <a href="#phd-schools">PhD Schools</a>
+</div>
 
-### Sapienza University of Rome
 
-- Modelli e Metodi matematici della Fisica — Lecturer, BSc, 2019/2020
-- Relativistic Perturbations of Compact Objects — Lecturer, PhD, 2020
+<!-- ===================================== -->
+<!-- UNIVERSITY COURSES                    -->
+<!-- ===================================== -->
 
-### Tübingen University
+<section id="university-courses" class="teaching-section">
 
-- Black Hole Physics — Lecturer, MSc, 2017
-- Introduction to General Relativity — Assistant, BSc, 2015–2017
-- Numerical Methods for Physics & Astrophysics — Assistant, BSc, 2015–2016
-- Astronomy and Astrophysics — Assistant, BSc, 2016–2017
+  <div class="teaching-section-header">
+    <div class="teaching-section-line"></div>
+
+    <div class="teaching-section-title">
+      UNIVERSITY<br>COURSES
+    </div>
+  </div>
+
+
+  <!-- CURRENT COURSES -->
+
+  <div class="teaching-subtitle">
+    CURRENT COURSES
+  </div>
+
+  <section class="teaching-timeline">
+
+    <div class="teaching-entry teaching-left">
+      <div class="teaching-year">2025–2026</div>
+      <div class="teaching-course">Course Title</div>
+      <div class="teaching-info">Gran Sasso Science Institute</div>
+      <div class="teaching-details">PhD Course · Semester I</div>
+    </div>
+
+    <div class="teaching-entry teaching-right">
+      <div class="teaching-year">2025–2026</div>
+      <div class="teaching-course">Course Title</div>
+      <div class="teaching-info">Gran Sasso Science Institute</div>
+      <div class="teaching-details">MSc / PhD Course · Semester II</div>
+    </div>
+
+  </section>
+
+
+  <!-- PAST COURSES -->
+
+  <section class="past-courses-section">
+
+    <div class="past-courses-header">
+      <div class="past-courses-title">
+        PAST COURSES
+      </div>
+
+      <div class="past-courses-line"></div>
+    </div>
+
+    <section class="teaching-timeline past-teaching-timeline">
+
+      <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year">2024–2025</div>
+        <div class="teaching-course">Course Title</div>
+        <div class="teaching-info">Gran Sasso Science Institute</div>
+        <div class="teaching-details">PhD Course</div>
+      </div>
+
+      <div class="teaching-entry teaching-right past-teaching-entry">
+        <div class="teaching-year">2023–2024</div>
+        <div class="teaching-course">Course Title</div>
+        <div class="teaching-info">Sapienza University of Rome</div>
+        <div class="teaching-details">Master Course</div>
+      </div>
+
+      <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year">2022–2023</div>
+        <div class="teaching-course">Course Title</div>
+        <div class="teaching-info">Sapienza University of Rome</div>
+        <div class="teaching-details">Bachelor / Master Course</div>
+      </div>
+
+    </section>
+
+  </section>
+
+</section>
+
+
+<!-- ===================================== -->
+<!-- PHD SCHOOLS                           -->
+<!-- ===================================== -->
+
+<section id="phd-schools" class="phd-schools-section">
+
+  <div class="phd-schools-header">
+    <div class="phd-schools-line"></div>
+
+    <div class="phd-schools-title">
+      PHD SCHOOLS
+    </div>
+  </div>
+
+  <section class="teaching-timeline phd-schools-timeline">
+
+    <div class="teaching-entry teaching-left">
+      <div class="teaching-year">2025</div>
+      <div class="teaching-course">School Name</div>
+      <div class="teaching-info">Institution · Location</div>
+      <div class="teaching-details">Lecture topic / course title</div>
+    </div>
+
+    <div class="teaching-entry teaching-right">
+      <div class="teaching-year">2024</div>
+      <div class="teaching-course">School Name</div>
+      <div class="teaching-info">Institution · Location</div>
+      <div class="teaching-details">Lecture topic / course title</div>
+    </div>
+
+    <div class="teaching-entry teaching-left">
+      <div class="teaching-year">2023</div>
+      <div class="teaching-course">School Name</div>
+      <div class="teaching-info">Institution · Location</div>
+      <div class="teaching-details">Lecture topic / course title</div>
+    </div>
+
+  </section>
+
+</section>
