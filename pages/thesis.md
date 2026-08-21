@@ -261,6 +261,12 @@ A data-analysis framework
 
   <section class="thesis-timeline bachelor-timeline">
 
+    <div class="thesis-entry thesis-right bachelor-entry">
+      <div class="thesis-year">2026-2027</div>
+      <div class="thesis-student"> Charlotte Rizo-Crastes Radulea @ Gran Sasso Science Institute </div>
+      <div class="thesis-advisor">Internship form École normale supérieure Paris-Saclay</div>
+    </div>
+
     <div class="thesis-entry thesis-left bachelor-entry">
       <div class="thesis-year">2025</div>
       <div class="thesis-student"> Albert Radulea @ Gran Sasso Science Institute </div>
