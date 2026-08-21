@@ -1261,13 +1261,22 @@ body {
 
 /* Images */
 
+/* Normal row: image in LEFT column, pushed toward centre */
+
+.outreach-image {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .outreach-image img {
   display: block;
-  width: 50%;
+  width: 70%;
   max-width: 400px;
   height: auto;
   object-fit: contain;
 }
+
 
 /* Text */
 
@@ -1360,6 +1369,7 @@ body {
     order: 2;
     padding-right: 0;
     padding-left: 2rem;
+    justify-content: flex-start;
   }
 
   .outreach-reverse .outreach-text {
