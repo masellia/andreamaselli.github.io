@@ -39,6 +39,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
+        class="outreach-img img-medium"
         src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
         alt="Sarà scienza o sarà fake?">
     </div>
@@ -64,6 +65,7 @@ permalink: /outreach/
   <div class="outreach-item outreach-reverse">
     <div class="outreach-image">
       <img
+        class="outreach-img img-medium"
         src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
         alt="La solitudine dell'Homo Sapiens">
     </div>
@@ -180,7 +182,7 @@ permalink: /outreach/
   <div class="outreach-item">
     <div class="outreach-image">
       <img
-        class="outreach-img img-large"
+        class="outreach-img img-medium"
         src="{{ '/assets/img/AmaldiRC.png' | relative_url }}"
         alt="Gravitational waves: a new window on the nature of gravity">
     </div>
