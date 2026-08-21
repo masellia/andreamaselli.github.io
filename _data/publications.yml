@@ -1,5 +1,18 @@
 - year: 2026
   papers:
+  - title: The significance of first post-adiabatic contributions for scalar charge measurements with intermediate and extreme mass ratio inspirals
+    authors: S. Barsanti, O. Burke, A. Maselli, T. P. Sotiriou, A. Spiers, N. Warburton
+    arxiv: '2607.09310'
+    bibtex: |
+      @article{Barsanti:2026ulr,
+          author = "Barsanti, Susanna and Burke, Ollie and Maselli, Andrea and Sotiriou, Thomas P. and Spiers, Andrew and Warburton, Niels",
+          title = "{The significance of first post-adiabatic contributions for scalar charge measurements with intermediate and extreme mass ratio inspirals}",
+          eprint = "2607.09310",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          month = "7",
+          year = "2026"
+      }
   - title: Orbital evolution of asymmetric binaries within accreting environments
     authors: A. Radulea, M. E. Rubio, K. Kritos, A. Maselli
     arxiv: '2606.18341'
