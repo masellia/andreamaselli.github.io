@@ -133,7 +133,7 @@ permalink: /outreach/
   <div class="outreach-item outreach-reverse">
     <div class="outreach-image">
       <img
-        src="{{ '/assets/img/outreach-tunnel.jpg' | relative_url }}"
+        src="{{ '/assets/img/accastampato.png' | relative_url }}"
         alt="Non si sorpassa in tunnel">
     </div>
 
