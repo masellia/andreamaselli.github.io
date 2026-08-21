@@ -28,16 +28,13 @@ permalink: /teaching/
     <div class="teaching-section-line"></div>
 
     <div class="teaching-section-title">
-      UNIVERSITY<br>COURSES
+      UNIVERSITY<br>COURSES:<br>Current
     </div>
   </div>
 
 
   <!-- CURRENT COURSES -->
 
-  <div class="teaching-subtitle">
-    CURRENT COURSES
-  </div>
 
   <section class="teaching-timeline">
 
@@ -64,7 +61,7 @@ permalink: /teaching/
 
     <div class="past-courses-header">
       <div class="past-courses-title">
-        PAST COURSES
+        UNIVERSITY<br>COURSES:<br>Past
       </div>
 
       <div class="past-courses-line"></div>
