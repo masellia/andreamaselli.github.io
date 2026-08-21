@@ -1241,12 +1241,11 @@ body {
 /* ===================================== */
 
 .outreach-item {
-  width: min(1000px, 86vw);
+  width: 100%;
   margin: 0 auto 6rem;
 
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 4rem;
+  grid-template-columns: 50% 50%;
   align-items: center;
 }
 
@@ -1266,8 +1265,8 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 420px;
-  object-fit: cover;
+  max-height: none;
+  object-fit: contain;
 }
 
 
