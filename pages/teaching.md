@@ -90,6 +90,57 @@ permalink: /teaching/
         <div class="teaching-details"> PhD Course · Semester II</div>
       </div>
 
+      <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year"> 2019 - 2020</div>
+        <div class="teaching-course"> Modelli e Metodi matematici della Fisica [Lecturer]</div>
+        <div class="teaching-info"> Sapienza University of Rome </div>
+        <div class="teaching-details"> MSc Course · Semester II </div>
+      </div>
+
+      <div class="teaching-entry teaching-right past-teaching-entry">
+        <div class="teaching-year"> 2020 </div>
+        <div class="teaching-course"> Relativistic perturbations of Compact Objects [Lecturer]</div>
+        <div class="teaching-info"> Sapienza University of Rome </div>
+        <div class="teaching-details"> PhD Course · Semester II </div>
+      </div>
+
+
+      <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year"> 2017 </div>
+        <div class="teaching-course"> Black Hole Physics [Lecturer]</div>
+        <div class="teaching-info"> Tübingen University </div>
+        <div class="teaching-details"> MSc · Semester II </div>
+      </div>
+
+      <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year"> 2015 - 2017 </div>
+        <div class="teaching-course"> Introduction to General Relativity [Assistant]</div>
+        <div class="teaching-info"> Tübingen University </div>
+        <div class="teaching-details"> BSc · Semester I </div>
+      </div>
+
+      <div class="teaching-entry teaching-right past-teaching-entry">
+        <div class="teaching-year"> 2015 - 2016 </div>
+        <div class="teaching-course"> Numerical methods for physics & astrophysics  [Assistant]</div>
+        <div class="teaching-info"> Tübingen University </div>
+        <div class="teaching-details"> BSc · Semester I </div>
+      </div>
+
+      <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year"> 2016 - 2017 </div>
+        <div class="teaching-course"> Astronomy and Astrophysics [Assistant]</div>
+        <div class="teaching-info"> Tübingen University </div>
+        <div class="teaching-details"> BSc · Semester II </div>
+      </div>
+
+      <div class="teaching-entry teaching-right past-teaching-entry">
+        <div class="teaching-year"> 2016 - 2017 </div>
+        <div class="teaching-course"> Experimental course of applied physics [Assistant]</div>
+        <div class="teaching-info"> Tübingen University </div>
+        <div class="teaching-details"> BSc · Semester II </div>
+      </div>
+
+
     </section>
 
   </section>
