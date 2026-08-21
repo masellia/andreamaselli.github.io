@@ -1271,7 +1271,7 @@ body {
 
 .outreach-image img {
   display: block;
-  width: 70%;
+  width: 50%;
   max-width: 400px;
   height: auto;
   object-fit: contain;
