@@ -28,7 +28,7 @@ permalink: /teaching/
     <div class="teaching-section-line"></div>
 
     <div class="teaching-section-title">
-      UNIVERSITY<br>COURSES:<br>Current
+      UNIVERSITY COURSES: Current
     </div>
   </div>
 
@@ -40,7 +40,7 @@ permalink: /teaching/
 
     <div class="teaching-entry teaching-left">
       <div class="teaching-year">2026–on</div>
-      <div class="teaching-course">The Dynamics of Asymmetric Binaries</div>
+      <div class="teaching-course">The Dynamics of Asymmetric Binaries [Lecturer]</div>
       <div class="teaching-info">Gran Sasso Science Institute</div>
       <div class="teaching-details">PhD Course · Semester II</div>
     </div>
@@ -54,7 +54,7 @@ permalink: /teaching/
 
     <div class="past-courses-header">
       <div class="past-courses-title">
-        UNIVERSITY<br>COURSES:<br>Past
+        UNIVERSITY COURSES: Past
       </div>
 
       <div class="past-courses-line"></div>
@@ -63,24 +63,31 @@ permalink: /teaching/
     <section class="teaching-timeline past-teaching-timeline">
 
       <div class="teaching-entry teaching-left past-teaching-entry">
-        <div class="teaching-year">2024–2025</div>
-        <div class="teaching-course">Course Title</div>
+        <div class="teaching-year">2023</div>
+        <div class="teaching-course"> Black Hole Perturbation Theory [Lecturer] </div>
         <div class="teaching-info">Gran Sasso Science Institute</div>
-        <div class="teaching-details">PhD Course</div>
+        <div class="teaching-details">PhD Course · Semester II</div>
       </div>
 
       <div class="teaching-entry teaching-right past-teaching-entry">
-        <div class="teaching-year">2023–2024</div>
-        <div class="teaching-course">Course Title</div>
-        <div class="teaching-info">Sapienza University of Rome</div>
-        <div class="teaching-details">Master Course</div>
+        <div class="teaching-year"> 2021 - 2024 </div>
+        <div class="teaching-course"> Gravitation & Cosmology [Lecturer]</div>
+        <div class="teaching-info"> Gran Sasso Science Institute </div>
+        <div class="teaching-details"> PhD Course · Semester I</div>
       </div>
 
       <div class="teaching-entry teaching-left past-teaching-entry">
+        <div class="teaching-year">2022</div>
+        <div class="teaching-course"> Physics of Compact Stars [Lecturer]</div>
+        <div class="teaching-info"> Gran Sasso Science Institute </div>
+        <div class="teaching-details"> PhD Course · Semester II </div>
+      </div>
+
+      <div class="teaching-entry teaching-right past-teaching-entry">
         <div class="teaching-year">2022–2023</div>
-        <div class="teaching-course">Course Title</div>
-        <div class="teaching-info">Sapienza University of Rome</div>
-        <div class="teaching-details">Bachelor / Master Course</div>
+        <div class="teaching-course"> Physics of Black Holes [Lecturer]</div>
+        <div class="teaching-info"> Gran Sasso Science Institute </div>
+        <div class="teaching-details"> PhD Course · Semester II</div>
       </div>
 
     </section>
