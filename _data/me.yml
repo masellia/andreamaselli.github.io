@@ -1,16 +1,31 @@
-# Add eight travel images using this format:
-# travel:
-#   - image: /assets/img/me/iran.jpg
-#     alt: A descriptive alternative text
-#     caption: Iran, 2018
-travel: []
+# Add image paths, alternative text, and captions to these eight travel slots.
+travel:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
+  - image:
+    alt:
+    caption:
 
-# Add an image path to display media beside either story.
-kung_fu:
-  image:
-  alt:
-  caption:
-
+# Add an image path and caption for the Any Given Sunday section.
 packers:
   image:
   alt:
