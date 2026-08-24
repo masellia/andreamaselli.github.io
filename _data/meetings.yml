@@ -3,7 +3,6 @@
   title: 2027 LISA Consortium Meeting
   details: "Gran Sasso Science Institute, L’Aquila (IT)."
   role: Organizing Committee
-#  poster: /assets/pdf/lgwa-workshop-2025.pdf
 
 - date: 9–20 Nov 2026
   title: Theory Meets Experiments School
@@ -19,6 +18,7 @@
   title: "Crossroads in Strong Gravity: Challenges & Future Directions"
   details: "Catania (IT)."
   role: Organizing and Scientific Committee
+  poster: /assets/pdf/CrosSG25.pdf
 
 - date: 15–19 Sep 2025
   title: LGWA Workshop
