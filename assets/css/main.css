@@ -1630,8 +1630,13 @@ body {
 
 .talks-section-dark {
   margin: 0 0 -1rem;
-  padding-top: 6rem;
+  padding-top: 0;
   background: rgba(44, 44, 44, 0.97);
+}
+
+.talks-section-dark .talks-section-header {
+  margin-bottom: 0.375rem;
+  transform: translateY(-50px);
 }
 
 .talks-section-dark .talks-section-heading h2,
