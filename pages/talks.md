@@ -14,10 +14,6 @@ permalink: /talks/
   <a href="#contributed">Contributed</a>
 </div>
 
-<p class="talks-intro">
-  A chronological archive of invited seminars and talks, and contributed presentations at conferences and workshops.
-</p>
-
 <section id="invited" class="talks-section">
   <header class="talks-section-header talks-section-header-right">
     <div class="talks-section-line"></div>
@@ -68,4 +64,26 @@ permalink: /talks/
       </article>
     {% endfor %}
   </div>
+</section>
+
+<section class="talks-map-section">
+  <header class="talks-map-header">
+    <div class="talks-map-line"></div>
+    <h2>Where I Spoke</h2>
+  </header>
+
+  <div class="talks-map">
+    <iframe
+      src="https://www.google.com/maps/d/u/0/embed?mid=1_nfRlZlS8TxrF-kj-RTmhKskPXSFDT8&amp;ehbc=2E312F"
+      title="Map of places where Andrea Maselli has given talks"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <p class="talks-map-link">
+    <a href="https://www.google.com/maps/d/viewer?mid=1_nfRlZlS8TxrF-kj-RTmhKskPXSFDT8" target="_blank" rel="noopener noreferrer">
+      Open the map in Google Maps
+    </a>
+  </p>
 </section>

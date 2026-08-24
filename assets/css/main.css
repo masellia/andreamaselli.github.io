@@ -1503,7 +1503,6 @@ body {
   color: white;
 }
 
-.talks-intro,
 .meetings-placeholder {
   width: min(760px, 86vw);
   margin: 0 auto 5rem;
@@ -1629,7 +1628,7 @@ body {
 }
 
 .talks-section-dark {
-  margin: 0 0 -1rem;
+  margin: 0;
   padding-top: 0;
   background: rgba(44, 44, 44, 0.97);
 }
@@ -1652,6 +1651,65 @@ body {
 
 .talks-section-dark .talk-entry {
   border-bottom-color: #505050;
+}
+
+.talks-map-section {
+  padding: 5rem 7vw 6rem;
+  background: white;
+}
+
+.talks-map-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1.7rem;
+  margin-bottom: 3.5rem;
+}
+
+.talks-map-line {
+  width: 5px;
+  height: 110px;
+  background: var(--accent);
+}
+
+.talks-map-header h2 {
+  margin: 0 0 -7px;
+  color: #222222;
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.talks-map {
+  width: min(950px, 100%);
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  border: 1px solid #d8d8d8;
+}
+
+.talks-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.talks-map-link {
+  width: min(950px, 100%);
+  margin: 0.8rem auto 0;
+  text-align: right;
+}
+
+.talks-map-link a {
+  color: var(--accent);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.talks-map-link a:hover {
+  color: #222222;
 }
 
 @media (max-width: 820px) {
@@ -1677,6 +1735,18 @@ body {
   .talks-section-heading p {
     font-size: 11px;
     line-height: 1.35;
+  }
+
+  .talks-map-section {
+    padding-top: 4rem;
+  }
+
+  .talks-map-header h2 {
+    font-size: 36px;
+  }
+
+  .talks-map {
+    aspect-ratio: 4 / 3;
   }
 
   .talk-entry {
