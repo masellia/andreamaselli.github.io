@@ -1519,41 +1519,52 @@ body {
 
 .talks-section-header {
   position: relative;
-  width: min(950px, 100%);
-  margin: 0 auto 2.5rem;
-  padding: 0 0 1.4rem 1.7rem;
-  border-left: 5px solid var(--accent);
-  border-bottom: 1px solid #d8d8d8;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto 3.5rem;
 }
 
-.talks-section-header p,
-.talks-section-header h2 {
+.talks-section-line {
+  position: absolute;
+  left: 50%;
+  width: 5px;
+  height: 150px;
+  background: var(--accent);
+  transform: translateX(-50%);
+}
+
+.talks-section-heading {
+  position: absolute;
+  bottom: -7px;
+}
+
+.talks-section-header-right .talks-section-heading {
+  left: calc(50% + 1.7rem);
+  text-align: left;
+}
+
+.talks-section-header-left .talks-section-heading {
+  right: calc(50% + 1.7rem);
+  text-align: right;
+}
+
+.talks-section-heading p,
+.talks-section-heading h2 {
   margin: 0;
 }
 
-.talks-section-header p {
+.talks-section-heading p {
   color: #777777;
   font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.talks-section-header h2 {
+.talks-section-heading h2 {
   font-family: "DINBoldCond", sans-serif;
   font-size: 44px;
   font-weight: 400;
   line-height: 1.05;
-  text-transform: uppercase;
-}
-
-.talks-section-header > span {
-  position: absolute;
-  right: 0;
-  bottom: 1.4rem;
-  color: #777777;
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .talks-list {
@@ -1623,18 +1634,13 @@ body {
   background: rgba(44, 44, 44, 0.97);
 }
 
-.talks-section-dark .talks-section-header {
-  border-bottom-color: #606060;
-}
-
-.talks-section-dark .talks-section-header h2,
+.talks-section-dark .talks-section-heading h2,
 .talks-section-dark .talk-meta time,
 .talks-section-dark .talk-content h3 {
   color: white;
 }
 
-.talks-section-dark .talks-section-header p,
-.talks-section-dark .talks-section-header > span,
+.talks-section-dark .talks-section-heading p,
 .talks-section-dark .talk-content p {
   color: #c5c5c5;
 }
@@ -1655,10 +1661,17 @@ body {
     padding-left: 7vw;
   }
 
-  .talks-section-header > span {
-    position: static;
-    display: block;
-    margin-top: 0.4rem;
+  .talks-section-heading {
+    width: calc(50% - 1.7rem);
+  }
+
+  .talks-section-heading h2 {
+    font-size: 36px;
+  }
+
+  .talks-section-heading p {
+    font-size: 11px;
+    line-height: 1.35;
   }
 
   .talk-entry {

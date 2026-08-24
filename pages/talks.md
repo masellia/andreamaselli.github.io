@@ -19,10 +19,12 @@ permalink: /talks/
 </p>
 
 <section id="invited" class="talks-section">
-  <header class="talks-section-header">
-    <p>Seminars and talks</p>
-    <h2>Invited</h2>
-    <span>{{ site.data.talks.invited | size }} entries</span>
+  <header class="talks-section-header talks-section-header-right">
+    <div class="talks-section-line"></div>
+    <div class="talks-section-heading">
+      <p>Seminars and talks</p>
+      <h2>Invited</h2>
+    </div>
   </header>
 
   <div class="talks-list">
@@ -30,7 +32,7 @@ permalink: /talks/
       <article class="talk-entry">
         <div class="talk-meta">
           <time>{{ talk.date }}</time>
-          <span>[{{ talk.code }}]</span>
+          <span>[{{ talk.code | remove_first: 'I' }}]</span>
         </div>
         <div class="talk-content">
           <h3>{{ talk.title }}</h3>
@@ -43,10 +45,12 @@ permalink: /talks/
 </section>
 
 <section id="contributed" class="talks-section talks-section-dark">
-  <header class="talks-section-header">
-    <p>Conferences and workshops</p>
-    <h2>Contributed</h2>
-    <span>{{ site.data.talks.contributed | size }} entries</span>
+  <header class="talks-section-header talks-section-header-left">
+    <div class="talks-section-heading">
+      <p>Conferences and workshops</p>
+      <h2>Contributed</h2>
+    </div>
+    <div class="talks-section-line"></div>
   </header>
 
   <div class="talks-list">
@@ -54,7 +58,7 @@ permalink: /talks/
       <article class="talk-entry">
         <div class="talk-meta">
           <time>{{ talk.date }}</time>
-          <span>[{{ talk.code }}]</span>
+          <span>[{{ talk.code | remove_first: 'C' }}]</span>
         </div>
         <div class="talk-content">
           <h3>{{ talk.title }}</h3>
