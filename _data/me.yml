@@ -1,0 +1,17 @@
+# Add eight travel images using this format:
+# travel:
+#   - image: /assets/img/me/iran.jpg
+#     alt: A descriptive alternative text
+#     caption: Iran, 2018
+travel: []
+
+# Add an image path to display media beside either story.
+kung_fu:
+  image:
+  alt:
+  caption:
+
+packers:
+  image:
+  alt:
+  caption:
