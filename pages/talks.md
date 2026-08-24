@@ -80,10 +80,4 @@ permalink: /talks/
       referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
-
-  <p class="talks-map-link">
-    <a href="https://www.google.com/maps/d/viewer?mid=1_nfRlZlS8TxrF-kj-RTmhKskPXSFDT8" target="_blank" rel="noopener noreferrer">
-      Open the map in Google Maps
-    </a>
-  </p>
 </section>
