@@ -1164,7 +1164,7 @@ body {
 
 .phd-schools-title {
   position: absolute;
-  right: calc(50% + 1.7rem);
+  left: calc(50% + 1.7rem);
   bottom: -7px;
 
   font-family: "DINBoldCond", sans-serif;
@@ -1174,7 +1174,7 @@ body {
   letter-spacing: 0.02em;
 
   color: #222222;
-  text-align: right;
+  text-align: left;
 }
 
 .phd-schools-timeline {
@@ -1977,6 +1977,14 @@ body {
 .me-section-copy a,
 .me-sunday-text a {
   color: var(--accent);
+  text-decoration: none;
+}
+
+.me-section-copy a:hover,
+.me-section-copy a:focus-visible,
+.me-sunday-text a:hover,
+.me-sunday-text a:focus-visible {
+  text-decoration: underline;
 }
 
 .me-gallery {
