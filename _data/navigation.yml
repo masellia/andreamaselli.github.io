@@ -2,6 +2,11 @@
   url: /
 - title: Research
   url: /research/
+  children:
+    - title: Talks
+      url: /talks/
+    - title: Meetings
+      url: /meetings/
 - title: Publications
   url: /publications/
 - title: Teaching

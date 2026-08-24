@@ -4,15 +4,26 @@
 
   <nav class="site-nav">
     {% for item in site.data.navigation %}
-      {% if item.url contains 'http' %}
-        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
-          {{ item.title }}
-        </a>
-      {% else %}
-        <a href="{{ item.url | relative_url }}">
-          {{ item.title }}
-        </a>
-      {% endif %}
+      <div class="nav-item{% if item.children %} has-submenu{% endif %}">
+        {% if item.url contains 'http' %}
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            {{ item.title }}
+          </a>
+        {% else %}
+          <a href="{{ item.url | relative_url }}">
+            {{ item.title }}
+          </a>
+        {% endif %}
+
+        {% if item.children %}
+          <button class="submenu-toggle" type="button" aria-label="Show {{ item.title }} submenu">⌄</button>
+          <div class="nav-submenu">
+            {% for child in item.children %}
+              <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
     {% endfor %}
   </nav>
 </header>

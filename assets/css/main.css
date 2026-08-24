@@ -58,6 +58,7 @@ body {
 
 .site-nav {
   display: flex;
+  align-items: center;
   gap: 1.5rem;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -66,13 +67,14 @@ body {
   font-weight: 300;
 }
 
-.site-nav a {
+.site-nav a,
+.submenu-toggle {
   color: white;
   text-decoration: none;
   position: relative;
 }
 
-.site-nav a::after {
+.site-nav > .nav-item > a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -83,8 +85,64 @@ body {
   transition: width 0.2s ease;
 }
 
-.site-nav a:hover::after {
+.site-nav > .nav-item > a:hover::after {
   width: 100%;
+}
+
+.nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.submenu-toggle {
+  border: 0;
+  padding: 0 0 0 0.25rem;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.nav-submenu {
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 50%;
+  min-width: 130px;
+  padding: 0.45rem 0;
+  background: rgba(44, 44, 44, 0.98);
+  border-top: 2px solid var(--accent);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, -0.35rem);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+}
+
+.nav-submenu::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  height: 0.8rem;
+}
+
+.nav-submenu a {
+  display: block;
+  padding: 0.45rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-submenu a:hover,
+.nav-submenu a:focus-visible {
+  color: var(--accent);
+}
+
+.has-submenu:hover .nav-submenu,
+.has-submenu:focus-within .nav-submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
 }
 
 
@@ -1419,5 +1477,200 @@ body {
 
   .outreach-text h3 {
     font-size: 28px;
+  }
+}
+
+/* ===================================== */
+/* TALKS PAGE                            */
+/* ===================================== */
+
+.talks-jump-links {
+  display: flex;
+  gap: 1rem;
+  margin: -2rem 0 2.5rem calc(50% + 1.7rem);
+}
+
+.talks-jump-links a {
+  padding: 0.25rem 0.7rem;
+  border: 1px solid rgb(44, 44, 44);
+  color: rgb(44, 44, 44);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.talks-jump-links a:hover {
+  background: rgb(44, 44, 44);
+  color: white;
+}
+
+.talks-intro,
+.meetings-placeholder {
+  width: min(760px, 86vw);
+  margin: 0 auto 5rem;
+  color: #555555;
+  font-size: 17px;
+  text-align: center;
+}
+
+.talks-section {
+  padding: 0 7vw 6rem;
+  scroll-margin-top: 70px;
+}
+
+.talks-section-header {
+  position: relative;
+  width: min(950px, 100%);
+  margin: 0 auto 2.5rem;
+  padding: 0 0 1.4rem 1.7rem;
+  border-left: 5px solid var(--accent);
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.talks-section-header p,
+.talks-section-header h2 {
+  margin: 0;
+}
+
+.talks-section-header p {
+  color: #777777;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.talks-section-header h2 {
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.talks-section-header > span {
+  position: absolute;
+  right: 0;
+  bottom: 1.4rem;
+  color: #777777;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.talks-list {
+  width: min(950px, 100%);
+  margin: 0 auto;
+}
+
+.talk-entry {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  gap: 1.7rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.talk-meta {
+  padding-top: 0.2rem;
+  text-align: right;
+}
+
+.talk-meta time,
+.talk-meta span {
+  display: block;
+}
+
+.talk-meta time {
+  color: #222222;
+  font-size: 15px;
+}
+
+.talk-meta span {
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.talk-content h3 {
+  margin: 0 0 0.25rem;
+  color: #222222;
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.talk-content p {
+  margin: 0;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.talk-note {
+  display: inline-block;
+  margin-top: 0.55rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.talks-section-dark {
+  margin: 0 0 -1rem;
+  padding-top: 6rem;
+  background: rgba(44, 44, 44, 0.97);
+}
+
+.talks-section-dark .talks-section-header {
+  border-bottom-color: #606060;
+}
+
+.talks-section-dark .talks-section-header h2,
+.talks-section-dark .talk-meta time,
+.talks-section-dark .talk-content h3 {
+  color: white;
+}
+
+.talks-section-dark .talks-section-header p,
+.talks-section-dark .talks-section-header > span,
+.talks-section-dark .talk-content p {
+  color: #c5c5c5;
+}
+
+.talks-section-dark .talk-entry {
+  border-bottom-color: #505050;
+}
+
+@media (max-width: 820px) {
+  .talks-jump-links {
+    margin-right: 7vw;
+    margin-left: 7vw;
+    flex-wrap: wrap;
+  }
+
+  .talks-section {
+    padding-right: 7vw;
+    padding-left: 7vw;
+  }
+
+  .talks-section-header > span {
+    position: static;
+    display: block;
+    margin-top: 0.4rem;
+  }
+
+  .talk-entry {
+    grid-template-columns: 82px 1fr;
+    gap: 1rem;
+  }
+
+  .talk-meta {
+    text-align: left;
+  }
+
+  .talk-content h3 {
+    font-size: 21px;
   }
 }
