@@ -29,7 +29,7 @@ permalink: /outreach/
     <div class="outreach-section-line"></div>
 
     <div class="outreach-section-title">
-      PODCASTS<br>& AUDIO
+      Podcasts<br>& Audio
     </div>
   </div>
 
@@ -97,7 +97,7 @@ permalink: /outreach/
   <div class="outreach-section-header outreach-section-header-left">
 
     <div class="outreach-section-title outreach-title-left">
-      WRITING
+      Writing
     </div>
 
     <div class="outreach-section-line"></div>
@@ -172,7 +172,7 @@ permalink: /outreach/
     <div class="outreach-section-line"></div>
 
     <div class="outreach-section-title">
-      PUBLIC EVENTS<br>& VIDEO
+      Public Events<br>& Video
     </div>
   </div>
 
