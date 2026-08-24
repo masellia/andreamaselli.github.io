@@ -1,6 +1,6 @@
 ---
 layout: section
-title: PhD Thesis
+title: Thesis
 permalink: /thesis/
 ---
 
@@ -8,17 +8,24 @@ permalink: /thesis/
   <div class="page-header-line"></div>
 
   <div class="page-header-title">
-    PhD THESIS
+    THESIS
   </div>
 </div>
 
 <div class="thesis-jump-links">
-  <a href="#phd">PhD</a>
-  <a href="#master">Master</a>
+  <a href="#phd">PhD Thesis</a>
+  <a href="#master">Master Thesis</a>
   <a href="#bachelor">Bachelors & Internships</a>
 </div>
 
-<section id="phd" class="thesis-timeline">
+<section id="phd" class="phd-thesis-section">
+
+  <div class="thesis-section-header thesis-section-header-right">
+    <div class="thesis-section-line"></div>
+    <div class="thesis-section-heading">PhD Thesis</div>
+  </div>
+
+  <section class="thesis-timeline phd-timeline">
 
   <div class="thesis-entry thesis-right">
     <div class="thesis-year">2026-on</div>
@@ -97,15 +104,15 @@ sources for future ground and space based interferometers </div>
     <div class="thesis-title"> Constraining the equation of  state of neutron stars with astrophysical and GWs observations </div>
   </div>
 
+  </section>
+
 </section>
 
 <section id="master" class="master-thesis-section">
 
-  <div class="master-header">
-    <div class="master-header-title">
-      MASTER THESIS
-    </div>
-    <div class="master-header-line"></div>
+  <div class="thesis-section-header thesis-section-header-left thesis-section-header-overlap">
+    <div class="thesis-section-heading">Master Thesis</div>
+    <div class="thesis-section-line"></div>
   </div>
 
   <section class="thesis-timeline master-timeline">
@@ -252,11 +259,9 @@ A data-analysis framework
 
 <section id="bachelor" class="bachelor-thesis-section">
 
-  <div class="bachelor-header">
-    <div class="bachelor-header-title">
-      BACHELORS<br>AND INTERNSHIPS
-    </div>
-    <div class="bachelor-header-line"></div>
+  <div class="thesis-section-header thesis-section-header-right">
+    <div class="thesis-section-line"></div>
+    <div class="thesis-section-heading">Bachelors<br>& Internships</div>
   </div>
 
   <section class="thesis-timeline bachelor-timeline">
