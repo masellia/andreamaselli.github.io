@@ -19,7 +19,11 @@
           <button class="submenu-toggle" type="button" aria-label="Show {{ item.title }} submenu">⌄</button>
           <div class="nav-submenu">
             {% for child in item.children %}
-              <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+              {% if child.url contains 'http' %}
+                <a href="{{ child.url }}" target="_blank" rel="noopener noreferrer">{{ child.title }}</a>
+              {% else %}
+                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+              {% endif %}
             {% endfor %}
           </div>
         {% endif %}
