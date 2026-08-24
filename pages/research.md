@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: section
 title: Research
-eyebrow: General Relativity & Beyond
-description: Strong gravity, compact objects, gravitational waves and tests of gravity.
 permalink: /research/
 ---
 
