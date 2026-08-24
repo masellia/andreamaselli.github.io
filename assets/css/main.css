@@ -1526,14 +1526,6 @@ body {
   color: white;
 }
 
-.meetings-placeholder {
-  width: min(760px, 86vw);
-  margin: 0 auto 5rem;
-  color: #555555;
-  font-size: 17px;
-  text-align: center;
-}
-
 .talks-section {
   padding: 0 7vw 6rem;
   scroll-margin-top: 70px;
@@ -1775,6 +1767,131 @@ body {
   }
 
   .talk-content h3 {
+    font-size: 21px;
+  }
+}
+
+/* ===================================== */
+/* MEETINGS PAGE                         */
+/* ===================================== */
+
+.meetings-list-section {
+  padding: 0 7vw 7rem;
+}
+
+.meetings-list {
+  width: min(950px, 100%);
+  margin: 0 auto;
+}
+
+.meeting-entry {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.7rem;
+  align-items: center;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.meeting-entry.has-poster {
+  min-height: 260px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.meeting-poster {
+  grid-column: 1;
+  width: 150px;
+  justify-self: center;
+  text-align: center;
+}
+
+.meeting-poster iframe {
+  display: block;
+  width: 150px;
+  height: 210px;
+  border: 1px solid #d8d8d8;
+  background: #f5f5f5;
+}
+
+.meeting-poster a {
+  display: inline-block;
+  margin-top: 0.45rem;
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.meeting-poster a:hover {
+  color: #222222;
+}
+
+.meeting-content {
+  grid-column: 2;
+}
+
+.meeting-content time {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--accent);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.meeting-content h2 {
+  margin: 0 0 0.3rem;
+  color: #222222;
+  font-family: "DINBoldCond", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.meeting-content p {
+  margin: 0 0 0.35rem;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.meeting-content > span {
+  color: #444444;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 820px) {
+  .meetings-list-section {
+    padding-right: 7vw;
+    padding-left: 7vw;
+  }
+
+  .meeting-entry {
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+  }
+
+  .meeting-entry.has-poster {
+    min-height: 0;
+  }
+
+  .meeting-poster,
+  .meeting-content {
+    grid-column: 1;
+  }
+
+  .meeting-poster {
+    width: 180px;
+  }
+
+  .meeting-poster iframe {
+    width: 180px;
+    height: 240px;
+  }
+
+  .meeting-content h2 {
     font-size: 21px;
   }
 }
