@@ -89,7 +89,7 @@ I am interested in the theoretical modelling of these objects in General Relativ
     <ul class="research-collaboration-list">
       <li>
         <figure class="research-collaboration-media research-collaboration-media-loaded research-collaboration-media-lisa">
-          <img src="{{ '/assets/img/research/LISALOGO.jpg' | relative_url }}" alt="LISA logo" loading="lazy">
+          <img src="{{ '/assets/img/research/LISA_logo.jpg' | relative_url }}" alt="LISA logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
           <a href="https://www.lisamission.org/" target="_blank" rel="noopener">LISA</a>
