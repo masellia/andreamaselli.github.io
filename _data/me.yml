@@ -1,32 +1,33 @@
 # Add image paths, alternative text, and captions to these eight travel slots.
 travel:
   - image: /assets/img/me%26Marti.jpg
-    alt: Andrea and Marti at Cloud Gate in Chicago
+    alt:
     caption:
   - image: /assets/img/sagoma.jpg
-    alt: Silhouette beneath a tiled arch in Iran
+    alt:
     caption:
   - image: /assets/img/lottatori.jpg
-    alt: Mongolian wrestlers preparing outdoors
+    alt:
     caption:
   - image: /assets/img/dragon_6.jpg
-    alt: Komodo dragon in a forest clearing
+    alt:
     caption:
   - image: /assets/img/caldera2.jpg
-    alt: Bathers in a natural volcanic pool in the Azores
+    alt:
     caption:
   - image: /assets/img/profilo3.jpg
-    alt: Child riding on an adult's shoulders
+    alt:
     caption:
   - image: /assets/img/Mamma.jpg
-    alt: Mother and child at a market in Mexico
+    alt:
     caption:
   - image: /assets/img/geisha2.jpg
-    alt: Two women in kimonos holding parasols in Japan
+    alt:
     caption:
 
 # Add an image path and caption for the Any Given Sunday section.
 packers:
-  image:
+  image: /assets/img/packers.jpg
   alt:
-  caption:
+  caption: my first Packers match in Washington against the Commanders
+
