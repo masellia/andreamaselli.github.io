@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
-<section class="page-hero compact">
-  <div>
-    <p class="eyebrow">{{ page.eyebrow }}</p>
-    <h1>{{ page.title }}</h1>
+<div class="page-header">
+  <div class="page-header-line"></div>
+  <div class="page-header-title">{{ page.title | upcase }}</div>
+</div>
+
+{% if page.eyebrow or page.description %}
+  <div class="page-intro">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
     {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
   </div>
-</section>
+{% endif %}
+
 <section class="content-wrap prose">
   {{ content }}
 </section>

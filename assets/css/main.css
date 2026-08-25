@@ -8,6 +8,18 @@
   --muted: #555555;
   --accent: #C99A22;
   --panel: rgba(255, 255, 255, 0.82);
+  --page-bar-height: 190px;
+  --page-title-size: 50px;
+  --section-bar-height: 150px;
+  --section-title-size: 44px;
+  --section-title-size-mobile: 36px;
+  --section-title-gap: 1.7rem;
+  --section-header-gap: 3.5rem;
+  --section-first-gap: 4.5rem;
+  --section-light-end-gap: 8rem;
+  --section-dark-end-gap: 6rem;
+  --section-next-top-gap: 7rem;
+  --section-overlap: 50px;
 }
 
 * {
@@ -304,6 +316,7 @@ body {
   .identity-text {
     max-width: 100%;
   }
+
 }
 
 
@@ -313,7 +326,7 @@ body {
 
 .bio-intro {
   background: #ffffff;
-  padding: 4rem 0 7rem;
+  padding: var(--section-first-gap) 0 7rem;
   color: #222222;
 }
 
@@ -341,20 +354,29 @@ body {
 }
 
 .bio-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 5px;
-  height: 190px;
+  height: var(--section-bar-height);
   background: var(--accent);
-  position: static;
+  transform: translateX(-50%);
 }
 
 .bio-title h2 {
-  margin: 0 0 0 1.7rem;
+  margin: 0 0 0 var(--section-title-gap);
   font-family: "DINBoldCond", sans-serif;
-  font-size: 50px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
   color: #222222;
+}
+
+@media (max-width: 820px) {
+  .bio-title h2 {
+    font-size: var(--section-title-size-mobile);
+  }
 }
 
 .bio-text-left,
@@ -657,30 +679,58 @@ body {
 /* ===================================== */
 
 .page-header {
-    position: relative;
-
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+  position: relative;
+  width: 100%;
+  height: var(--page-bar-height);
+  margin: 4rem 0;
 }
 
 .page-header-line {
-    position: absolute;
-    left: 50%;
-
-    width: 5px;
-    height: 190px;
-
-    background: var(--accent);
+  position: absolute;
+  left: 50%;
+  width: 5px;
+  height: var(--page-bar-height);
+  background: var(--accent);
+  transform: translateX(-50%);
 }
 
 .page-header-title {
-    margin-left: calc(50% + 1.7rem);
-    font-family: "DINBoldCond", sans-serif;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 1.05;
-    padding-top: 147px;
+  position: absolute;
+  bottom: -7px;
+  left: calc(50% + var(--section-title-gap));
+  font-family: "DINBoldCond", sans-serif;
+  font-size: var(--page-title-size);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.page-intro {
+  width: min(760px, 86vw);
+  margin: -1rem auto 4rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.page-intro .eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--accent);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page-intro .lead {
+  margin: 0;
+  font-size: 17px;
+}
+
+@media (max-width: 820px) {
+  .page-header-title {
+    width: calc(50% - var(--section-title-gap));
+    font-size: 40px;
+  }
 }
 
 /* ===================================== */
@@ -765,9 +815,9 @@ body {
 }
 
 .thesis-jump-links {
-  margin-left: calc(50% + 1.7rem);
+  margin-left: calc(50% + var(--section-title-gap));
   margin-top: -2rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: var(--section-first-gap);
 
   display: flex;
   gap: 1rem;
@@ -788,22 +838,22 @@ body {
 }
 
 .phd-thesis-section {
-  padding-bottom: 8rem;
+  padding-bottom: var(--section-light-end-gap);
   scroll-margin-top: 70px;
 }
 
 .thesis-section-header {
   position: relative;
   width: 100%;
-  height: 150px;
-  margin-bottom: 3.5rem;
+  height: var(--section-bar-height);
+  margin-bottom: var(--section-header-gap);
 }
 
 .thesis-section-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
@@ -812,27 +862,27 @@ body {
   position: absolute;
   bottom: -7px;
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
 }
 
 .thesis-section-header-right .thesis-section-heading {
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   color: #222222;
   text-align: left;
 }
 
 .thesis-section-header-left .thesis-section-heading {
-  right: calc(50% + 1.7rem);
+  right: calc(50% + var(--section-title-gap));
   color: white;
   text-align: right;
 }
 
 .thesis-section-header-overlap {
   margin-bottom: 0.375rem;
-  transform: translateY(-50px);
+  transform: translateY(calc(0px - var(--section-overlap)));
 }
 
 .phd-timeline {
@@ -841,8 +891,8 @@ body {
 
 @media (max-width: 820px) {
   .thesis-section-heading {
-    width: calc(50% - 1.7rem);
-    font-size: 36px;
+    width: calc(50% - var(--section-title-gap));
+    font-size: var(--section-title-size-mobile);
   }
 
   .thesis-jump-links {
@@ -866,7 +916,7 @@ body {
 
 .master-timeline {
   margin-bottom: 0;
-  padding-bottom: 6rem;
+  padding-bottom: var(--section-dark-end-gap);
 }
 
 .master-timeline::before {
@@ -895,7 +945,7 @@ body {
 
 .bachelor-thesis-section {
   background: #ffffff;
-  padding: 7rem 0 4rem;
+  padding: var(--section-next-top-gap) 0 4rem;
   margin-top: 0;
   scroll-margin-top: 70px;
 }
@@ -918,7 +968,7 @@ body {
 
 .master-timeline::before {
   bottom: auto;
-  height: 100%
+  height: 100%;
 }
 
 .bachelor-timeline::before {
@@ -932,9 +982,9 @@ body {
 /* ===================================== */
 
 .teaching-jump-links {
-  margin-left: calc(50% + 1.7rem);
+  margin-left: calc(50% + var(--section-title-gap));
   margin-top: -2rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: var(--section-first-gap);
 
   display: flex;
   gap: 1rem;
@@ -966,26 +1016,26 @@ body {
 .teaching-section-header {
   position: relative;
   width: 100%;
-  height: 150px;
-  margin-bottom: 3.5rem;
+  height: var(--section-bar-height);
+  margin-bottom: var(--section-header-gap);
 }
 
 .teaching-section-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
 
 .teaching-section-title {
   position: absolute;
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   bottom: -7px;
 
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
@@ -1080,23 +1130,23 @@ body {
 .past-courses-section {
   background: rgba(44,44,44,0.95);
   padding: 0;
-  margin-top: 8rem;
+  margin-top: var(--section-light-end-gap);
 }
 
 .past-courses-header {
   position: relative;
   width: 100%;
-  height: 150px;
+  height: var(--section-bar-height);
   margin-bottom: 0.375rem;
-  transform: translateY(-50px);
+  transform: translateY(calc(0px - var(--section-overlap)));
 }
 
 .past-courses-title {
   position: absolute;
-  right: calc(50% + 1.7rem);
+  right: calc(50% + var(--section-title-gap));
   bottom: -7px;
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
@@ -1108,14 +1158,14 @@ body {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
 
 .past-teaching-timeline {
   margin-bottom: 0;
-  padding-bottom: 6rem;
+  padding-bottom: var(--section-dark-end-gap);
 }
 
 .past-teaching-timeline::before {
@@ -1142,33 +1192,33 @@ body {
 
 .phd-schools-section {
   background: #ffffff;
-  padding: 7rem 0 4rem;
+  padding: var(--section-next-top-gap) 0 4rem;
   margin-top: 0;
 }
 
 .phd-schools-header {
   position: relative;
   width: 100%;
-  height: 150px;
-  margin-bottom: 3.5rem;
+  height: var(--section-bar-height);
+  margin-bottom: var(--section-header-gap);
 }
 
 .phd-schools-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
 
 .phd-schools-title {
   position: absolute;
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   bottom: -7px;
 
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
@@ -1208,8 +1258,8 @@ body {
   .teaching-section-title,
   .past-courses-title,
   .phd-schools-title {
-    width: calc(50% - 1.7rem);
-    font-size: 36px;
+    width: calc(50% - var(--section-title-gap));
+    font-size: var(--section-title-size-mobile);
   }
 
   .teaching-timeline::before {
@@ -1230,9 +1280,9 @@ body {
 /* ===================================== */
 
 .outreach-jump-links {
-  margin-left: calc(50% + 1.7rem);
+  margin-left: calc(50% + var(--section-title-gap));
   margin-top: -2rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: var(--section-first-gap);
 
   display: flex;
   gap: 1rem;
@@ -1265,26 +1315,26 @@ body {
 .outreach-section-header {
   position: relative;
   width: 100%;
-  height: 150px;
-  margin-bottom: 3.5rem;
+  height: var(--section-bar-height);
+  margin-bottom: var(--section-header-gap);
 }
 
 .outreach-section-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
 
 .outreach-section-title {
   position: absolute;
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   bottom: -7px;
 
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
@@ -1296,13 +1346,9 @@ body {
 
 /* Reversed section title */
 
-.outreach-section-header-left {
-  display: flex;
-}
-
 .outreach-title-left {
   left: auto;
-  right: calc(50% + 1.7rem);
+  right: calc(50% + var(--section-title-gap));
   text-align: right;
 }
 
@@ -1322,7 +1368,7 @@ body {
 
 #listen .outreach-item:last-child,
 #read .outreach-item:last-child {
-  margin-bottom: 8rem;
+  margin-bottom: var(--section-light-end-gap);
 }
 
 
@@ -1460,8 +1506,8 @@ body {
   }
 
   .outreach-section-title {
-    width: calc(50% - 1.7rem);
-    font-size: 36px;
+    width: calc(50% - var(--section-title-gap));
+    font-size: var(--section-title-size-mobile);
   }
 
   /* Switch from two columns to one */
@@ -1510,7 +1556,7 @@ body {
 .talks-jump-links {
   display: flex;
   gap: 1rem;
-  margin: -2rem 0 4.5rem calc(50% + 1.7rem);
+  margin: -2rem 0 var(--section-first-gap) calc(50% + var(--section-title-gap));
 }
 
 .talks-jump-links a {
@@ -1527,26 +1573,26 @@ body {
 }
 
 .talks-section {
-  padding: 0 7vw 6rem;
+  padding: 0 7vw var(--section-dark-end-gap);
   scroll-margin-top: 70px;
 }
 
 #invited {
-  padding-bottom: 8rem;
+  padding-bottom: var(--section-light-end-gap);
 }
 
 .talks-section-header {
   position: relative;
   width: 100%;
-  height: 150px;
-  margin: 0 auto 3.5rem;
+  height: var(--section-bar-height);
+  margin: 0 auto var(--section-header-gap);
 }
 
 .talks-section-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
@@ -1557,12 +1603,12 @@ body {
 }
 
 .talks-section-header-right .talks-section-heading {
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   text-align: left;
 }
 
 .talks-section-header-left .talks-section-heading {
-  right: calc(50% + 1.7rem);
+  right: calc(50% + var(--section-title-gap));
   text-align: right;
 }
 
@@ -1580,9 +1626,10 @@ body {
 
 .talks-section-heading h2 {
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
+  letter-spacing: 0.02em;
 }
 
 .talks-list {
@@ -1654,7 +1701,7 @@ body {
 
 .talks-section-dark .talks-section-header {
   margin-bottom: 0.375rem;
-  transform: translateY(-50px);
+  transform: translateY(calc(0px - var(--section-overlap)));
 }
 
 .talks-section-dark .talks-section-heading h2,
@@ -1673,22 +1720,22 @@ body {
 }
 
 .talks-map-section {
-  padding: 7rem 7vw 6rem;
+  padding: var(--section-next-top-gap) 7vw var(--section-dark-end-gap);
   background: white;
 }
 
 .talks-map-header {
   position: relative;
   width: 100%;
-  height: 110px;
-  margin-bottom: 3.5rem;
+  height: var(--section-bar-height);
+  margin-bottom: var(--section-header-gap);
 }
 
 .talks-map-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 110px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
@@ -1696,13 +1743,14 @@ body {
 .talks-map-header h2 {
   position: absolute;
   bottom: -7px;
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   margin: 0;
   color: #222222;
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
+  letter-spacing: 0.02em;
 }
 
 .talks-map {
@@ -1732,11 +1780,11 @@ body {
   }
 
   .talks-section-heading {
-    width: calc(50% - 1.7rem);
+    width: calc(50% - var(--section-title-gap));
   }
 
   .talks-section-heading h2 {
-    font-size: 36px;
+    font-size: var(--section-title-size-mobile);
   }
 
   .talks-section-heading p {
@@ -1745,12 +1793,12 @@ body {
   }
 
   .talks-map-section {
-    padding-top: 6rem;
+    padding-top: var(--section-next-top-gap);
   }
 
   .talks-map-header h2 {
-    width: calc(50% - 1.7rem);
-    font-size: 36px;
+    width: calc(50% - var(--section-title-gap));
+    font-size: var(--section-title-size-mobile);
   }
 
   .talks-map {
@@ -1907,22 +1955,22 @@ body {
 }
 
 .me-travel-section {
-  padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-top: var(--section-first-gap);
+  padding-bottom: var(--section-light-end-gap);
 }
 
 .me-section-header {
   position: relative;
   width: 100%;
-  height: 150px;
-  margin-bottom: 3.5rem;
+  height: var(--section-bar-height);
+  margin-bottom: var(--section-header-gap);
 }
 
 .me-section-line {
   position: absolute;
   left: 50%;
   width: 5px;
-  height: 150px;
+  height: var(--section-bar-height);
   background: var(--accent);
   transform: translateX(-50%);
 }
@@ -1932,31 +1980,31 @@ body {
   bottom: -7px;
   margin: 0;
   font-family: "DINBoldCond", sans-serif;
-  font-size: 44px;
+  font-size: var(--section-title-size);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: 0.02em;
 }
 
 .me-section-header-right h2 {
-  left: calc(50% + 1.7rem);
+  left: calc(50% + var(--section-title-gap));
   color: #222222;
   text-align: left;
 }
 
 .me-section-header-left h2 {
-  right: calc(50% + 1.7rem);
+  right: calc(50% + var(--section-title-gap));
   color: white;
   text-align: right;
 }
 
 .me-section-header-overlap {
   margin-bottom: 0.375rem;
-  transform: translateY(-50px);
+  transform: translateY(calc(0px - var(--section-overlap)));
 }
 
 .me-section-copy {
-  width: calc(50% - 1.7rem);
+  width: calc(50% - var(--section-title-gap));
   color: #444444;
   font-size: 17px;
   line-height: 1.65;
@@ -1964,11 +2012,11 @@ body {
 }
 
 .me-copy-right {
-  margin-left: calc(50% + 1.7rem);
+  margin-left: calc(50% + var(--section-title-gap));
 }
 
 .me-copy-left {
-  margin-right: calc(50% + 1.7rem);
+  margin-right: calc(50% + var(--section-title-gap));
 }
 
 .me-section-copy p {
@@ -2083,7 +2131,7 @@ body {
 
 .me-section-dark {
   padding-top: 0;
-  padding-bottom: 6rem;
+  padding-bottom: var(--section-dark-end-gap);
   background: rgba(44, 44, 44, 0.97);
 }
 
@@ -2092,8 +2140,8 @@ body {
 }
 
 .me-sunday-section {
-  padding-top: 7rem;
-  padding-bottom: 6rem;
+  padding-top: var(--section-next-top-gap);
+  padding-bottom: var(--section-dark-end-gap);
 }
 
 .me-sunday-content {
@@ -2104,8 +2152,8 @@ body {
 }
 
 .me-sunday-media {
-  width: min(280px, calc(100% - 1.7rem));
-  margin: 0 1.7rem 0 auto;
+  width: min(280px, calc(100% - var(--section-title-gap)));
+  margin: 0 var(--section-title-gap) 0 auto;
 }
 
 .me-sunday-media img,
@@ -2135,7 +2183,7 @@ body {
 }
 
 .me-sunday-text {
-  padding-left: 1.7rem;
+  padding-left: var(--section-title-gap);
   color: #444444;
   font-size: 17px;
   line-height: 1.65;
@@ -2148,8 +2196,8 @@ body {
 
 @media (max-width: 820px) {
   .me-section-header h2 {
-    width: calc(50% - 1.7rem);
-    font-size: 36px;
+    width: calc(50% - var(--section-title-gap));
+    font-size: var(--section-title-size-mobile);
   }
 
   .me-section-copy {

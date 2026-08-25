@@ -4,6 +4,11 @@ title: Research
 permalink: /research/
 ---
 
+<div class="page-header">
+  <div class="page-header-line"></div>
+  <div class="page-header-title">RESEARCH</div>
+</div>
+
 My research concerns theoretical aspects of gravitational theory: classical General Relativity, gravitational-wave emission, electromagnetic signatures of compact-object interactions, and extended theories of gravity.
 
 <div class="card-grid">
