@@ -977,7 +977,7 @@ body {
 .research-collaborations-layout {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: calc(var(--section-title-gap) + var(--section-title-gap));
+  gap: calc(var(--section-title-gap) + var(--section-title-gap)-2.rem);
   width: min(1100px, 100%);
   margin: 0 auto;
 }
