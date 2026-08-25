@@ -41,7 +41,7 @@ permalink: /thesis/
 
   <div class="thesis-entry thesis-right">
     <div class="thesis-year">2024-on</div>
-    <div class="thesis-student"> Manule Gonçalo Oliveira Mariano @ University of Aveiro </div>
+    <div class="thesis-student"> Manuel Gonçalo Oliveira Mariano @ University of Aveiro </div>
     <div class="thesis-advisor">Co-advisor: C. Herdeiro </div>
     <div class="thesis-title">TBA</div>
   </div>
