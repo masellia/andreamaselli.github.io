@@ -26,4 +26,8 @@ Then open `http://localhost:4000`.
 - `index.md`: homepage text
 - `pages/*.md`: internal pages
 - `assets/css/main.css`: visual design
-# andreamaselli.github.io
+
+## Maintenance conventions
+
+- Treat the root-level `cv.pdf` as the authoritative source for talks, meetings, and publications. When updating those sections, extract the latest information from that file and update the corresponding structured website data.
+- Preserve Andrea's manual typography, title and subtitle sizing, vertical-bar lengths, and spacing adjustments. Do not normalize or overwrite those visual choices unless explicitly requested.

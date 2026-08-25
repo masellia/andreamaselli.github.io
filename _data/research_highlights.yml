@@ -1,0 +1,29 @@
+# Optional figure entries use src, alt, and caption fields, for example:
+# figures:
+#   - src: /assets/img/research/example.png
+#     alt: Description of the figure
+#     caption: Figure caption
+
+- title: Gravitational Waves in Astrophysical Environments
+  summary: I investigate how accretion, dark matter, and generic matter distributions affect the dynamics, tidal response, and gravitational-wave emission of compact binaries, and how these environmental signatures can be distinguished from vacuum or beyond-GR effects.
+  papers:
+    - '2606.18341'
+    - '2605.02633'
+    - '2507.04471'
+  figures: []
+
+- title: Asymmetric Binaries and Fundamental Fields
+  summary: Asymmetric binaries provide precision laboratories for testing gravity and searching for new fundamental fields. My work develops accurate models of their long-term evolution and assesses which signatures can be measured in gravitational-wave observations.
+  papers:
+    - '2607.09310'
+    - '2603.10116'
+    - '2406.07607'
+  figures: []
+
+- title: Black-Hole Spectroscopy and Ringdown
+  summary: The ringdown of a perturbed black hole encodes its characteristic oscillation spectrum. I study how these modes are excited and how spectroscopy can test the Kerr geometry, probe surrounding matter, and reveal departures from General Relativity.
+  papers:
+    - '2512.07959'
+    - '2412.18651'
+    - '2311.14803'
+  figures: []
