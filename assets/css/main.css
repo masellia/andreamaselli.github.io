@@ -2000,7 +2000,8 @@ body {
   margin: 0;
   overflow: hidden;
   background: #eeeeee;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1;
+  border-radius: 12px;
 }
 
 .me-gallery-item a {
