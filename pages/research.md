@@ -81,8 +81,8 @@ permalink: /research/
 
     <ul class="research-collaboration-list">
       <li>
-        <figure class="research-collaboration-media">
-          <span>Image forthcoming</span>
+        <figure class="research-collaboration-media research-collaboration-media-loaded">
+          <img src="{{ '/assets/img/research/LISALOGO.jpg' | relative_url }}" alt="LISA logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
           <a href="https://www.lisamission.org/" target="_blank" rel="noopener">LISA</a>
@@ -90,8 +90,8 @@ permalink: /research/
         </div>
       </li>
       <li>
-        <figure class="research-collaboration-media">
-          <span>Image forthcoming</span>
+        <figure class="research-collaboration-media research-collaboration-media-loaded">
+          <img src="{{ '/assets/img/research/ET_logo.jpg' | relative_url }}" alt="Einstein Telescope logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
           <a href="https://einsteintelescope.eu/" target="_blank" rel="noopener">Einstein Telescope</a>
@@ -99,8 +99,8 @@ permalink: /research/
         </div>
       </li>
       <li>
-        <figure class="research-collaboration-media">
-          <span>Image forthcoming</span>
+        <figure class="research-collaboration-media research-collaboration-media-loaded">
+          <img src="{{ '/assets/img/research/lgwa_logo.jpg' | relative_url }}" alt="Lunar Gravitational-Wave Antenna logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
           <a href="https://lgwa.unicam.it/" target="_blank" rel="noopener">Lunar Gravitational-Wave Antenna</a>

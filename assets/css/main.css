@@ -1040,6 +1040,11 @@ body {
   background: transparent;
 }
 
+.research-collaboration-media-loaded {
+  border: 0;
+  background: white;
+}
+
 .research-collaboration-media img {
   display: block;
   width: 100%;
