@@ -13,7 +13,7 @@
   figures: []
 
 - title: Asymmetric Binaries and Fundamental Fields
-  summary: Asymmetric binaries, like Extreme and Intermediate mass ratio inspirals targeted by LISA, provide precision laboratories for testing gravity and searching for new fundamental fields in the Universe. Modelling their dyamics and gravitational wave emission is a major challenge I have work on in the last year. My work develops accurate models of their long-term evolution and assesses the relevance and detectability of beyond General Relativity deviations with future observations.
+  summary: Asymmetric binaries, like Extreme and Intermediate mass ratio Inspirals (EMRI/IMRI) targeted by LISA, provide precision laboratories for testing gravity and searching for new fundamental fields in the Universe. Modelling their dyamics and gravitational wave emission is a major challenge I have work on in the last year. My work develops accurate models of E/IMRI long-term evolution and assesses the relevance and detectability of beyond General Relativity deviations with future observations.
   papers:
     - '2607.09310'
     - '2603.10116'
@@ -22,7 +22,7 @@
   figures:
     - src: /assets/img/research/charge.jpg
       alt: Constraints on a fundamental scalar charge from asymmetric binaries
-      caption: Figure caption
+      caption:
 
 - title: Black-Hole Spectroscopy and Ringdown
   summary: The ringdown of a perturbed black hole encodes its characteristic oscillation spectrum. I study how these modes are excited and how spectroscopy can test the Kerr geometry, probe surrounding matter, and reveal departures from General Relativity.

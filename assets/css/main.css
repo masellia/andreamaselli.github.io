@@ -893,10 +893,17 @@ body {
   padding: 2rem 1.5rem 2.25rem;
 }
 
+.research-highlight-overview {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: stretch;
+}
+
 .research-highlight-summary {
   margin: 0;
   color: #d0d0d0;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -949,10 +956,14 @@ body {
   gap: 1.5rem;
   width: min(280px, 100%);
   margin: 1.5rem auto 0;
+  align-self: center;
+  justify-items: center;
 }
 
 .research-highlight-figures figure {
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .research-highlight-figures img {
@@ -960,6 +971,7 @@ body {
   width: 100%;
   height: auto;
   max-height: 240px;
+  margin: 0 auto;
   object-fit: contain;
   background: white;
 }
