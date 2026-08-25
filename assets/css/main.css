@@ -896,7 +896,7 @@ body {
 .research-highlight-summary {
   margin: 0;
   color: #d0d0d0;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -945,10 +945,10 @@ body {
 
 .research-highlight-figures {
   display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.5rem;
-  padding-top: 0.25rem;
+  width: min(280px, 100%);
+  margin: 1.5rem auto 0;
 }
 
 .research-highlight-figures figure {
@@ -958,7 +958,8 @@ body {
 .research-highlight-figures img {
   display: block;
   width: 100%;
-  max-height: 360px;
+  height: auto;
+  max-height: 240px;
   object-fit: contain;
   background: white;
 }

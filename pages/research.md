@@ -37,7 +37,20 @@ I am interested in the theoretical modelling of these objects in General Relativ
         </summary>
 
         <div class="research-highlight-content">
-          <p class="research-highlight-summary">{{ highlight.summary }}</p>
+          <div class="research-highlight-overview">
+            <p class="research-highlight-summary">{{ highlight.summary }}</p>
+
+            {% if highlight.figures and highlight.figures.size > 0 %}
+              <div class="research-highlight-figures">
+                {% for figure in highlight.figures %}
+                  <figure>
+                    <img src="{{ figure.src | relative_url }}" alt="{{ figure.alt }}">
+                    {% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}
+                  </figure>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
 
           <div class="research-highlight-papers">
             <h3>Selected Papers</h3>
@@ -56,17 +69,6 @@ I am interested in the theoretical modelling of these objects in General Relativ
               {% endfor %}
             </ul>
           </div>
-
-          {% if highlight.figures and highlight.figures.size > 0 %}
-            <div class="research-highlight-figures">
-              {% for figure in highlight.figures %}
-                <figure>
-                  <img src="{{ figure.src | relative_url }}" alt="{{ figure.alt }}">
-                  {% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}
-                </figure>
-              {% endfor %}
-            </div>
-          {% endif %}
         </div>
       </details>
     {% endfor %}
