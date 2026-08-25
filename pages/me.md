@@ -4,11 +4,6 @@ title: Me
 permalink: /me/
 ---
 
-<div class="page-header">
-  <div class="page-header-line"></div>
-  <div class="page-header-title">ME</div>
-</div>
-
 <section id="travel" class="me-section me-travel-section">
   <header class="me-section-header me-section-header-right">
     <div class="me-section-line"></div>
