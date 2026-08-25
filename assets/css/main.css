@@ -326,7 +326,7 @@ body {
 
 .bio-intro {
   background: #ffffff;
-  padding: calc(var(--section-first-gap) + 1rem) 0 7rem;
+  padding: calc(var(--section-first-gap) + 5rem) 0 7rem;
   color: #222222;
 }
 
