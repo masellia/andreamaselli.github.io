@@ -326,7 +326,7 @@ body {
 
 .bio-intro {
   background: #ffffff;
-  padding: var(--section-first-gap) 0 7rem;
+  padding: calc(var(--section-first-gap) + 1rem) 0 7rem;
   color: #222222;
 }
 
@@ -625,12 +625,20 @@ body {
 }
 
 .publications-intro {
-  width: min(900px, 86vw);
-  margin: -2rem auto 2rem auto;
+  width: min(650px, calc(50% - var(--section-title-gap) - 7vw));
+  margin: -2rem 7vw 2rem calc(50% + var(--section-title-gap));
 
   font-family: "DINLight", sans-serif;
   font-size: 18px;
   color: #555555;
+  text-align: left;
+}
+
+@media (max-width: 820px) {
+  .publications-intro {
+    width: 86vw;
+    margin: -1rem auto 2rem;
+  }
 }
 
 .inline-icon {

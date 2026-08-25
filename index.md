@@ -38,8 +38,8 @@ title: Home
       <img src="{{ '/assets/img/ORblack.png' | relative_url }}" alt="ORCID">
     </a>
     
-    <a href="https://www.dropbox.com/scl/fi/62mzgeudqzz3vy5xq1bsg/cv.pdf?rlkey=0i6f9g8637myhpz48jwuc8zf1&st=xa0kufg0&e=1&dl=0/" target="_blank">
-      <img src="{{ '/assets/img/CVblack.png' | relative_url }}" alt="Google Scholar">
+    <a href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/img/CVblack.png' | relative_url }}" alt="Curriculum Vitae">
     </a>
 
 
@@ -165,4 +165,3 @@ title: Home
 
   </div>
 </section>
-
