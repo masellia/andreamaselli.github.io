@@ -33,7 +33,7 @@
       width: 280
 
 - title: Black-Hole Spectroscopy and Ringdown
-  summary: The ringdown of a perturbed black hole encodes its characteristic oscillation spectrum. I study how these modes are excited and how spectroscopy can test the Kerr geometry, probe surrounding matter, and reveal departures from General Relativity.
+  summary: The post-merger ringdown following a binary coalescence carries valuable information about the remnant black hole and its progenitors. The signal's mode amplitudes and oscillation spectrum can be used to infer these properties and probe fundamental physics. I study how ringdown modes are excited and how black-hole spectroscopy can test the Kerr geometry, characterize astrophysical environments, and reveal possible departures from General Relativity.
   papers:
     - '2512.07959'
     - '2412.18651'
