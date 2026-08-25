@@ -73,33 +73,47 @@ permalink: /research/
   </div>
 
   <div class="research-collaborations-layout">
-    <figure class="research-collaborations-figure" aria-hidden="true">
-      <!-- Reserved for a future collaboration image. -->
-    </figure>
-
     <div class="research-collaborations-copy">
       <p class="research-collaborations-intro">
-        I contribute to international collaborations developing the science case for future gravitational-wave observatories and advancing strong-gravity research.
+        I am currently a member of the INFN Specific Initiative <a href="https://web.infn.it/CSN4/index.php/it/17-esperimenti/195-teongrav-home" target="_blank" rel="noopener">TEONGRAV</a>, "Theory of Gravitational Wave Sources," as well as of the following international collaborations developing the science case for future gravitational-wave observatories and advancing strong-gravity research.
       </p>
+    </div>
 
-      <ul class="research-collaboration-list">
-        <li>
+    <ul class="research-collaboration-list">
+      <li>
+        <figure class="research-collaboration-media">
+          <span>Image forthcoming</span>
+        </figure>
+        <div class="research-collaboration-content">
           <a href="https://www.lisamission.org/" target="_blank" rel="noopener">LISA</a>
           <span>Space-based gravitational-wave observatory.</span>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <figure class="research-collaboration-media">
+          <span>Image forthcoming</span>
+        </figure>
+        <div class="research-collaboration-content">
           <a href="https://einsteintelescope.eu/" target="_blank" rel="noopener">Einstein Telescope</a>
           <span>Third-generation underground gravitational-wave observatory.</span>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <figure class="research-collaboration-media">
+          <span>Image forthcoming</span>
+        </figure>
+        <div class="research-collaboration-content">
           <a href="https://lgwa.unicam.it/" target="_blank" rel="noopener">Lunar Gravitational-Wave Antenna</a>
           <span>Lunar observatory targeting decihertz gravitational waves.</span>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div class="research-collaboration-media research-collaboration-media-empty" aria-hidden="true"></div>
+        <div class="research-collaboration-content">
           <a href="https://masellia.github.io/strong-action/" target="_blank" rel="noopener">STRONG</a>
           <span>Marie Skłodowska-Curie Staff Exchange project on strong gravity and fundamental physics, for which I serve as Principal Investigator.</span>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>

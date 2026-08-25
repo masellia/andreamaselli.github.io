@@ -982,18 +982,8 @@ body {
   margin: 0 auto;
 }
 
-.research-collaborations-figure {
-  min-height: 1px;
-  margin: 0;
-}
-
-.research-collaborations-figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .research-collaborations-copy {
+  grid-column: 2;
   min-width: 0;
 }
 
@@ -1005,7 +995,17 @@ body {
   text-align: justify;
 }
 
+.research-collaborations-intro a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.research-collaborations-intro a:hover {
+  text-decoration: underline;
+}
+
 .research-collaboration-list {
+  grid-column: 1 / -1;
   margin: 0;
   padding: 0;
   border-top: 1px solid #dddddd;
@@ -1013,11 +1013,41 @@ body {
 }
 
 .research-collaboration-list li {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: calc(var(--section-title-gap) + var(--section-title-gap));
+  align-items: center;
   padding: 1.25rem 0;
   border-bottom: 1px solid #dddddd;
 }
 
-.research-collaboration-list a {
+.research-collaboration-media {
+  display: grid;
+  width: min(300px, 100%);
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  border: 1px dashed #bdbdbd;
+  place-items: center;
+  background: #f5f5f5;
+  color: #888888;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.research-collaboration-media-empty {
+  border: 0;
+  background: transparent;
+}
+
+.research-collaboration-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.research-collaboration-content a {
   display: block;
   color: #222222;
   font-family: "DINBoldCond", sans-serif;
@@ -1026,11 +1056,11 @@ body {
   text-decoration: none;
 }
 
-.research-collaboration-list a:hover {
+.research-collaboration-content a:hover {
   color: var(--accent);
 }
 
-.research-collaboration-list span {
+.research-collaboration-content span {
   display: block;
   margin-top: 0.25rem;
   color: var(--muted);
@@ -1077,7 +1107,21 @@ body {
     gap: 0;
   }
 
-  .research-collaborations-figure {
+  .research-collaborations-copy,
+  .research-collaboration-list {
+    grid-column: 1;
+  }
+
+  .research-collaboration-list li {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .research-collaboration-media {
+    width: min(300px, 100%);
+  }
+
+  .research-collaboration-media-empty {
     display: none;
   }
 }
