@@ -1047,15 +1047,15 @@ body {
 }
 
 .research-collaboration-media-lisa {
-  width: min(310px, 80%);
+  width: min(250px, 100%);
 }
 
 .research-collaboration-media-et {
-  width: min(420px, 90%);
+  width: min(300px, 100%);
 }
 
 .research-collaboration-media-lgwa {
-  width: min(135px, 60%);
+  width: min(110px, 100%);
 }
 
 .research-collaboration-media img {

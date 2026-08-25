@@ -13,7 +13,9 @@ permalink: /research/
   <p>
 My research field concerns various theoretical aspects of gravitational theory: classical General Relativity and gravitational wave emission, electromagnetic signatures of gravitational interaction between astrophysical objects, extended theories of gravity.
 <br>
+<br>
 My primary interest is strong gravity, which plays a crucial role in many astrophysical phenomena involving the most compact objects of our Universe, i.e. black-hole and neutron stars, as isolated and binary sources. These systems represent natural laboratories to test physics under extreme conditions, which cannot be reproduced with terrestrial experiments.
+<br>
 <br>
 I am interested in the theoretical modelling of these objects in General Relativity and extension of it, in the study of their dynamic and stability, and of their phenomenology.
 
