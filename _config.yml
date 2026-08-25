@@ -3,7 +3,7 @@ subtitle: Associate Professor in Theoretical Physics
 email: andrea.maselli@gssi.it
 institution: Gran Sasso Science Institute
 baseurl: "/andreamaselli.github.io"
-url: ""
+url: "https://masellia.github.io"
 permalink: pretty
 markdown: kramdown
 plugins:
