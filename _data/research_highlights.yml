@@ -5,12 +5,17 @@
 #     caption: Figure caption
 
 - title: Gravitational Waves in Astrophysical Environments
-  summary: I investigate how accretion, dark matter, and generic matter distributions affect the dynamics, tidal response, and gravitational-wave emission of compact binaries, and how these environmental signatures can be distinguished from vacuum or beyond-GR effects.
+  summary: Binary black hole systems do not evolve in isolation. They are rather surrounded by the multitude of gas, matter and fields that populate our Universe. In my current work  I investigate how astrophysical environment - like dark matter halos around massive black holes - affect the dynamics, tidal response, and gravitational-wave emission of compact binaries, and how these environmental signatures can be distinguished from vacuum or beyond-GR effects.
   papers:
     - '2606.18341'
-    - '2605.02633'
     - '2507.04471'
-  figures: []
+    - '2503.16649 '
+    - '2109.00005'
+  figures:
+    - src: /assets/img/research/spike.jpg
+      alt: Density profiles as a function of distance from a massive black hole
+      caption:
+
 
 - title: Asymmetric Binaries and Fundamental Fields
   summary: Asymmetric binaries, like Extreme and Intermediate mass ratio Inspirals (EMRI/IMRI) targeted by LISA, provide precision laboratories for testing gravity and searching for new fundamental fields in the Universe. Modelling their dyamics and gravitational wave emission is a major challenge I have work on in the last year. My work develops accurate models of E/IMRI long-term evolution and assesses the relevance and detectability of beyond General Relativity deviations with future observations.
@@ -29,5 +34,8 @@
   papers:
     - '2512.07959'
     - '2412.18651'
+    - '2403.09767'
     - '2311.14803'
-  figures: []
+  figures:
+    - src: /assets/img/research/overtones.jpg
+      alt: Excitation factors for the overtones of the fundamental mode for spinning black holes
