@@ -2000,7 +2000,7 @@ body {
   margin: 0;
   overflow: hidden;
   background: #eeeeee;
-  aspect-ratio: 1;
+  aspect-ratio: 5 / 6;
   border-radius: 12px;
 }
 
