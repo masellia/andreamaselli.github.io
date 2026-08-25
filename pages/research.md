@@ -43,7 +43,7 @@ I am interested in the theoretical modelling of these objects in General Relativ
             {% if highlight.figures and highlight.figures.size > 0 %}
               <div class="research-highlight-figures">
                 {% for figure in highlight.figures %}
-                  <figure>
+                  <figure style="--research-figure-width: {{ figure.width | default: 280 }}px;">
                     <img src="{{ figure.src | relative_url }}" alt="{{ figure.alt }}">
                     {% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}
                   </figure>
