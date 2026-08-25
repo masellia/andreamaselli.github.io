@@ -2104,7 +2104,7 @@ body {
 }
 
 .me-sunday-media {
-  width: min(340px, calc(100% - 1.7rem));
+  width: min(280px, calc(100% - 1.7rem));
   margin: 0 1.7rem 0 auto;
 }
 
@@ -2169,7 +2169,7 @@ body {
   }
 
   .me-sunday-media {
-    width: min(340px, 100%);
+    width: min(280px, 100%);
     margin: 0 auto;
   }
 
