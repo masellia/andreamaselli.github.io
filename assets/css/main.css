@@ -1041,15 +1041,27 @@ body {
 }
 
 .research-collaboration-media-loaded {
+  aspect-ratio: auto;
   border: 0;
   background: white;
+}
+
+.research-collaboration-media-lisa {
+  width: min(310px, 80%);
+}
+
+.research-collaboration-media-et {
+  width: min(420px, 90%);
+}
+
+.research-collaboration-media-lgwa {
+  width: min(135px, 60%);
 }
 
 .research-collaboration-media img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
 }
 
 .research-collaboration-content a {
@@ -1120,10 +1132,6 @@ body {
   .research-collaboration-list li {
     grid-template-columns: 1fr;
     gap: 1.25rem;
-  }
-
-  .research-collaboration-media {
-    width: min(300px, 100%);
   }
 
   .research-collaboration-media-empty {

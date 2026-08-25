@@ -11,7 +11,9 @@ permalink: /research/
 
 <div class="research-intro">
   <p>
-    My research activity focuses on theoretical gravitational physics, with particular emphasis on the modelling and phenomenology of compact objects in classical General Relativity and extended theories of gravity. I study gravitational-wave emission, electromagnetic signatures and the dynamics of relativistic binaries, including systems embedded in dense astrophysical environments. Black holes and neutron stars are natural laboratories for probing gravity and matter under conditions inaccessible to terrestrial experiments. My work relies primarily on perturbation theory and analytical approximation techniques to solve gravitational field equations in the strong-gravity regime and connect theoretical models with observations.
+    My research activity focuses on theoretical gravitational physics, with particular emphasis on the modelling and phenomenology of compact objects in classical General Relativity and extended theories of gravity. I study gravitational-wave emission, electromagnetic signatures and the dynamics of relativistic binaries, including systems embedded in dense astrophysical environments. <b>
+
+Black holes and neutron stars are natural laboratories for probing gravity and matter under conditions inaccessible to terrestrial experiments. My work relies primarily on perturbation theory and analytical approximation techniques to solve gravitational field equations in the strong-gravity regime and connect theoretical models with observations.
   </p>
 </div>
 
@@ -81,7 +83,7 @@ permalink: /research/
 
     <ul class="research-collaboration-list">
       <li>
-        <figure class="research-collaboration-media research-collaboration-media-loaded">
+        <figure class="research-collaboration-media research-collaboration-media-loaded research-collaboration-media-lisa">
           <img src="{{ '/assets/img/research/LISALOGO.jpg' | relative_url }}" alt="LISA logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
@@ -90,7 +92,7 @@ permalink: /research/
         </div>
       </li>
       <li>
-        <figure class="research-collaboration-media research-collaboration-media-loaded">
+        <figure class="research-collaboration-media research-collaboration-media-loaded research-collaboration-media-et">
           <img src="{{ '/assets/img/research/ET_logo.jpg' | relative_url }}" alt="Einstein Telescope logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
@@ -99,7 +101,7 @@ permalink: /research/
         </div>
       </li>
       <li>
-        <figure class="research-collaboration-media research-collaboration-media-loaded">
+        <figure class="research-collaboration-media research-collaboration-media-loaded research-collaboration-media-lgwa">
           <img src="{{ '/assets/img/research/lgwa_logo.jpg' | relative_url }}" alt="Lunar Gravitational-Wave Antenna logo" loading="lazy">
         </figure>
         <div class="research-collaboration-content">
