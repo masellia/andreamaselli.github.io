@@ -11,8 +11,13 @@ permalink: /research/
 
 <div class="research-intro">
   <p>
-    My research activity focuses on theoretical gravitational physics, with particular emphasis on the modelling and phenomenology of compact objects in classical General Relativity and extended theories of gravity. I study gravitational-wave emission, electromagnetic signatures and the dynamics of relativistic binaries, including systems embedded in dense astrophysical environments. Black holes and neutron stars are natural laboratories for probing gravity and matter under conditions inaccessible to terrestrial experiments. My work relies primarily on perturbation theory and analytical approximation techniques to solve gravitational field equations in the strong-gravity regime and connect theoretical models with observations.
-  </p>
+My research field concerns various theoretical aspects of gravitational theory: classical General Relativity and gravitational wave emission, electromagnetic signatures of gravitational interaction between astrophysical objects, extended theories of gravity.
+<br>
+My primary interest is strong gravity, which plays a crucial role in many astrophysical phenomena involving the most compact objects of our Universe, i.e. black-hole and neutron stars, as isolated and binary sources. These systems represent natural laboratories to test physics under extreme conditions, which cannot be reproduced with terrestrial experiments.
+<br>
+I am interested in the theoretical modelling of these objects in General Relativity and extension of it, in the study of their dynamic and stability, and of their phenomenology.
+
+</p>
 </div>
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
