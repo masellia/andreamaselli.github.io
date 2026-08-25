@@ -86,7 +86,7 @@ permalink: /research/
         </figure>
         <div class="research-collaboration-content">
           <a href="https://www.lisamission.org/" target="_blank" rel="noopener">LISA</a>
-          <span>Space-based gravitational-wave observatory.</span>
+          <span> The first gravitational space-based gravitational-wave observatory with arm-length of 2.5 million km.</span>
         </div>
       </li>
       <li>
@@ -95,7 +95,7 @@ permalink: /research/
         </figure>
         <div class="research-collaboration-content">
           <a href="https://einsteintelescope.eu/" target="_blank" rel="noopener">Einstein Telescope</a>
-          <span>Third-generation underground gravitational-wave observatory.</span>
+          <span>The future European third-generation ground-based gravitational-wave observatory.</span>
         </div>
       </li>
       <li>
@@ -104,14 +104,16 @@ permalink: /research/
         </figure>
         <div class="research-collaboration-content">
           <a href="https://lgwa.unicam.it/" target="_blank" rel="noopener">Lunar Gravitational-Wave Antenna</a>
-          <span>Lunar observatory targeting decihertz gravitational waves.</span>
+          <span>A new concept of Lunar gravitational wave observatory targeting signals emitted in the decihertz band.</span>
         </div>
       </li>
       <li>
         <div class="research-collaboration-media research-collaboration-media-empty" aria-hidden="true"></div>
         <div class="research-collaboration-content">
           <a href="https://masellia.github.io/strong-action/" target="_blank" rel="noopener">STRONG</a>
-          <span>Marie Skłodowska-Curie Staff Exchange project on strong gravity and fundamental physics, for which I serve as Principal Investigator.</span>
+          <span> STRONG is a Marie Skłodowska-Curie Staff Exchange Action dedicated to investigating gravity 
+in its most extreme regimes, where compact objects, high-energy phenomena, and fundamental fields interact, 
+for which I serve as Principal Investigator.</span>
         </div>
       </li>
     </ul>
