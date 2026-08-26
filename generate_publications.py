@@ -10,6 +10,10 @@ import yaml
 INPUT = Path("_data/publications.bib")
 OUTPUT = Path("_data/publications.yml")
 
+ARXIV_ID_RE = re.compile(
+    r"^(?P<year>\d{2})(?P<month>0[1-9]|1[0-2])\.(?P<number>\d+)(?:v\d+)?$"
+)
+
 if not INPUT.exists() and Path("/mnt/data/publications.bib").exists():
     INPUT = Path("/mnt/data/publications.bib")
     OUTPUT = Path("/mnt/data/publications.yml")
@@ -231,6 +235,18 @@ def make_bibtex(entry: str) -> str:
     return entry.strip() + "\n"
 
 
+def parse_arxiv_id(arxiv: str):
+    match = ARXIV_ID_RE.fullmatch(arxiv.strip())
+    if not match:
+        return None
+
+    return (
+        2000 + int(match.group("year")),
+        int(match.group("month")),
+        int(match.group("number")),
+    )
+
+
 def main() -> int:
     bib = INPUT.read_text(encoding="utf-8")
     entries = split_entries(bib)
@@ -244,12 +260,14 @@ def main() -> int:
 
         kind, key, fields, raw = parsed
 
-        year = clean_latex(fields.get("year", "Unknown")) or "Unknown"
+        publication_year = clean_latex(fields.get("year", "Unknown")) or "Unknown"
         title = clean_latex(fields.get("title", "Untitled"))
         authors = format_authors(fields.get("author", ""))
         journal = format_journal(fields)
         arxiv = clean_latex(fields.get("eprint", ""))
         doi = clean_latex(fields.get("doi", ""))
+        arxiv_id = parse_arxiv_id(arxiv)
+        year = str(arxiv_id[0]) if arxiv_id else publication_year
         
         rec = OrderedDict()
         rec["title"] = title
@@ -264,7 +282,7 @@ def main() -> int:
             rec["doi"] = doi
 
         rec["bibtex"] = make_bibtex(raw)
-        records.append((year, idx, rec))
+        records.append((year, idx, arxiv_id, rec))
 
     def year_key(y):
         try:
@@ -274,7 +292,14 @@ def main() -> int:
 
     grouped = OrderedDict()
 
-    for year, idx, rec in sorted(records, key=lambda x: (-year_key(x[0]), x[1])):
+    def record_sort_key(record):
+        year, idx, arxiv_id, _ = record
+        if arxiv_id:
+            _, month, number = arxiv_id
+            return (-year_key(year), 0, -month, -number, idx)
+        return (-year_key(year), 1, 0, 0, idx)
+
+    for year, _, _, rec in sorted(records, key=record_sort_key):
         grouped.setdefault(str(year), []).append(rec)
 
     data = []
