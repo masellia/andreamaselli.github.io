@@ -1,5 +1,6 @@
 - year: 2026
   papers:
+
   - title: The significance of first post-adiabatic contributions for scalar charge measurements with intermediate and extreme mass ratio inspirals
     authors: S. Barsanti, O. Burke, A. Maselli, T. P. Sotiriou, A. Spiers, N. Warburton
     arxiv: '2607.09310'
@@ -13,6 +14,7 @@
           month = "7",
           year = "2026"
       }
+
   - title: Orbital evolution of asymmetric binaries within accreting environments
     authors: A. Radulea, M. E. Rubio, K. Kritos, A. Maselli
     arxiv: '2606.18341'
@@ -26,6 +28,7 @@
           month = "6",
           year = "2026"
       }
+
   - title: Axial tidal Love numbers of black holes in matter environments
     authors: S. D'Onofrio, S. Datta, A. Maselli
     arxiv: '2605.02633'
@@ -39,6 +42,7 @@
           month = "5",
           year = "2026"
       }
+
   - title: 'Adiabatic evolution of asymmetric binaries on generic orbits with new fundamental fields I: characterization of gravitational wave fluxes'
     authors: S. Gliorio, M. Della Rocca, S. Barsanti, L. Gualtieri, A. Maselli, T. P. Sotiriou
     arxiv: '2603.10116'
@@ -52,6 +56,7 @@
           month = "3",
           year = "2026"
       }
+
   - title: deci-Hz Gravitational Wave Observations on the Moon and Beyond
     authors: E. Berti et al.
     arxiv: '2602.05923'
@@ -63,81 +68,6 @@
           archivePrefix = "arXiv",
           primaryClass = "gr-qc",
           month = "2",
-          year = "2026"
-      }
-  - title: 'Dancing in the dark: probing Dark Matter through the dynamics of eccentric binary pulsars'
-    authors: G. Nicolini, A. Maselli, M. Zilhão
-    journal: SciPost Phys. 20, pp. 068 (2026)
-    arxiv: '2507.16904'
-    doi: 10.21468/SciPostPhys.20.3.068
-    bibtex: |
-      @article{Nicolini:2025yhu,
-          author = "Nicolini, Giorgio and Maselli, Andrea and Zilh{\~a}o, Miguel",
-          title = "{Dancing in the dark: probing Dark Matter through the dynamics of eccentric binary pulsars}",
-          eprint = "2507.16904",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.21468/SciPostPhys.20.3.068",
-          journal = "SciPost Phys.",
-          volume = "20",
-          pages = "068",
-          year = "2026"
-      }
-  - title: A multi-parameter expansion for the evolution of asymmetric binaries in astrophysical environments
-    authors: S. Datta, A. Maselli
-    journal: SciPost Phys. 20, pp. 080 (2026)
-    arxiv: '2507.04471'
-    doi: 10.21468/SciPostPhys.20.3.080
-    bibtex: |
-      @article{Datta:2025ruh,
-          author = "Datta, Sayak and Maselli, Andrea",
-          title = "{A multi-parameter expansion for the evolution of asymmetric binaries in astrophysical environments}",
-          eprint = "2507.04471",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.21468/SciPostPhys.20.3.080",
-          journal = "SciPost Phys.",
-          volume = "20",
-          pages = "080",
-          year = "2026"
-      }
-  - title: The Science of the Einstein Telescope
-    authors: A. Abac et al.
-    journal: JCAP 03, pp. 081 (2026)
-    arxiv: '2503.12263'
-    doi: 10.1088/1475-7516/2026/03/081
-    bibtex: |
-      @article{ET:2025xjr,
-          author = "Abac, Adrian and others",
-          collaboration = "ET",
-          title = "{The Science of the Einstein Telescope}",
-          eprint = "2503.12263",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          reportNumber = "ET-0036C-25",
-          doi = "10.1088/1475-7516/2026/03/081",
-          journal = "JCAP",
-          volume = "03",
-          pages = "081",
-          year = "2026"
-      }
-  - title: 'Probing fundamental physics with extreme mass ratio inspirals: Full Bayesian inference for scalar charge'
-    authors: L. Speri et al.
-    journal: Phys. Rev. D 113(2), pp. 023036 (2026)
-    arxiv: '2406.07607'
-    doi: 10.1103/cnhz-6zlk
-    bibtex: |
-      @article{Speri:2024qak,
-          author = "Speri, Lorenzo and Barsanti, Susanna and Maselli, Andrea and Sotiriou, Thomas P. and Warburton, Niels and van de Meent, Maarten and Chua, Alvin J. K. and Burke, Ollie and Gair, Jonathan",
-          title = "{Probing fundamental physics with extreme mass ratio inspirals: Full Bayesian inference for scalar charge}",
-          eprint = "2406.07607",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/cnhz-6zlk",
-          journal = "Phys. Rev. D",
-          volume = "113",
-          number = "2",
-          pages = "023036",
           year = "2026"
       }
 - year: 2025
@@ -161,6 +91,45 @@
           pages = "044036",
           year = "2026"
       }
+
+  - title: 'Dancing in the dark: probing Dark Matter through the dynamics of eccentric binary pulsars'
+    authors: G. Nicolini, A. Maselli, M. Zilhão
+    journal: SciPost Phys. 20, pp. 068 (2026)
+    arxiv: '2507.16904'
+    doi: 10.21468/SciPostPhys.20.3.068
+    bibtex: |
+      @article{Nicolini:2025yhu,
+          author = "Nicolini, Giorgio and Maselli, Andrea and Zilh{\~a}o, Miguel",
+          title = "{Dancing in the dark: probing Dark Matter through the dynamics of eccentric binary pulsars}",
+          eprint = "2507.16904",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.21468/SciPostPhys.20.3.068",
+          journal = "SciPost Phys.",
+          volume = "20",
+          pages = "068",
+          year = "2026"
+      }
+
+  - title: A multi-parameter expansion for the evolution of asymmetric binaries in astrophysical environments
+    authors: S. Datta, A. Maselli
+    journal: SciPost Phys. 20, pp. 080 (2026)
+    arxiv: '2507.04471'
+    doi: 10.21468/SciPostPhys.20.3.080
+    bibtex: |
+      @article{Datta:2025ruh,
+          author = "Datta, Sayak and Maselli, Andrea",
+          title = "{A multi-parameter expansion for the evolution of asymmetric binaries in astrophysical environments}",
+          eprint = "2507.04471",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.21468/SciPostPhys.20.3.080",
+          journal = "SciPost Phys.",
+          volume = "20",
+          pages = "080",
+          year = "2026"
+      }
+
   - title: 'Black hole spectroscopy: from theory to experiment'
     authors: E. Berti et al.
     arxiv: '2505.23895'
@@ -193,6 +162,7 @@
           month = "5",
           year = "2025"
       }
+
   - title: 'Extreme mass ratio inspirals in dark matter halos: Dynamics and distinguishability of halo models'
     authors: S. Gliorio, E. Berti, A. Maselli, N. Speeney
     journal: Phys. Rev. D 112(12), pp. 124050 (2025)
@@ -212,6 +182,28 @@
           pages = "124050",
           year = "2025"
       }
+
+  - title: The Science of the Einstein Telescope
+    authors: A. Abac et al.
+    journal: JCAP 03, pp. 081 (2026)
+    arxiv: '2503.12263'
+    doi: 10.1088/1475-7516/2026/03/081
+    bibtex: |
+      @article{ET:2025xjr,
+          author = "Abac, Adrian and others",
+          collaboration = "ET",
+          title = "{The Science of the Einstein Telescope}",
+          eprint = "2503.12263",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          reportNumber = "ET-0036C-25",
+          doi = "10.1088/1475-7516/2026/03/081",
+          journal = "JCAP",
+          volume = "03",
+          pages = "081",
+          year = "2026"
+      }
+
   - title: Systematic biases from ignoring environmental tidal effects in gravitational wave observations
     authors: V. De Luca, L. Del Grosso, F. Iacovelli, A. Maselli, E. Berti
     journal: Phys. Rev. D 111(12), pp. 124046 (2025)
@@ -231,6 +223,7 @@
           pages = "124046",
           year = "2025"
       }
+
   - title: Scalar-Induced Gravitational Waves in Modified Gravity
     authors: A. A. Kugarajh, M. Traforetti, A. Maselli, S. Matarrese, A. Ricciardone
     arxiv: '2502.20137'
@@ -246,6 +239,9 @@
           month = "2",
           year = "2025"
       }
+- year: 2024
+  papers:
+
   - title: Quasinormal modes of black holes embedded in halos of matter
     authors: L. Pezzella, K. Destounis, A. Maselli, V. Cardoso
     journal: Phys. Rev. D 111(6), pp. 064026 (2025)
@@ -265,6 +261,7 @@
           pages = "064026",
           year = "2025"
       }
+
   - title: Probing time-dependent scalar wigs with extreme-mass-ratio inspirals
     authors: M. Della Rocca, G. Antoniou, L. Gualtieri, A. Maselli
     journal: Phys. Rev. D 112(2), pp. 024042 (2025)
@@ -284,6 +281,44 @@
           pages = "024042",
           year = "2025"
       }
+
+  - title: 'Probing fundamental physics with extreme mass ratio inspirals: Full Bayesian inference for scalar charge'
+    authors: L. Speri et al.
+    journal: Phys. Rev. D 113(2), pp. 023036 (2026)
+    arxiv: '2406.07607'
+    doi: 10.1103/cnhz-6zlk
+    bibtex: |
+      @article{Speri:2024qak,
+          author = "Speri, Lorenzo and Barsanti, Susanna and Maselli, Andrea and Sotiriou, Thomas P. and Warburton, Niels and van de Meent, Maarten and Chua, Alvin J. K. and Burke, Ollie and Gair, Jonathan",
+          title = "{Probing fundamental physics with extreme mass ratio inspirals: Full Bayesian inference for scalar charge}",
+          eprint = "2406.07607",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/cnhz-6zlk",
+          journal = "Phys. Rev. D",
+          volume = "113",
+          number = "2",
+          pages = "023036",
+          year = "2026"
+      }
+
+  - title: Possible causes of false general relativity violations in gravitational wave observations
+    authors: A. Gupta et al.
+    journal: SciPost Physics Community Reports (2024)
+    arxiv: '2405.02197'
+    doi: 10.21468/SciPostPhysCommRep.5
+    bibtex: |
+      @article{Gupta:2024gun,
+          author = "Gupta, Anuradha and others",
+          title = "{Possible causes of false general relativity violations in gravitational wave observations}",
+          eprint = "2405.02197",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.21468/SciPostPhysCommRep.5",
+          month = "5",
+          year = "2024"
+      }
+
   - title: Neutron stars and the cosmological constant problem
     authors: G. Ventagli, P. G. S. Fernandes, A. Maselli, A. Padilla, T. P. Sotiriou
     journal: Phys. Rev. D 111(2), pp. 024001 (2025)
@@ -303,6 +338,7 @@
           pages = "024001",
           year = "2025"
       }
+
   - title: 'The Lunar Gravitational-wave Antenna: mission studies and science case'
     authors: P. Ajith et al.
     journal: JCAP 01, pp. 108 (2025)
@@ -321,67 +357,7 @@
           pages = "108",
           year = "2025"
       }
-  - title: Waveform modelling for the Laser Interferometer Space Antenna
-    authors: N. Afshordi et al.
-    journal: Living Rev. Rel. 28(1), pp. 9 (2025)
-    arxiv: '2311.01300'
-    doi: 10.1007/s41114-025-00056-1
-    bibtex: |
-      @article{LISAConsortiumWaveformWorkingGroup:2023arg,
-          author = "Afshordi, Niayesh and others",
-          collaboration = "LISA Consortium Waveform Working Group",
-          title = "{Waveform modelling for the Laser Interferometer Space Antenna}",
-          eprint = "2311.01300",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1007/s41114-025-00056-1",
-          journal = "Living Rev. Rel.",
-          volume = "28",
-          number = "1",
-          pages = "9",
-          year = "2025"
-      }
-- year: 2024
-  papers:
-  - title: Nuclear Theory in the Age of Multimessenger Astronomy
-    doi: 10.1201/9781003306580
-    bibtex: |
-      @book{Benhar:2024qcw,
-          editor = "Benhar, Omar and Lovato, Alessandro and Maselli, Andrea and Pannarale, Francesco",
-          title = "{Nuclear Theory in the Age of Multimessenger Astronomy}",
-          doi = "10.1201/9781003306580",
-          isbn = "978-1-003-30658-0",
-          publisher = "CRC Press",
-          month = "7",
-          year = "2024"
-      }
-  - title: Multimessenger Constraints on the Neutron Star Equation of State Microphysics
-    authors: A. Maselli, F. Pannarale
-    doi: 10.1201/9781003306580-3
-    bibtex: |
-      @inbook{Maselli:2024hje,
-          author = "Maselli, Andrea and Pannarale, Francesco",
-          title = "{Multimessenger Constraints on the Neutron Star Equation of State Microphysics}",
-          doi = "10.1201/9781003306580-3",
-          month = "7",
-          year = "2024"
-      }
-  - title: Possible causes of false general relativity violations in gravitational wave observations
-    authors: A. Gupta et al.
-    journal: SciPost Physics Community Reports (2024)
-    arxiv: '2405.02197'
-    doi: 10.21468/SciPostPhysCommRep.5
-    bibtex: |
-      @article{Gupta:2024gun,
-          author = "Gupta, Anuradha and others",
-          title = "{Possible causes of false general relativity violations in gravitational wave observations}",
-          eprint = "2405.02197",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.21468/SciPostPhysCommRep.5",
-          month = "5",
-          year = "2024"
-      }
+
   - title: Axial perturbations of hairy black holes in generalized scalar-tensor theories
     authors: G. Antoniou, C. F. B. Macedo, A. Maselli, T. P. Sotiriou
     journal: Phys. Rev. D 110(2), pp. 024065 (2024)
@@ -401,6 +377,7 @@
           pages = "024065",
           year = "2024"
       }
+
   - title: Nonlinear quasinormal mode detectability with next-generation gravitational wave detectors
     authors: S. Yi, A. Kuntz, E. Barausse, E. Berti, M. H. Cheung, K. Kritos, A. Maselli
     journal: Phys. Rev. D 109(12), pp. 124029 (2024)
@@ -421,6 +398,7 @@
           pages = "124029",
           year = "2024"
       }
+
   - title: 'Analytical model of precessing binaries using post-Newtonian theory in the extreme mass-ratio limit: General formalism'
     authors: N. Loutrel, S. Mukherjee, A. Maselli, P. Pani
     journal: Phys. Rev. D 110(2), pp. 024006 (2024)
@@ -440,6 +418,7 @@
           pages = "024006",
           year = "2024"
       }
+
   - title: LISA Definition Study Report
     authors: M. Colpi et al.
     arxiv: '2402.07571'
@@ -454,6 +433,7 @@
           month = "2",
           year = "2024"
       }
+
   - title: 'Extreme mass-ratio inspirals as probes of scalar fields: Inclined circular orbits around Kerr black holes'
     authors: M. Della Rocca, S. Barsanti, L. Gualtieri, A. Maselli
     journal: Phys. Rev. D 109(10), pp. 104079 (2024)
@@ -473,6 +453,7 @@
           pages = "104079",
           year = "2024"
       }
+
   - title: 'Black holes surrounded by generic matter distributions: Polar perturbations and energy flux'
     authors: N. Speeney, E. Berti, V. Cardoso, A. Maselli
     journal: Phys. Rev. D 109(8), pp. 084068 (2024)
@@ -492,6 +473,34 @@
           pages = "084068",
           year = "2024"
       }
+
+  - title: Nuclear Theory in the Age of Multimessenger Astronomy
+    doi: 10.1201/9781003306580
+    bibtex: |
+      @book{Benhar:2024qcw,
+          editor = "Benhar, Omar and Lovato, Alessandro and Maselli, Andrea and Pannarale, Francesco",
+          title = "{Nuclear Theory in the Age of Multimessenger Astronomy}",
+          doi = "10.1201/9781003306580",
+          isbn = "978-1-003-30658-0",
+          publisher = "CRC Press",
+          month = "7",
+          year = "2024"
+      }
+
+  - title: Multimessenger Constraints on the Neutron Star Equation of State Microphysics
+    authors: A. Maselli, F. Pannarale
+    doi: 10.1201/9781003306580-3
+    bibtex: |
+      @inbook{Maselli:2024hje,
+          author = "Maselli, Andrea and Pannarale, Francesco",
+          title = "{Multimessenger Constraints on the Neutron Star Equation of State Microphysics}",
+          doi = "10.1201/9781003306580-3",
+          month = "7",
+          year = "2024"
+      }
+- year: 2023
+  papers:
+
   - title: 'Black hole spectroscopy beyond Kerr: Agnostic and theory-based tests with next-generation interferometers'
     authors: A. Maselli, S. Yi, L. Pierini, V. Vellucci, L. Reali, L. Gualtieri, E. Berti
     journal: Phys. Rev. D 109(6), pp. 064060 (2024)
@@ -511,6 +520,7 @@
           pages = "064060",
           year = "2024"
       }
+
   - title: 'Astrophysical black holes: theory and observations'
     authors: M. Adamo, A. Maselli
     journal: PoS QG-MMSchools, pp. 011 (2024)
@@ -529,6 +539,28 @@
           pages = "011",
           year = "2024"
       }
+
+  - title: Waveform modelling for the Laser Interferometer Space Antenna
+    authors: N. Afshordi et al.
+    journal: Living Rev. Rel. 28(1), pp. 9 (2025)
+    arxiv: '2311.01300'
+    doi: 10.1007/s41114-025-00056-1
+    bibtex: |
+      @article{LISAConsortiumWaveformWorkingGroup:2023arg,
+          author = "Afshordi, Niayesh and others",
+          collaboration = "LISA Consortium Waveform Working Group",
+          title = "{Waveform modelling for the Laser Interferometer Space Antenna}",
+          eprint = "2311.01300",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1007/s41114-025-00056-1",
+          journal = "Living Rev. Rel.",
+          volume = "28",
+          number = "1",
+          pages = "9",
+          year = "2025"
+      }
+
   - title: 'Measuring scalar charge with compact binaries: High accuracy modeling with self-force'
     authors: A. Spiers, A. Maselli, T. P. Sotiriou
     journal: Phys. Rev. D 109(6), pp. 064022 (2024)
@@ -548,6 +580,7 @@
           pages = "064022",
           year = "2024"
       }
+
   - title: Relevance of precession for tests of the black hole no hair theorems
     authors: N. Loutrel, R. Brito, A. Maselli, P. Pani
     journal: Phys. Rev. D 110(4), pp. 044003 (2024)
@@ -567,8 +600,7 @@
           pages = "044003",
           year = "2024"
       }
-- year: 2023
-  papers:
+
   - title: The impact of compact binary confusion noise on tests of fundamental physics with next-generation gravitational-wave detectors
     authors: L. Reali, A. Maselli, E. Berti
     arxiv: '2307.01264'
@@ -583,6 +615,7 @@
           month = "7",
           year = "2023"
       }
+
   - title: Constraints on massive gravity from dipolar mode excitations
     authors: V. Cardoso, F. Duque, A. Maselli, D. Pere~niguez
     journal: Phys. Rev. D 108(12), pp. 124003 (2023)
@@ -602,6 +635,7 @@
           pages = "124003",
           year = "2023"
       }
+
   - title: 'Science with the Einstein Telescope: a comparison of different designs'
     authors: M. Branchesi et al.
     journal: JCAP 07, pp. 068 (2023)
@@ -621,6 +655,7 @@
           pages = "068",
           year = "2023"
       }
+
   - title: 'Black holes surrounded by generic dark matter profiles: Appearance and gravitational-wave emission'
     authors: E. Figueiredo, A. Maselli, V. Cardoso
     journal: Phys. Rev. D 107(10), pp. 104033 (2023)
@@ -640,6 +675,7 @@
           pages = "104033",
           year = "2023"
       }
+
   - title: Bayesian parameter estimation on boson-star binary signals with a coherent inspiral template and spin-dependent quadrupolar corrections
     authors: M. Vaglio, C. Pacilio, A. Maselli, P. Pani
     journal: Phys. Rev. D 108(2), pp. 023021 (2023)
@@ -659,6 +695,9 @@
           pages = "023021",
           year = "2023"
       }
+- year: 2022
+  papers:
+
   - title: Detecting Massive Scalar Fields with Extreme Mass-Ratio Inspirals
     authors: S. Barsanti, A. Maselli, T. P. Sotiriou, L. Gualtieri
     journal: Phys. Rev. Lett. 131(5), pp. 051401 (2023)
@@ -678,6 +717,7 @@
           pages = "051401",
           year = "2023"
       }
+
   - title: Modeling frequency-dependent tidal deformability for environmental black hole mergers
     authors: V. De Luca, A. Maselli, P. Pani
     journal: Phys. Rev. D 107(4), pp. 044058 (2023)
@@ -697,45 +737,7 @@
           pages = "044058",
           year = "2023"
       }
-  - title: Constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semianalytical frequency-domain waveforms
-    authors: G. A. Piovano, A. Maselli, P. Pani
-    journal: Phys. Rev. D 107(2), pp. 024021 (2023)
-    arxiv: '2207.07452'
-    doi: 10.1103/PhysRevD.107.024021
-    bibtex: |
-      @article{Piovano:2022ojl,
-          author = "Piovano, Gabriel Andres and Maselli, Andrea and Pani, Paolo",
-          title = "{Constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semianalytical frequency-domain waveforms}",
-          eprint = "2207.07452",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevD.107.024021",
-          journal = "Phys. Rev. D",
-          volume = "107",
-          number = "2",
-          pages = "024021",
-          year = "2023"
-      }
-  - title: 'gwfish: A simulation software to evaluate parameter-estimation capabilities of gravitational-wave detector networks'
-    authors: U. Dupletsa et al.
-    journal: Astron. Comput. 42, pp. 100671 (2023)
-    arxiv: '2205.02499'
-    doi: 10.1016/j.ascom.2022.100671
-    bibtex: |
-      @article{Dupletsa:2022scg,
-          author = "Dupletsa, Ulyana and Harms, Jan and Banerjee, Biswajit and Branchesi, Marica and Goncharov, Boris and Maselli, Andrea and Oliveira, Ana Carolina Silva and Ronchini, Samuele and Tissino, Jacopo",
-          title = "{gwfish: A simulation software to evaluate parameter-estimation capabilities of gravitational-wave detector networks}",
-          eprint = "2205.02499",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1016/j.ascom.2022.100671",
-          journal = "Astron. Comput.",
-          volume = "42",
-          pages = "100671",
-          year = "2023"
-      }
-- year: 2022
-  papers:
+
   - title: Gravitational Waves from Extreme-Mass-Ratio Systems in Astrophysical Environments
     authors: V. Cardoso, K. Destounis, F. Duque, R. Panosso Macedo, A. Maselli
     journal: Phys. Rev. Lett. 129(24), pp. 241103 (2022)
@@ -755,6 +757,27 @@
           pages = "241103",
           year = "2022"
       }
+
+  - title: Constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semianalytical frequency-domain waveforms
+    authors: G. A. Piovano, A. Maselli, P. Pani
+    journal: Phys. Rev. D 107(2), pp. 024021 (2023)
+    arxiv: '2207.07452'
+    doi: 10.1103/PhysRevD.107.024021
+    bibtex: |
+      @article{Piovano:2022ojl,
+          author = "Piovano, Gabriel Andres and Maselli, Andrea and Pani, Paolo",
+          title = "{Constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semianalytical frequency-domain waveforms}",
+          eprint = "2207.07452",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevD.107.024021",
+          journal = "Phys. Rev. D",
+          volume = "107",
+          number = "2",
+          pages = "024021",
+          year = "2023"
+      }
+
   - title: Sensitivity of neutron star observations to three-nucleon forces
     authors: A. Sabatucci, O. Benhar, A. Maselli, C. Pacilio
     journal: Phys. Rev. D 106(8), pp. 083010 (2022)
@@ -775,6 +798,26 @@
           pages = "083010",
           year = "2022"
       }
+
+  - title: 'gwfish: A simulation software to evaluate parameter-estimation capabilities of gravitational-wave detector networks'
+    authors: U. Dupletsa et al.
+    journal: Astron. Comput. 42, pp. 100671 (2023)
+    arxiv: '2205.02499'
+    doi: 10.1016/j.ascom.2022.100671
+    bibtex: |
+      @article{Dupletsa:2022scg,
+          author = "Dupletsa, Ulyana and Harms, Jan and Banerjee, Biswajit and Branchesi, Marica and Goncharov, Boris and Maselli, Andrea and Oliveira, Ana Carolina Silva and Ronchini, Samuele and Tissino, Jacopo",
+          title = "{gwfish: A simulation software to evaluate parameter-estimation capabilities of gravitational-wave detector networks}",
+          eprint = "2205.02499",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1016/j.ascom.2022.100671",
+          journal = "Astron. Comput.",
+          volume = "42",
+          pages = "100671",
+          year = "2023"
+      }
+
   - title: New horizons for fundamental physics with LISA
     authors: K. G. Arun et al.
     journal: Living Rev. Rel. 25(1), pp. 4 (2022)
@@ -795,6 +838,7 @@
           pages = "4",
           year = "2022"
       }
+
   - title: Impact and detectability of spin-tidal couplings in neutron star inspirals
     authors: G. Castro, L. Gualtieri, A. Maselli, P. Pani
     journal: Phys. Rev. D 106(2), pp. 024011 (2022)
@@ -815,6 +859,7 @@
           pages = "024011",
           year = "2022"
       }
+
   - title: Multipolar structure of rotating boson stars
     authors: M. Vaglio, C. Pacilio, A. Maselli, P. Pani
     journal: Phys. Rev. D 105(12), pp. 124020 (2022)
@@ -834,6 +879,7 @@
           pages = "124020",
           year = "2022"
       }
+
   - title: 'Extreme mass-ratio inspirals as probes of scalar fields: Eccentric equatorial orbits around Kerr black holes'
     authors: S. Barsanti, N. Franchini, L. Gualtieri, A. Maselli, T. P. Sotiriou
     journal: Phys. Rev. D 106(4), pp. 044029 (2022)
@@ -853,6 +899,7 @@
           pages = "044029",
           year = "2022"
       }
+
   - title: Inspiraling compact objects with generic deformations
     authors: N. Loutrel, R. Brito, A. Maselli, P. Pani
     journal: Phys. Rev. D 105(12), pp. 124050 (2022)
@@ -872,6 +919,23 @@
           pages = "124050",
           year = "2022"
       }
+- year: 2021
+  papers:
+
+  - title: 'The Next Generation Global Gravitational Wave Observatory: The Science Book'
+    authors: V. Kalogera et al.
+    arxiv: '2111.06990'
+    bibtex: |
+      @article{Kalogera:2021bya,
+          author = "Kalogera, Vicky and others",
+          title = "{The Next Generation Global Gravitational Wave Observatory: The Science Book}",
+          eprint = "2111.06990",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          month = "11",
+          year = "2021"
+      }
+
   - title: Detecting Subsolar-Mass Primordial Black Holes in Extreme Mass-Ratio Inspirals with LISA and Einstein Telescope
     authors: S. Barsanti, V. De Luca, A. Maselli, P. Pani
     journal: Phys. Rev. Lett. 128(11), pp. 111104 (2022)
@@ -891,6 +955,7 @@
           pages = "111104",
           year = "2022"
       }
+
   - title: 'Black holes in galaxies: Environmental impact on gravitational-wave generation and propagation'
     authors: V. Cardoso, K. Destounis, F. Duque, R. P. Macedo, A. Maselli
     journal: Phys. Rev. D 105(6), pp. L061501 (2022)
@@ -910,6 +975,7 @@
           pages = "L061501",
           year = "2022"
       }
+
   - title: The effect of mission duration on LISA science objectives
     authors: P. A. Seoane et al.
     journal: Gen. Rel. Grav. 54(1), pp. 3 (2022)
@@ -929,6 +995,7 @@
           pages = "3",
           year = "2022"
       }
+
   - title: Detecting fundamental fields with LISA observations of gravitational waves from extreme mass-ratio inspirals
     authors: A. Maselli, N. Franchini, L. Gualtieri, T. P. Sotiriou, S. Barsanti, P. Pani
     journal: Nature Astron. 6(4), pp. 464--470 (2022)
@@ -948,40 +1015,7 @@
           pages = "464--470",
           year = "2022"
       }
-  - title: 'Ranking Love Numbers for the Neutron Star Equation of State: The Need for Third-Generation Detectors'
-    authors: C. Pacilio, A. Maselli, M. Fasano, P. Pani
-    journal: Phys. Rev. Lett. 128(10), pp. 101101 (2022)
-    arxiv: '2104.10035'
-    doi: 10.1103/PhysRevLett.128.101101
-    bibtex: |
-      @article{Pacilio:2021jmq,
-          author = "Pacilio, Costantino and Maselli, Andrea and Fasano, Margherita and Pani, Paolo",
-          title = "{Ranking Love Numbers for the Neutron Star Equation of State: The Need for Third-Generation Detectors}",
-          eprint = "2104.10035",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevLett.128.101101",
-          journal = "Phys. Rev. Lett.",
-          volume = "128",
-          number = "10",
-          pages = "101101",
-          year = "2022"
-      }
-- year: 2021
-  papers:
-  - title: 'The Next Generation Global Gravitational Wave Observatory: The Science Book'
-    authors: V. Kalogera et al.
-    arxiv: '2111.06990'
-    bibtex: |
-      @article{Kalogera:2021bya,
-          author = "Kalogera, Vicky and others",
-          title = "{The Next Generation Global Gravitational Wave Observatory: The Science Book}",
-          eprint = "2111.06990",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          month = "11",
-          year = "2021"
-      }
+
   - title: Assessing the detectability of the secondary spin in extreme mass-ratio inspirals with fully relativistic numerical waveforms
     authors: G. A. Piovano, R. Brito, A. Maselli, P. Pani
     journal: Phys. Rev. D 104(12), pp. 124019 (2021)
@@ -1001,6 +1035,29 @@
           pages = "124019",
           year = "2021"
       }
+
+  - title: 'Ranking Love Numbers for the Neutron Star Equation of State: The Need for Third-Generation Detectors'
+    authors: C. Pacilio, A. Maselli, M. Fasano, P. Pani
+    journal: Phys. Rev. Lett. 128(10), pp. 101101 (2022)
+    arxiv: '2104.10035'
+    doi: 10.1103/PhysRevLett.128.101101
+    bibtex: |
+      @article{Pacilio:2021jmq,
+          author = "Pacilio, Costantino and Maselli, Andrea and Fasano, Margherita and Pani, Paolo",
+          title = "{Ranking Love Numbers for the Neutron Star Equation of State: The Need for Third-Generation Detectors}",
+          eprint = "2104.10035",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevLett.128.101101",
+          journal = "Phys. Rev. Lett.",
+          volume = "128",
+          number = "10",
+          pages = "101101",
+          year = "2022"
+      }
+- year: 2020
+  papers:
+
   - title: Lunar Gravitational-wave Antenna
     authors: J. Harms et al.
     journal: Astrophys. J. 910(1), pp. 1 (2021)
@@ -1021,6 +1078,7 @@
           pages = "1",
           year = "2021"
       }
+
   - title: Constraining three-nucleon forces with multimessenger data
     authors: A. Maselli, A. Sabatucci, O. Benhar
     journal: Phys. Rev. C 103(6), pp. 065804 (2021)
@@ -1040,6 +1098,226 @@
           pages = "065804",
           year = "2021"
       }
+
+  - title: 'Gravitational-wave detectors as particle-physics laboratories: Constraining scalar interactions with a coherent inspiral model of boson-star binaries'
+    authors: C. Pacilio, M. Vaglio, A. Maselli, P. Pani
+    journal: Phys. Rev. D 102(8), pp. 083002 (2020)
+    arxiv: '2007.05264'
+    doi: 10.1103/PhysRevD.102.083002
+    bibtex: |
+      @article{Pacilio:2020jza,
+          author = "Pacilio, Costantino and Vaglio, Massimo and Maselli, Andrea and Pani, Paolo",
+          title = "{Gravitational-wave detectors as particle-physics laboratories: Constraining scalar interactions with a coherent inspiral model of boson-star binaries}",
+          eprint = "2007.05264",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevD.102.083002",
+          journal = "Phys. Rev. D",
+          volume = "102",
+          number = "8",
+          pages = "083002",
+          year = "2020"
+      }
+
+  - title: Distinguishing double neutron star from neutron star-black hole binary populations with gravitational wave observations
+    authors: M. Fasano, K. W. K. Wong, A. Maselli, E. Berti, V. Ferrari, B. S. Sathyaprakash
+    journal: Phys. Rev. D 102(2), pp. 023025 (2020)
+    arxiv: '2005.01726'
+    doi: 10.1103/PhysRevD.102.023025
+    bibtex: |
+      @article{Fasano:2020eum,
+          author = "Fasano, Margherita and Wong, Kaze W. K. and Maselli, Andrea and Berti, Emanuele and Ferrari, Valeria and Sathyaprakash, Bangalore S.",
+          title = "{Distinguishing double neutron star from neutron star-black hole binary populations with gravitational wave observations}",
+          eprint = "2005.01726",
+          archivePrefix = "arXiv",
+          primaryClass = "astro-ph.HE",
+          doi = "10.1103/PhysRevD.102.023025",
+          journal = "Phys. Rev. D",
+          volume = "102",
+          number = "2",
+          pages = "023025",
+          year = "2020"
+      }
+
+  - title: Detecting scalar fields with Extreme Mass Ratio Inspirals
+    authors: A. Maselli, N. Franchini, L. Gualtieri, T. P. Sotiriou
+    journal: Phys. Rev. Lett. 125(14), pp. 141101 (2020)
+    arxiv: '2004.11895'
+    doi: 10.1103/PhysRevLett.125.141101
+    bibtex: |
+      @article{Maselli:2020zgv,
+          author = "Maselli, Andrea and Franchini, Nicola and Gualtieri, Leonardo and Sotiriou, Thomas P.",
+          title = "{Detecting scalar fields with Extreme Mass Ratio Inspirals}",
+          eprint = "2004.11895",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevLett.125.141101",
+          journal = "Phys. Rev. Lett.",
+          volume = "125",
+          number = "14",
+          pages = "141101",
+          year = "2020"
+      }
+
+  - title: 'Extreme mass ratio inspirals with spinning secondary: a detailed study of equatorial circular motion'
+    authors: G. A. Piovano, A. Maselli, P. Pani
+    journal: Phys. Rev. D 102(2), pp. 024041 (2020)
+    arxiv: '2004.02654'
+    doi: 10.1103/PhysRevD.102.024041
+    bibtex: |
+      @article{Piovano:2020zin,
+          author = "Piovano, Gabriel Andres and Maselli, Andrea and Pani, Paolo",
+          title = "{Extreme mass ratio inspirals with spinning secondary: a detailed study of equatorial circular motion}",
+          eprint = "2004.02654",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevD.102.024041",
+          journal = "Phys. Rev. D",
+          volume = "102",
+          number = "2",
+          pages = "024041",
+          year = "2020"
+      }
+
+  - title: Model independent tests of the Kerr bound with extreme mass ratio inspirals
+    authors: G. A. Piovano, A. Maselli, P. Pani
+    journal: Phys. Lett. B 811, pp. 135860 (2020)
+    arxiv: '2003.08448'
+    doi: 10.1016/j.physletb.2020.135860
+    bibtex: |
+      @article{Piovano:2020ooe,
+          author = "Piovano, Gabriel Andres and Maselli, Andrea and Pani, Paolo",
+          title = "{Model independent tests of the Kerr bound with extreme mass ratio inspirals}",
+          eprint = "2003.08448",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1016/j.physletb.2020.135860",
+          journal = "Phys. Lett. B",
+          volume = "811",
+          pages = "135860",
+          year = "2020"
+      }
+
+  - title: Prospects for Fundamental Physics with LISA
+    authors: E. Barausse et al.
+    journal: Gen. Rel. Grav. 52(8), pp. 81 (2020)
+    arxiv: '2001.09793'
+    doi: 10.1007/s10714-020-02691-1
+    bibtex: |
+      @article{Barausse:2020rsu,
+          author = "Barausse, Enrico and others",
+          title = "{Prospects for Fundamental Physics with LISA}",
+          eprint = "2001.09793",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1007/s10714-020-02691-1",
+          journal = "Gen. Rel. Grav.",
+          volume = "52",
+          number = "8",
+          pages = "81",
+          year = "2020"
+      }
+- year: 2019
+  papers:
+
+  - title: 'Parametrized ringdown spin expansion coefficients: a data-analysis framework for black-hole spectroscopy with multiple events'
+    authors: A. Maselli, P. Pani, L. Gualtieri, E. Berti
+    journal: Phys. Rev. D 101(2), pp. 024043 (2020)
+    arxiv: '1910.12893'
+    doi: 10.1103/PhysRevD.101.024043
+    bibtex: |
+      @article{Maselli:2019mjd,
+          author = "Maselli, Andrea and Pani, Paolo and Gualtieri, Leonardo and Berti, Emanuele",
+          title = "{Parametrized ringdown spin expansion coefficients: a data-analysis framework for black-hole spectroscopy with multiple events}",
+          eprint = "1910.12893",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevD.101.024043",
+          journal = "Phys. Rev. D",
+          volume = "101",
+          number = "2",
+          pages = "024043",
+          year = "2020"
+      }
+
+  - title: 'Binary white dwarfs and decihertz gravitational wave observations: From the Hubble constant to supernova astrophysics'
+    authors: A. Maselli, S. Marassi, M. Branchesi
+    journal: Astron. Astrophys. 635, pp. A120 (2020)
+    arxiv: '1910.00016'
+    doi: 10.1051/0004-6361/201936848
+    bibtex: |
+      @article{Maselli:2019mzt,
+          author = "Maselli, Andrea and Marassi, Stefania and Branchesi, Marica",
+          title = "{Binary white dwarfs and decihertz gravitational wave observations: From the Hubble constant to supernova astrophysics}",
+          eprint = "1910.00016",
+          archivePrefix = "arXiv",
+          primaryClass = "astro-ph.HE",
+          doi = "10.1051/0004-6361/201936848",
+          journal = "Astron. Astrophys.",
+          volume = "635",
+          pages = "A120",
+          year = "2020"
+      }
+
+  - title: Constraints on the astrophysical environment of binaries with gravitational-wave observations
+    authors: V. Cardoso, A. Maselli
+    journal: Astron. Astrophys. 644, pp. A147 (2020)
+    arxiv: '1909.05870'
+    doi: 10.1051/0004-6361/202037654
+    bibtex: |
+      @article{Cardoso:2019rou,
+          author = "Cardoso, Vitor and Maselli, Andrea",
+          title = "{Constraints on the astrophysical environment of binaries with gravitational-wave observations}",
+          eprint = "1909.05870",
+          archivePrefix = "arXiv",
+          primaryClass = "astro-ph.HE",
+          doi = "10.1051/0004-6361/202037654",
+          journal = "Astron. Astrophys.",
+          volume = "644",
+          pages = "A147",
+          year = "2020"
+      }
+
+  - title: Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes
+    authors: R. McManus, E. Berti, C. F. B. Macedo, M. Kimura, A. Maselli, V. Cardoso
+    journal: Phys. Rev. D 100(4), pp. 044061 (2019)
+    arxiv: '1906.05155'
+    doi: 10.1103/PhysRevD.100.044061
+    bibtex: |
+      @article{McManus:2019ulj,
+          author = "McManus, Ryan and Berti, Emanuele and Macedo, Caio F. B. and Kimura, Masashi and Maselli, Andrea and Cardoso, Vitor",
+          title = "{Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes}",
+          eprint = "1906.05155",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevD.100.044061",
+          journal = "Phys. Rev. D",
+          volume = "100",
+          number = "4",
+          pages = "044061",
+          year = "2019"
+      }
+
+  - title: Bounding alternative theories of gravity with multiband GW observations
+    authors: G. Gnocchi, A. Maselli, T. Abdelsalhin, N. Giacobbo, M. Mapelli
+    journal: Phys. Rev. D 100(6), pp. 064024 (2019)
+    arxiv: '1905.13460'
+    doi: 10.1103/PhysRevD.100.064024
+    bibtex: |
+      @article{Gnocchi:2019jzp,
+          author = "Gnocchi, Giuseppe and Maselli, Andrea and Abdelsalhin, Tiziano and Giacobbo, Nicola and Mapelli, Michela",
+          title = "{Bounding alternative theories of gravity with multiband GW observations}",
+          eprint = "1905.13460",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevD.100.064024",
+          journal = "Phys. Rev. D",
+          volume = "100",
+          number = "6",
+          pages = "064024",
+          year = "2019"
+      }
+
   - title: Photon spectrum of asymmetric dark stars
     authors: A. Maselli, C. Kouvaris, K. D. Kokkotas
     journal: Int. J. Mod. Phys. D 30(01), pp. 2150003 (2021)
@@ -1060,176 +1338,7 @@
           pages = "2150003",
           year = "2021"
       }
-- year: 2020
-  papers:
-  - title: 'Gravitational-wave detectors as particle-physics laboratories: Constraining scalar interactions with a coherent inspiral model of boson-star binaries'
-    authors: C. Pacilio, M. Vaglio, A. Maselli, P. Pani
-    journal: Phys. Rev. D 102(8), pp. 083002 (2020)
-    arxiv: '2007.05264'
-    doi: 10.1103/PhysRevD.102.083002
-    bibtex: |
-      @article{Pacilio:2020jza,
-          author = "Pacilio, Costantino and Vaglio, Massimo and Maselli, Andrea and Pani, Paolo",
-          title = "{Gravitational-wave detectors as particle-physics laboratories: Constraining scalar interactions with a coherent inspiral model of boson-star binaries}",
-          eprint = "2007.05264",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevD.102.083002",
-          journal = "Phys. Rev. D",
-          volume = "102",
-          number = "8",
-          pages = "083002",
-          year = "2020"
-      }
-  - title: Distinguishing double neutron star from neutron star-black hole binary populations with gravitational wave observations
-    authors: M. Fasano, K. W. K. Wong, A. Maselli, E. Berti, V. Ferrari, B. S. Sathyaprakash
-    journal: Phys. Rev. D 102(2), pp. 023025 (2020)
-    arxiv: '2005.01726'
-    doi: 10.1103/PhysRevD.102.023025
-    bibtex: |
-      @article{Fasano:2020eum,
-          author = "Fasano, Margherita and Wong, Kaze W. K. and Maselli, Andrea and Berti, Emanuele and Ferrari, Valeria and Sathyaprakash, Bangalore S.",
-          title = "{Distinguishing double neutron star from neutron star-black hole binary populations with gravitational wave observations}",
-          eprint = "2005.01726",
-          archivePrefix = "arXiv",
-          primaryClass = "astro-ph.HE",
-          doi = "10.1103/PhysRevD.102.023025",
-          journal = "Phys. Rev. D",
-          volume = "102",
-          number = "2",
-          pages = "023025",
-          year = "2020"
-      }
-  - title: Detecting scalar fields with Extreme Mass Ratio Inspirals
-    authors: A. Maselli, N. Franchini, L. Gualtieri, T. P. Sotiriou
-    journal: Phys. Rev. Lett. 125(14), pp. 141101 (2020)
-    arxiv: '2004.11895'
-    doi: 10.1103/PhysRevLett.125.141101
-    bibtex: |
-      @article{Maselli:2020zgv,
-          author = "Maselli, Andrea and Franchini, Nicola and Gualtieri, Leonardo and Sotiriou, Thomas P.",
-          title = "{Detecting scalar fields with Extreme Mass Ratio Inspirals}",
-          eprint = "2004.11895",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevLett.125.141101",
-          journal = "Phys. Rev. Lett.",
-          volume = "125",
-          number = "14",
-          pages = "141101",
-          year = "2020"
-      }
-  - title: 'Extreme mass ratio inspirals with spinning secondary: a detailed study of equatorial circular motion'
-    authors: G. A. Piovano, A. Maselli, P. Pani
-    journal: Phys. Rev. D 102(2), pp. 024041 (2020)
-    arxiv: '2004.02654'
-    doi: 10.1103/PhysRevD.102.024041
-    bibtex: |
-      @article{Piovano:2020zin,
-          author = "Piovano, Gabriel Andres and Maselli, Andrea and Pani, Paolo",
-          title = "{Extreme mass ratio inspirals with spinning secondary: a detailed study of equatorial circular motion}",
-          eprint = "2004.02654",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevD.102.024041",
-          journal = "Phys. Rev. D",
-          volume = "102",
-          number = "2",
-          pages = "024041",
-          year = "2020"
-      }
-  - title: Model independent tests of the Kerr bound with extreme mass ratio inspirals
-    authors: G. A. Piovano, A. Maselli, P. Pani
-    journal: Phys. Lett. B 811, pp. 135860 (2020)
-    arxiv: '2003.08448'
-    doi: 10.1016/j.physletb.2020.135860
-    bibtex: |
-      @article{Piovano:2020ooe,
-          author = "Piovano, Gabriel Andres and Maselli, Andrea and Pani, Paolo",
-          title = "{Model independent tests of the Kerr bound with extreme mass ratio inspirals}",
-          eprint = "2003.08448",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1016/j.physletb.2020.135860",
-          journal = "Phys. Lett. B",
-          volume = "811",
-          pages = "135860",
-          year = "2020"
-      }
-  - title: Prospects for Fundamental Physics with LISA
-    authors: E. Barausse et al.
-    journal: Gen. Rel. Grav. 52(8), pp. 81 (2020)
-    arxiv: '2001.09793'
-    doi: 10.1007/s10714-020-02691-1
-    bibtex: |
-      @article{Barausse:2020rsu,
-          author = "Barausse, Enrico and others",
-          title = "{Prospects for Fundamental Physics with LISA}",
-          eprint = "2001.09793",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1007/s10714-020-02691-1",
-          journal = "Gen. Rel. Grav.",
-          volume = "52",
-          number = "8",
-          pages = "81",
-          year = "2020"
-      }
-  - title: 'Parametrized ringdown spin expansion coefficients: a data-analysis framework for black-hole spectroscopy with multiple events'
-    authors: A. Maselli, P. Pani, L. Gualtieri, E. Berti
-    journal: Phys. Rev. D 101(2), pp. 024043 (2020)
-    arxiv: '1910.12893'
-    doi: 10.1103/PhysRevD.101.024043
-    bibtex: |
-      @article{Maselli:2019mjd,
-          author = "Maselli, Andrea and Pani, Paolo and Gualtieri, Leonardo and Berti, Emanuele",
-          title = "{Parametrized ringdown spin expansion coefficients: a data-analysis framework for black-hole spectroscopy with multiple events}",
-          eprint = "1910.12893",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevD.101.024043",
-          journal = "Phys. Rev. D",
-          volume = "101",
-          number = "2",
-          pages = "024043",
-          year = "2020"
-      }
-  - title: 'Binary white dwarfs and decihertz gravitational wave observations: From the Hubble constant to supernova astrophysics'
-    authors: A. Maselli, S. Marassi, M. Branchesi
-    journal: Astron. Astrophys. 635, pp. A120 (2020)
-    arxiv: '1910.00016'
-    doi: 10.1051/0004-6361/201936848
-    bibtex: |
-      @article{Maselli:2019mzt,
-          author = "Maselli, Andrea and Marassi, Stefania and Branchesi, Marica",
-          title = "{Binary white dwarfs and decihertz gravitational wave observations: From the Hubble constant to supernova astrophysics}",
-          eprint = "1910.00016",
-          archivePrefix = "arXiv",
-          primaryClass = "astro-ph.HE",
-          doi = "10.1051/0004-6361/201936848",
-          journal = "Astron. Astrophys.",
-          volume = "635",
-          pages = "A120",
-          year = "2020"
-      }
-  - title: Constraints on the astrophysical environment of binaries with gravitational-wave observations
-    authors: V. Cardoso, A. Maselli
-    journal: Astron. Astrophys. 644, pp. A147 (2020)
-    arxiv: '1909.05870'
-    doi: 10.1051/0004-6361/202037654
-    bibtex: |
-      @article{Cardoso:2019rou,
-          author = "Cardoso, Vitor and Maselli, Andrea",
-          title = "{Constraints on the astrophysical environment of binaries with gravitational-wave observations}",
-          eprint = "1909.05870",
-          archivePrefix = "arXiv",
-          primaryClass = "astro-ph.HE",
-          doi = "10.1051/0004-6361/202037654",
-          journal = "Astron. Astrophys.",
-          volume = "644",
-          pages = "A147",
-          year = "2020"
-      }
+
   - title: A new method to constrain neutron star structure from quasi-periodic oscillations
     authors: A. Maselli, G. Pappas, P. Pani, L. Gualtieri, S. Motta, V. Ferrari, L. Stella
     journal: Astrophys. J. 899(2), pp. 139 (2020)
@@ -1249,46 +1358,7 @@
           pages = "139",
           year = "2020"
       }
-- year: 2019
-  papers:
-  - title: Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes
-    authors: R. McManus, E. Berti, C. F. B. Macedo, M. Kimura, A. Maselli, V. Cardoso
-    journal: Phys. Rev. D 100(4), pp. 044061 (2019)
-    arxiv: '1906.05155'
-    doi: 10.1103/PhysRevD.100.044061
-    bibtex: |
-      @article{McManus:2019ulj,
-          author = "McManus, Ryan and Berti, Emanuele and Macedo, Caio F. B. and Kimura, Masashi and Maselli, Andrea and Cardoso, Vitor",
-          title = "{Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes}",
-          eprint = "1906.05155",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevD.100.044061",
-          journal = "Phys. Rev. D",
-          volume = "100",
-          number = "4",
-          pages = "044061",
-          year = "2019"
-      }
-  - title: Bounding alternative theories of gravity with multiband GW observations
-    authors: G. Gnocchi, A. Maselli, T. Abdelsalhin, N. Giacobbo, M. Mapelli
-    journal: Phys. Rev. D 100(6), pp. 064024 (2019)
-    arxiv: '1905.13460'
-    doi: 10.1103/PhysRevD.100.064024
-    bibtex: |
-      @article{Gnocchi:2019jzp,
-          author = "Gnocchi, Giuseppe and Maselli, Andrea and Abdelsalhin, Tiziano and Giacobbo, Nicola and Mapelli, Michela",
-          title = "{Bounding alternative theories of gravity with multiband GW observations}",
-          eprint = "1905.13460",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevD.100.064024",
-          journal = "Phys. Rev. D",
-          volume = "100",
-          number = "6",
-          pages = "064024",
-          year = "2019"
-      }
+
   - title: Love in Extrema Ratio
     authors: P. Pani, A. Maselli
     journal: Int. J. Mod. Phys. D 28(14), pp. 1944001 (2019)
@@ -1308,6 +1378,7 @@
           pages = "1944001",
           year = "2019"
       }
+
   - title: Extreme Gravity and Fundamental Physics
     authors: B. S. Sathyaprakash et al.
     arxiv: '1903.09221'
@@ -1321,6 +1392,7 @@
           month = "3",
           year = "2019"
       }
+
   - title: Constraining the Neutron Star Equation of State Using Multiband Independent Measurements of Radii and Tidal Deformabilities
     authors: M. Fasano, T. Abdelsalhin, A. Maselli, V. Ferrari
     journal: Phys. Rev. Lett. 123(14), pp. 141101 (2019)
@@ -1340,6 +1412,7 @@
           pages = "141101",
           year = "2019"
       }
+
   - title: 'Parametrized black hole quasinormal ringdown: Decoupled equations for nonrotating black holes'
     authors: V. Cardoso, M. Kimura, A. Maselli, E. Berti, C. F. B. Macedo, R. McManus
     journal: Phys. Rev. D 99(10), pp. 104077 (2019)
@@ -1359,6 +1432,9 @@
           pages = "104077",
           year = "2019"
       }
+- year: 2018
+  papers:
+
   - title: 'From micro to macro and back: probing near-horizon quantum structures with gravitational waves'
     authors: A. Maselli, P. Pani, V. Cardoso, T. Abdelsalhin, L. Gualtieri, V. Ferrari
     journal: Class. Quant. Grav. 36(16), pp. 167001 (2019)
@@ -1378,27 +1454,7 @@
           pages = "167001",
           year = "2019"
       }
-  - title: 'Black holes, gravitational waves and fundamental physics: a roadmap'
-    authors: L. Barack et al.
-    journal: Class. Quant. Grav. 36(14), pp. 143001 (2019)
-    arxiv: '1806.05195'
-    doi: 10.1088/1361-6382/ab0587
-    bibtex: |
-      @article{Barack:2018yly,
-          author = "Barack, Leor and others",
-          title = "{Black holes, gravitational waves and fundamental physics: a roadmap}",
-          eprint = "1806.05195",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1088/1361-6382/ab0587",
-          journal = "Class. Quant. Grav.",
-          volume = "36",
-          number = "14",
-          pages = "143001",
-          year = "2019"
-      }
-- year: 2018
-  papers:
+
   - title: 'Gravitational waves in massive gravity theories: waveforms, fluxes and constraints from extreme-mass-ratio mergers'
     authors: V. Cardoso, G. Castro, A. Maselli
     journal: Phys. Rev. Lett. 121(25), pp. 251103 (2018)
@@ -1418,6 +1474,7 @@
           pages = "251103",
           year = "2018"
       }
+
   - title: Black Holes in an Effective Field Theory Extension of General Relativity
     authors: V. Cardoso, M. Kimura, A. Maselli, L. Senatore
     journal: Phys. Rev. Lett. 121(25), pp. 251105 (2018)
@@ -1438,6 +1495,29 @@
           year = "2018",
           note = "[Erratum: Phys.Rev.Lett. 131, 109903 (2023)]"
       }
+
+  - title: 'Black holes, gravitational waves and fundamental physics: a roadmap'
+    authors: L. Barack et al.
+    journal: Class. Quant. Grav. 36(14), pp. 143001 (2019)
+    arxiv: '1806.05195'
+    doi: 10.1088/1361-6382/ab0587
+    bibtex: |
+      @article{Barack:2018yly,
+          author = "Barack, Leor and others",
+          title = "{Black holes, gravitational waves and fundamental physics: a roadmap}",
+          eprint = "1806.05195",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1088/1361-6382/ab0587",
+          journal = "Class. Quant. Grav.",
+          volume = "36",
+          number = "14",
+          pages = "143001",
+          year = "2019"
+      }
+- year: 2017
+  papers:
+
   - title: Solving the relativistic inverse stellar problem through gravitational waves observation of binary neutron stars
     authors: T. Abdelsalhin, A. Maselli, V. Ferrari
     journal: Phys. Rev. D 97(8), pp. 084014 (2018)
@@ -1457,27 +1537,7 @@
           pages = "084014",
           year = "2018"
       }
-  - title: Probing Planckian corrections at the horizon scale with LISA binaries
-    authors: A. Maselli, P. Pani, V. Cardoso, T. Abdelsalhin, L. Gualtieri, V. Ferrari
-    journal: Phys. Rev. Lett. 120(8), pp. 081101 (2018)
-    arxiv: '1703.10612'
-    doi: 10.1103/PhysRevLett.120.081101
-    bibtex: |
-      @article{Maselli:2017cmm,
-          author = "Maselli, Andrea and Pani, Paolo and Cardoso, Vitor and Abdelsalhin, Tiziano and Gualtieri, Leonardo and Ferrari, Valeria",
-          title = "{Probing Planckian corrections at the horizon scale with LISA binaries}",
-          eprint = "1703.10612",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1103/PhysRevLett.120.081101",
-          journal = "Phys. Rev. Lett.",
-          volume = "120",
-          number = "8",
-          pages = "081101",
-          year = "2018"
-      }
-- year: 2017
-  papers:
+
   - title: Parameter estimation of gravitational wave echoes from exotic compact objects
     authors: A. Maselli, S. H. Völkel, K. D. Kokkotas
     journal: Phys. Rev. D 96(6), pp. 064045 (2017)
@@ -1497,6 +1557,7 @@
           pages = "064045",
           year = "2017"
       }
+
   - title: 'Dark stars: gravitational and electromagnetic observables'
     authors: A. Maselli, P. Pnigouras, N. G. Nielsen, C. Kouvaris, K. D. Kokkotas
     journal: Phys. Rev. D 96(2), pp. 023005 (2017)
@@ -1516,6 +1577,27 @@
           pages = "023005",
           year = "2017"
       }
+
+  - title: Probing Planckian corrections at the horizon scale with LISA binaries
+    authors: A. Maselli, P. Pani, V. Cardoso, T. Abdelsalhin, L. Gualtieri, V. Ferrari
+    journal: Phys. Rev. Lett. 120(8), pp. 081101 (2018)
+    arxiv: '1703.10612'
+    doi: 10.1103/PhysRevLett.120.081101
+    bibtex: |
+      @article{Maselli:2017cmm,
+          author = "Maselli, Andrea and Pani, Paolo and Cardoso, Vitor and Abdelsalhin, Tiziano and Gualtieri, Leonardo and Ferrari, Valeria",
+          title = "{Probing Planckian corrections at the horizon scale with LISA binaries}",
+          eprint = "1703.10612",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1103/PhysRevLett.120.081101",
+          journal = "Phys. Rev. Lett.",
+          volume = "120",
+          number = "8",
+          pages = "081101",
+          year = "2018"
+      }
+
   - title: Geodesic models of quasi-periodic-oscillations as probes of quadratic gravity
     authors: A. Maselli, P. Pani, R. Cotesta, L. Gualtieri, V. Ferrari, L. Stella
     journal: Astrophys. J. 843(1), pp. 25 (2017)
@@ -1535,6 +1617,7 @@
           pages = "25",
           year = "2017"
       }
+
   - title: Observing binary black hole ringdowns by advanced gravitational wave detectors
     authors: A. Maselli, K. Kokkotas, P. Laguna
     journal: Phys. Rev. D 95(10), pp. 104026 (2017)
@@ -1554,6 +1637,7 @@
           pages = "104026",
           year = "2017"
       }
+
   - title: Testing strong-field gravity with tidal Love numbers
     authors: V. Cardoso, E. Franzin, A. Maselli, P. Pani, G. Raposo
     journal: Phys. Rev. D 95(8), pp. 084014 (2017)
@@ -1574,6 +1658,7 @@
           year = "2017",
           note = "[Addendum: Phys.Rev.D 95, 089901 (2017)]"
       }
+
   - title: Recent progress on the tidal deformability of spinning compact objects
     authors: P. Pani, L. Gualtieri, A. Maselli, V. Ferrari
     journal: The Fourteenth Marcel Grossmann Meeting, pp. 1587--1593 (2017)
@@ -1589,6 +1674,7 @@
           pages = "1587--1593",
           year = "2017"
       }
+
   - title: Testing the strong field gravity regime with QPO observations
     authors: A. Maselli, L. Gualtieri, V. Ferrari, P. Pani, L. Stella
     journal: The Fourteenth Marcel Grossmann Meeting, pp. 1850--1853 (2017)
@@ -1604,6 +1690,9 @@
           pages = "1850--1853",
           year = "2017"
       }
+- year: 2016
+  papers:
+
   - title: Constraining black holes with light boson hair and boson stars using epicyclic frequencies and quasiperiodic oscillations
     authors: N. Franchini, P. Pani, A. Maselli, L. Gualtieri, C. A. R. Herdeiro, E. Radu, V. Ferrari
     journal: Phys. Rev. D 95(12), pp. 124025 (2017)
@@ -1623,8 +1712,7 @@
           pages = "124025",
           year = "2017"
       }
-- year: 2016
-  papers:
+
   - title: Constraining Modified Theories of Gravity with Gravitational-Wave Stochastic Backgrounds
     authors: A. Maselli, S. Marassi, V. Ferrari, K. Kokkotas, R. Schneider
     journal: Phys. Rev. Lett. 117(9), pp. 091102 (2016)
@@ -1644,22 +1732,7 @@
           pages = "091102",
           year = "2016"
       }
-  - title: Recent developments in the tidal deformability of spinning compact objects
-    authors: P. Pani, L. Gualtieri, A. Maselli, V. Ferrari
-    journal: Int. J. Mod. Phys. D 25(09), pp. 1641001 (2016)
-    doi: 10.1142/S0218271816410017
-    bibtex: |
-      @article{Pani:2016tjg,
-          author = "Pani, Paolo and Gualtieri, Leonardo and Maselli, Andrea and Ferrari, Valeria",
-          editor = "Herdeiro, Carlos A. R. and Berti, Emanuele and Cardoso, Vitor and Crispino, Luis C. B. and Gualtieri, Leonardo and Sperhake, Ulrich",
-          title = "{Recent developments in the tidal deformability of spinning compact objects}",
-          doi = "10.1142/S0218271816410017",
-          journal = "Int. J. Mod. Phys. D",
-          volume = "25",
-          number = "09",
-          pages = "1641001",
-          year = "2016"
-      }
+
   - title: Neutron stars in Horndeski gravity
     authors: A. Maselli, H. O. Silva, M. Minamitsuji, E. Berti
     journal: Phys. Rev. D 93(12), pp. 124056 (2016)
@@ -1679,20 +1752,7 @@
           pages = "124056",
           year = "2016"
       }
-  - title: 'From macro to micro: universal properties of neutron stars'
-    authors: A. Maselli
-    journal: PoS MPCS2015, pp. 014 (2016)
-    doi: 10.22323/1.262.0014
-    bibtex: |
-      @article{Maselli:2016rim,
-          author = "Maselli, Andrea",
-          title = "{From macro to micro: universal properties of neutron stars}",
-          doi = "10.22323/1.262.0014",
-          journal = "PoS",
-          volume = "MPCS2015",
-          pages = "014",
-          year = "2016"
-      }
+
   - title: Compact objects in Horndeski gravity
     authors: H. O. Silva, A. Maselli, M. Minamitsuji, E. Berti
     journal: Int. J. Mod. Phys. D 25(09), pp. 1641006 (2016)
@@ -1713,6 +1773,7 @@
           pages = "1641006",
           year = "2016"
       }
+
   - title: Relativistic tidal effects in nonstandard Kerr spacetime
     authors: A. Maselli, K. Kokkotas, P. Laguna
     journal: Phys. Rev. D 93(6), pp. 064075 (2016)
@@ -1732,8 +1793,41 @@
           pages = "064075",
           year = "2016"
       }
+
+  - title: Recent developments in the tidal deformability of spinning compact objects
+    authors: P. Pani, L. Gualtieri, A. Maselli, V. Ferrari
+    journal: Int. J. Mod. Phys. D 25(09), pp. 1641001 (2016)
+    doi: 10.1142/S0218271816410017
+    bibtex: |
+      @article{Pani:2016tjg,
+          author = "Pani, Paolo and Gualtieri, Leonardo and Maselli, Andrea and Ferrari, Valeria",
+          editor = "Herdeiro, Carlos A. R. and Berti, Emanuele and Cardoso, Vitor and Crispino, Luis C. B. and Gualtieri, Leonardo and Sperhake, Ulrich",
+          title = "{Recent developments in the tidal deformability of spinning compact objects}",
+          doi = "10.1142/S0218271816410017",
+          journal = "Int. J. Mod. Phys. D",
+          volume = "25",
+          number = "09",
+          pages = "1641001",
+          year = "2016"
+      }
+
+  - title: 'From macro to micro: universal properties of neutron stars'
+    authors: A. Maselli
+    journal: PoS MPCS2015, pp. 014 (2016)
+    doi: 10.22323/1.262.0014
+    bibtex: |
+      @article{Maselli:2016rim,
+          author = "Maselli, Andrea",
+          title = "{From macro to micro: universal properties of neutron stars}",
+          doi = "10.22323/1.262.0014",
+          journal = "PoS",
+          volume = "MPCS2015",
+          pages = "014",
+          year = "2016"
+      }
 - year: 2015
   papers:
+
   - title: Slowly rotating black hole solutions in Horndeski gravity
     authors: A. Maselli, H. O. Silva, M. Minamitsuji, E. Berti
     journal: Phys. Rev. D 92(10), pp. 104049 (2015)
@@ -1753,6 +1847,7 @@
           pages = "104049",
           year = "2015"
       }
+
   - title: Rotating black holes in Einstein-Dilaton-Gauss-Bonnet gravity with finite coupling
     authors: A. Maselli, P. Pani, L. Gualtieri, V. Ferrari
     journal: Phys. Rev. D 92(8), pp. 083014 (2015)
@@ -1772,6 +1867,7 @@
           pages = "083014",
           year = "2015"
       }
+
   - title: Tidal deformations of a spinning compact object
     authors: P. Pani, L. Gualtieri, A. Maselli, V. Ferrari
     journal: Phys. Rev. D 92(2), pp. 024010 (2015)
@@ -1791,6 +1887,7 @@
           pages = "024010",
           year = "2015"
       }
+
   - title: 'Missing link: A nonlinear post-Friedmann framework for small and large scales'
     authors: I. Milillo, D. Bertacca, M. Bruni, A. Maselli
     journal: Phys. Rev. D 92(2), pp. 023519 (2015)
@@ -1810,6 +1907,9 @@
           pages = "023519",
           year = "2015"
       }
+- year: 2014
+  papers:
+
   - title: 'Testing Gravity with Quasi Periodic Oscillations from accreting Black Holes: the Case of the Einstein-Dilaton-Gauss-Bonnet Theory'
     authors: A. Maselli, L. Gualtieri, P. Pani, L. Stella, V. Ferrari
     journal: Astrophys. J. 801(2), pp. 115 (2015)
@@ -1829,44 +1929,7 @@
           pages = "115",
           year = "2015"
       }
-  - title: Coincidence searches of gravitational waves and short gamma-ray bursts
-    authors: A. Maselli, V. Ferrari
-    journal: Astrophys. Space Sci. Proc. 40, pp. 75--83 (2015)
-    arxiv: '1405.7201'
-    doi: 10.1007/978-3-319-10488-1_7
-    bibtex: |
-      @article{Maselli:2014jra,
-          author = "Maselli, Andrea and Ferrari, Valeria",
-          editor = "Sopuerta, Carlos F.",
-          title = "{Coincidence searches of gravitational waves and short gamma-ray bursts}",
-          eprint = "1405.7201",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1007/978-3-319-10488-1_7",
-          journal = "Astrophys. Space Sci. Proc.",
-          volume = "40",
-          pages = "75--83",
-          year = "2015"
-      }
-  - title: On the validity of the adiabatic approximation in compact binary inspirals
-    authors: A. Maselli, L. Gualtieri, V. Ferrari, F. Pannarale
-    journal: The Thirteenth Marcel Grossmann Meeting, pp. 951--953 (2015)
-    arxiv: '1302.5249'
-    doi: 10.1142/9789814623995_0052
-    bibtex: |
-      @inproceedings{Maselli:2013loa,
-          author = "Maselli, Andrea and Gualtieri, Leonardo and Ferrari, Valeria and Pannarale, Francesco",
-          title = "{On the validity of the adiabatic approximation in compact binary inspirals}",
-          booktitle = "{The Thirteenth Marcel Grossmann Meeting}",
-          eprint = "1302.5249",
-          archivePrefix = "arXiv",
-          primaryClass = "gr-qc",
-          doi = "10.1142/9789814623995_0052",
-          pages = "951--953",
-          year = "2015"
-      }
-- year: 2014
-  papers:
+
   - title: 'Rotating protoneutron stars: Spin evolution, maximum mass, and I-Love-Q relations'
     authors: G. Martinon, A. Maselli, L. Gualtieri, V. Ferrari
     journal: Phys. Rev. D 90(6), pp. 064026 (2014)
@@ -1886,6 +1949,29 @@
           pages = "064026",
           year = "2014"
       }
+
+  - title: Coincidence searches of gravitational waves and short gamma-ray bursts
+    authors: A. Maselli, V. Ferrari
+    journal: Astrophys. Space Sci. Proc. 40, pp. 75--83 (2015)
+    arxiv: '1405.7201'
+    doi: 10.1007/978-3-319-10488-1_7
+    bibtex: |
+      @article{Maselli:2014jra,
+          author = "Maselli, Andrea and Ferrari, Valeria",
+          editor = "Sopuerta, Carlos F.",
+          title = "{Coincidence searches of gravitational waves and short gamma-ray bursts}",
+          eprint = "1405.7201",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1007/978-3-319-10488-1_7",
+          journal = "Astrophys. Space Sci. Proc.",
+          volume = "40",
+          pages = "75--83",
+          year = "2015"
+      }
+- year: 2013
+  papers:
+
   - title: Low latency search for gravitational waves from black-holetextendashneutron-star binaries in coincidence with short gamma-ray bursts
     authors: A. Maselli, V. Ferrari
     journal: Phys. Rev. D 89(6), pp. 064056 (2014)
@@ -1905,8 +1991,7 @@
           pages = "064056",
           year = "2014"
       }
-- year: 2013
-  papers:
+
   - title: 'Constraining the equation of state of nuclear matter with gravitational wave observations: Tidal deformability and tidal disruption'
     authors: A. Maselli, L. Gualtieri, V. Ferrari
     journal: Phys. Rev. D 88(10), pp. 104040 (2013)
@@ -1926,6 +2011,7 @@
           pages = "104040",
           year = "2013"
       }
+
   - title: Equation-of-state-independent relations in neutron stars
     authors: A. Maselli, V. Cardoso, V. Ferrari, L. Gualtieri, P. Pani
     journal: Phys. Rev. D 88(2), pp. 023007 (2013)
@@ -1945,8 +2031,27 @@
           pages = "023007",
           year = "2013"
       }
+
+  - title: On the validity of the adiabatic approximation in compact binary inspirals
+    authors: A. Maselli, L. Gualtieri, V. Ferrari, F. Pannarale
+    journal: The Thirteenth Marcel Grossmann Meeting, pp. 951--953 (2015)
+    arxiv: '1302.5249'
+    doi: 10.1142/9789814623995_0052
+    bibtex: |
+      @inproceedings{Maselli:2013loa,
+          author = "Maselli, Andrea and Gualtieri, Leonardo and Ferrari, Valeria and Pannarale, Francesco",
+          title = "{On the validity of the adiabatic approximation in compact binary inspirals}",
+          booktitle = "{The Thirteenth Marcel Grossmann Meeting}",
+          eprint = "1302.5249",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.1142/9789814623995_0052",
+          pages = "951--953",
+          year = "2015"
+      }
 - year: 2012
   papers:
+
   - title: On the validity of the adiabatic approximation in compact binary inspirals
     authors: A. Maselli, L. Gualtieri, F. Pannarale, V. Ferrari
     journal: Phys. Rev. D 86, pp. 044032 (2012)
@@ -1965,6 +2070,9 @@
           pages = "044032",
           year = "2012"
       }
+- year: 2011
+  papers:
+
   - title: 'Tidal interaction in compact binaries: a post-Newtonian affine framework'
     authors: V. Ferrari, L. Gualtieri, A. Maselli
     journal: Phys. Rev. D 85, pp. 044045 (2012)
