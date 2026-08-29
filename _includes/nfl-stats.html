@@ -1,0 +1,24 @@
+{% assign nfl_stats = include.stats | default: page.stats %}
+{% if nfl_stats and nfl_stats.size > 0 %}
+  <div class="nfl-stats-wrap">
+    <table class="nfl-stats">
+      <thead>
+        <tr>
+          <th scope="col">Metric</th>
+          <th scope="col">{{ page.stats_game_label | default: 'Game' }}</th>
+          <th scope="col">{{ page.stats_season_label | default: 'Season' }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for stat in nfl_stats %}
+          <tr>
+            <th scope="row">{{ stat.metric }}</th>
+            <td>{{ stat.game }}</td>
+            <td>{{ stat.season }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if page.stats_note %}<p class="nfl-stats-note">{{ page.stats_note }}</p>{% endif %}
+  </div>
+{% endif %}

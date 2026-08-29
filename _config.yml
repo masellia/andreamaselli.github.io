@@ -19,3 +19,13 @@ social:
 collections:
   pages:
     output: true
+  nfl:
+    output: true
+    permalink: /me/qb-room/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: nfl
+    values:
+      layout: nfl_post

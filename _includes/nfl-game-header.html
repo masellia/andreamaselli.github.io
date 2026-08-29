@@ -1,0 +1,29 @@
+<header class="nfl-game-header">
+  <div class="nfl-game-edition">
+    <span>{{ page.week_label | upcase }} / {{ page.season }}</span>
+    {% if page.edition %}<span>{{ page.edition | upcase }}</span>{% endif %}
+  </div>
+
+  <div class="nfl-scoreboard" role="group" aria-label="{{ site.data.nfl.team }} {{ page.team_score }}, {{ page.opponent }} {{ page.opponent_score }}, {{ page.status }}">
+    <div class="nfl-score-team">
+      <span class="nfl-score-name">{{ site.data.nfl.team_abbr }}</span>
+      <strong>{{ page.team_score }}</strong>
+    </div>
+
+    <span class="nfl-score-separator" aria-hidden="true">&mdash;</span>
+
+    <div class="nfl-score-team">
+      <span class="nfl-score-name">{{ page.opponent_abbr }}</span>
+      <strong>{{ page.opponent_score }}</strong>
+    </div>
+  </div>
+
+  <div class="nfl-game-status">{{ page.status }}</div>
+  <h1>{{ page.title }}</h1>
+
+  <div class="nfl-game-dateline">
+    <time datetime="{{ page.game_date | date: '%Y-%m-%d' }}">{{ page.game_date | date: '%B %-d, %Y' }}</time>
+    <span>{{ page.home_away | capitalize }}</span>
+    <span>Published {{ page.date | date: '%B %-d, %Y' }}</span>
+  </div>
+</header>

@@ -1,0 +1,35 @@
+{% assign nfl_season_posts = site.nfl | where: 'season', page.season | sort: 'week_order' %}
+{% assign nfl_previous = nil %}
+{% assign nfl_next = nil %}
+{% assign nfl_found = false %}
+
+{% for nfl_candidate in nfl_season_posts %}
+  {% if nfl_found %}
+    {% assign nfl_next = nfl_candidate %}
+    {% break %}
+  {% elsif nfl_candidate.url == page.url %}
+    {% assign nfl_found = true %}
+  {% else %}
+    {% assign nfl_previous = nfl_candidate %}
+  {% endif %}
+{% endfor %}
+
+{% if nfl_previous or nfl_next %}
+  <nav class="nfl-post-nav" aria-label="Game analysis navigation">
+    {% if nfl_previous %}
+      <a class="nfl-post-nav-previous" href="{{ nfl_previous.url | relative_url }}">
+        <span>Previous game</span>
+        <strong>{{ nfl_previous.week_label }}: {{ nfl_previous.opponent }}</strong>
+      </a>
+    {% else %}
+      <span></span>
+    {% endif %}
+
+    {% if nfl_next %}
+      <a class="nfl-post-nav-next" href="{{ nfl_next.url | relative_url }}">
+        <span>Next game</span>
+        <strong>{{ nfl_next.week_label }}: {{ nfl_next.opponent }}</strong>
+      </a>
+    {% endif %}
+  </nav>
+{% endif %}

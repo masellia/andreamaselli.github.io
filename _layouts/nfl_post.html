@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="nfl-article">
+  <div class="nfl-article-topline">
+    <a href="{{ '/me/qb-room/' | relative_url }}">The QB Room</a>
+    <span>{{ site.data.nfl.kicker }}</span>
+  </div>
+
+  {% include nfl-game-header.html %}
+
+  {% if page.thesis %}
+    <aside class="nfl-thesis" aria-labelledby="nfl-thesis-title">
+      <h2 id="nfl-thesis-title">The game in one sentence</h2>
+      <p>{{ page.thesis }}</p>
+    </aside>
+  {% endif %}
+
+  <div class="nfl-article-body">
+    {{ content }}
+  </div>
+
+  {% include nfl-post-nav.html %}
+
+  <footer class="nfl-article-footer">
+    <p>{{ site.data.nfl.disclaimer }}</p>
+    <a href="{{ '/me/qb-room/' | relative_url }}">Back to the archive</a>
+  </footer>
+</article>
