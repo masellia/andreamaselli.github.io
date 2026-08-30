@@ -2759,7 +2759,7 @@ body {
 
 .nfl-archive-heading {
   display: grid;
-  grid-template-columns: 150px minmax(300px, 1fr) 210px;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   gap: 2rem;
   align-items: center;
 }
@@ -2858,22 +2858,6 @@ body {
   margin-top: 0.2rem;
   color: #777777;
   font-size: 12px;
-}
-
-.nfl-archive-copy {
-  margin-top: 2.2rem;
-  text-align: center;
-}
-
-.nfl-archive-copy h3 {
-  margin: 0;
-  color: #222222;
-  font-family: "DINBoldCond", sans-serif;
-  font-size: 38px;
-  font-weight: 400;
-  letter-spacing: 0.015em;
-  line-height: 1.1;
-  text-transform: uppercase;
 }
 
 .nfl-game-panels {
@@ -2986,6 +2970,12 @@ body {
   font-size: 15px;
   line-height: 1.6;
   text-align: justify;
+}
+
+.nfl-tactical .nfl-section-placeholder {
+  color: #777777;
+  font-style: italic;
+  text-align: left;
 }
 
 .nfl-key-moments {
@@ -3138,16 +3128,8 @@ body {
   }
 
   .nfl-archive-heading {
-    grid-template-columns: 120px minmax(0, 1fr);
-  }
-
-  .nfl-game-location {
-    grid-column: 1 / -1;
-    text-align: center;
-  }
-
-  .nfl-archive-copy h3 {
-    font-size: 32px;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 1rem;
   }
 
   .nfl-tactical {
@@ -3211,10 +3193,6 @@ body {
   .nfl-matchup-team img {
     width: 64px;
     height: 56px;
-  }
-
-  .nfl-archive-copy h3 {
-    font-size: 29px;
   }
 
   .nfl-game-panels {

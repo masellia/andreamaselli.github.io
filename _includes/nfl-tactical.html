@@ -1,25 +1,27 @@
 {% assign nfl_tactical = include.post.tactical %}
-{% if nfl_tactical.game_script or nfl_tactical.offense or nfl_tactical.defense %}
-  <div class="nfl-tactical">
+<div class="nfl-tactical">
+  <section>
+    <h4>Game Script</h4>
     {% if nfl_tactical.game_script %}
-      <section>
-        <h4>Game Script</h4>
-        <div>{{ nfl_tactical.game_script | markdownify }}</div>
-      </section>
+      <div>{{ nfl_tactical.game_script | markdownify }}</div>
+    {% else %}
+      <p class="nfl-section-placeholder">Flow, score effects, and pivotal shifts will be added after the game.</p>
     {% endif %}
+  </section>
+  <section>
+    <h4>Offense</h4>
     {% if nfl_tactical.offense %}
-      <section>
-        <h4>Offense</h4>
-        <div>{{ nfl_tactical.offense | markdownify }}</div>
-      </section>
+      <div>{{ nfl_tactical.offense | markdownify }}</div>
+    {% else %}
+      <p class="nfl-section-placeholder">Personnel, sequencing, and quarterback play will be assessed after the game.</p>
     {% endif %}
+  </section>
+  <section>
+    <h4>Defense</h4>
     {% if nfl_tactical.defense %}
-      <section>
-        <h4>Defense</h4>
-        <div>{{ nfl_tactical.defense | markdownify }}</div>
-      </section>
+      <div>{{ nfl_tactical.defense | markdownify }}</div>
+    {% else %}
+      <p class="nfl-section-placeholder">Front structure, coverage, and pressure patterns will be assessed after the game.</p>
     {% endif %}
-  </div>
-{% else %}
-  <p class="nfl-panel-placeholder">Game script, offensive notes, and defensive notes will be added after the game.</p>
-{% endif %}
+  </section>
+</div>

@@ -1,6 +1,6 @@
 {% assign nfl_stats_post = include.post %}
 {% assign nfl_stats = nfl_stats_post.stats %}
-{% if nfl_stats_post.stats_ready and nfl_stats and nfl_stats.size > 0 %}
+{% if nfl_stats and nfl_stats.size > 0 %}
   <div class="nfl-stats-wrap">
     <table class="nfl-stats">
       <thead>
@@ -27,7 +27,11 @@
         {% endfor %}
       </tbody>
     </table>
-    {% if nfl_stats_post.stats_note %}<p class="nfl-stats-note">{{ nfl_stats_post.stats_note }}</p>{% endif %}
+    {% if nfl_stats_post.stats_note %}
+      <p class="nfl-stats-note">{{ nfl_stats_post.stats_note }}</p>
+    {% elsif nfl_stats_post.stats_ready != true %}
+      <p class="nfl-stats-note">Post-game values will be added after the final whistle.</p>
+    {% endif %}
   </div>
 {% else %}
   <p class="nfl-panel-placeholder">Game and season metrics will be available after the final whistle.</p>
