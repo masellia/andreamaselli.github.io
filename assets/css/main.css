@@ -2943,14 +2943,14 @@ body {
 }
 
 .nfl-tactical {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
+  width: min(900px, 100%);
+  margin: 0 auto;
 }
 
 .nfl-tactical section + section {
-  padding-left: 2rem;
-  border-left: 1px solid var(--nfl-rule);
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--nfl-rule);
 }
 
 .nfl-tactical h4,
@@ -2976,6 +2976,28 @@ body {
   color: #777777;
   font-style: italic;
   text-align: left;
+}
+
+.nfl-tactical img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+.nfl-tactical figure {
+  margin: 2rem 0;
+}
+
+.nfl-tactical figure img {
+  margin: 0 auto;
+}
+
+.nfl-tactical figcaption {
+  margin-top: 0.5rem;
+  color: #777777;
+  font-size: 12px;
+  line-height: 1.45;
 }
 
 .nfl-key-moments {
@@ -3130,17 +3152,6 @@ body {
   .nfl-archive-heading {
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     gap: 1rem;
-  }
-
-  .nfl-tactical {
-    grid-template-columns: 1fr;
-  }
-
-  .nfl-tactical section + section {
-    padding-top: 1.5rem;
-    padding-left: 0;
-    border-top: 1px solid var(--nfl-rule);
-    border-left: 0;
   }
 
   .nfl-tactical p,

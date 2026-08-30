@@ -20,7 +20,7 @@ permalink: /me/qb-room/
   {% if nfl_seasons.size > 0 %}
     <div class="nfl-archive">
       {% for nfl_season in nfl_seasons %}
-        {% assign nfl_season_posts = nfl_season.items | sort: 'week_order' | reverse %}
+        {% assign nfl_season_posts = nfl_season.items | sort: 'week_order' %}
         <section class="nfl-season" aria-labelledby="nfl-season-{{ nfl_season.name }}">
           <header class="nfl-season-header">
             <span>{{ site.data.nfl.archive_label }}</span>

@@ -91,4 +91,4 @@ key_moments:
     image_caption: "Optional caption"
 ```
 
-Use the NFL season year for `season`, including playoff games played in January of the following calendar year. Use `week_order` to control reverse-chronological display. Set `date` to a non-future publication date and restart the local Jekyll server after changing collection configuration.
+Use the NFL season year for `season`, including playoff games played in January of the following calendar year. Use `week_order` to control chronological display. Set `date` to a non-future publication date and restart the local Jekyll server after changing collection configuration.
