@@ -20,7 +20,7 @@ permalink: /publications/
 
     <a href="https://inspirehep.net/authors/1189872" target="_blank">
       <img class="inline-icon"
-           src="{{ '/assets/img/inspire.jpg' | relative_url }}"
+           src="{{ '/assets/img/publications/inspire.jpg' | relative_url }}"
            alt="INSPIRE">
     </a>
 
@@ -28,7 +28,7 @@ permalink: /publications/
 
     <a href="https://scholar.google.com/citations?user=fUBWIzgAAAAJ&hl=en" target="_blank">
       <img class="inline-icon"
-           src="{{ '/assets/img/google-scholar.png' | relative_url }}"
+           src="{{ '/assets/img/publications/google-scholar.png' | relative_url }}"
            alt="Google Scholar">
     </a>.
 

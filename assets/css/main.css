@@ -164,7 +164,7 @@ body {
 
 .home-wix {
   min-height: 75vh;
-  background: #ffffff url("../img/backgroundhome2.jpg") center bottom / cover no-repeat;
+  background: #ffffff url("../img/home/backgroundhome2.jpg") center bottom / cover no-repeat;
   position: relative;
 }
 

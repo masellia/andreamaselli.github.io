@@ -1,33 +1,32 @@
 # Add image paths, alternative text, and captions to these eight travel slots.
 travel:
-  - image: /assets/img/me%26Marti.jpg
+  - image: /assets/img/me/me%26Marti.jpg
     alt:
     caption:
-  - image: /assets/img/sagoma.jpg
+  - image: /assets/img/me/sagoma.jpg
     alt:
     caption:
-  - image: /assets/img/lottatori.jpg
+  - image: /assets/img/me/lottatori.jpg
     alt:
     caption:
-  - image: /assets/img/dragon_6.jpg
+  - image: /assets/img/me/dragon_6.jpg
     alt:
     caption:
-  - image: /assets/img/caldera2.jpg
+  - image: /assets/img/me/caldera2.jpg
     alt:
     caption:
-  - image: /assets/img/profilo3.jpg
+  - image: /assets/img/me/profilo3.jpg
     alt:
     caption:
-  - image: /assets/img/Mamma.jpg
+  - image: /assets/img/me/Mamma.jpg
     alt:
     caption:
-  - image: /assets/img/geisha2.jpg
+  - image: /assets/img/me/geisha2.jpg
     alt:
     caption:
 
 # Add an image path and caption for the Any Given Sunday section.
 packers:
-  image: /assets/img/packers.jpg
+  image: /assets/img/me/packers.jpg
   alt:
   caption: my first Packers match in Washington against the Commanders
-

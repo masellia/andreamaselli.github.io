@@ -18,7 +18,7 @@
   title: "Crossroads in Strong Gravity: Challenges & Future Directions"
   details: "Catania (IT)."
   role: Organizing and Scientific Committee
-  poster: /assets/pdf/CrosSG25.pdf
+  poster: /assets/pdf/meetings/CrosSG25.pdf
 
 - date: 15–19 Sep 2025
   title: LGWA Workshop
@@ -44,13 +44,13 @@
   title: 1st GSSI–JHU MAECI Meeting on Gravitational-Wave Astrophysics
   details: "Assergi, L’Aquila (IT)."
   role: Organizing Committee
-  poster: /assets/pdf/MAECI_2024.pdf
+  poster: /assets/pdf/meetings/MAECI_2024.pdf
 
 - date: 16–20 Oct 2024
   title: 1st TEONGRAV International Workshop on Theory of Gravitational Waves
   details: "Sapienza University of Rome, Rome (IT)."
   role: Scientific Committee
-  poster: /assets/pdf/TeongravRome.pdf
+  poster: /assets/pdf/meetings/TeongravRome.pdf
 
 - date: 7–10 Oct 2024
   title: Lunar Gravitational Wave Antenna Workshop
@@ -66,7 +66,7 @@
   title: Linking Advances in Theoretical Astrophysics and Relativity to Observations
   details: "University of Milano-Bicocca, Milano (IT)."
   role: Organizing Committee
-  poster: /assets/pdf/Lautaro.pdf
+  poster: /assets/pdf/meetings/Lautaro.pdf
 
 - date: 9–13 Oct 2023
   title: Lunar Gravitational Wave Antenna Workshop
@@ -82,13 +82,13 @@
   title: Asymmetric Binaries Meet Fundamental Astrophysics
   details: "Gran Sasso Science Institute, L’Aquila (IT)."
   role: Organizing and Scientific Committee
-  poster: /assets/pdf/EMRI_Fundamental.pdf
+  poster: /assets/pdf/meetings/EMRI_Fundamental.pdf
 
 - date: 17–20 Apr 2023
   title: Lunar Gravitational-Wave Detection
   details: "ICTS, Bangalore (IN)."
   role: Scientific Committee
-  poster: /assets/pdf/Poster_LGWA.pdf
+  poster: /assets/pdf/meetings/Poster_LGWA.pdf
 
 - date: 5–7 Oct 2022
   title: "The Complexity of the Cosmos: An Interdisciplinary Symposium in Cosmology, Astrophysics, and Statistical Mechanics"
@@ -124,11 +124,10 @@
   title: XI Black Holes Workshop
   details: "Instituto Superior Técnico, Lisbon (PT)."
   role: Organizing Committee
-  poster: /assets/pdf/poster_xi_blackholes.pdf
+  poster: /assets/pdf/meetings/poster_xi_blackholes.pdf
 
 - date: 12–13 Apr 2018
   title: Neutron Stars in Lisbon
   details: "Instituto Superior Técnico, Lisbon (PT)."
   role: Organizing and Scientific Committee
-  poster: /assets/pdf/conferenzaLISBONA.pdf
-
+  poster: /assets/pdf/meetings/conferenzaLISBONA.pdf

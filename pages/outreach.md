@@ -40,7 +40,7 @@ permalink: /outreach/
     <div class="outreach-image">
       <img
         class="outreach-img img-small"
-        src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
+        src="{{ '/assets/img/outreach/sidecarlogo.png' | relative_url }}"
         alt="Sarà scienza o sarà fake?">
     </div>
 
@@ -66,7 +66,7 @@ permalink: /outreach/
     <div class="outreach-image">
       <img
         class="outreach-img img-small"
-        src="{{ '/assets/img/sidecarlogo.png' | relative_url }}"
+        src="{{ '/assets/img/outreach/sidecarlogo.png' | relative_url }}"
         alt="La solitudine dell'Homo Sapiens">
     </div>
 
@@ -111,7 +111,7 @@ permalink: /outreach/
     <div class="outreach-image">
       <img
         class="outreach-img img-small"
-        src="{{ '/assets/img/fertilising.png' | relative_url }}"
+        src="{{ '/assets/img/outreach/fertilising.png' | relative_url }}"
         alt="Fertilising Ideas">
     </div>
 
@@ -137,7 +137,7 @@ permalink: /outreach/
     <div class="outreach-image">
       <img
         class="outreach-img img-large"
-        src="{{ '/assets/img/accastampato.png' | relative_url }}"
+        src="{{ '/assets/img/outreach/accastampato.png' | relative_url }}"
         alt="Non si sorpassa in tunnel">
     </div>
 
@@ -151,7 +151,7 @@ permalink: /outreach/
       </p>
 
       <a class="outreach-link"
-       href="{{ '/assets/pdf/Accastampato09.pdf' | relative_url }}"
+       href="{{ '/assets/pdf/outreach/Accastampato09.pdf' | relative_url }}"
        target="_blank"
        rel="noopener">
        READ
@@ -183,7 +183,7 @@ permalink: /outreach/
     <div class="outreach-image">
       <img
         class="outreach-img img-medium"
-        src="{{ '/assets/img/AmaldiRC.png' | relative_url }}"
+        src="{{ '/assets/img/outreach/AmaldiRC.png' | relative_url }}"
         alt="Gravitational waves: a new window on the nature of gravity">
     </div>
 

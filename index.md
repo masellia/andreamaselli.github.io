@@ -15,7 +15,7 @@ title: Home
 
     <div class="affiliation-logo">
       <a href="https://www.gssi.it/" target="_blank">
-        <img src="{{ '/assets/img/gssi-logo.jpg' | relative_url }}" alt="GSSI">
+        <img src="{{ '/assets/img/home/gssi-logo.jpg' | relative_url }}" alt="GSSI">
       </a>
     </div>
 
@@ -35,11 +35,11 @@ title: Home
 
   <div class="profile-buttons">
     <a href="https://orcid.org/0000-0001-8515-8525/" target="_blank">
-      <img src="{{ '/assets/img/ORblack.png' | relative_url }}" alt="ORCID">
+      <img src="{{ '/assets/img/home/ORblack.png' | relative_url }}" alt="ORCID">
     </a>
     
     <a href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/CVblack.png' | relative_url }}" alt="Curriculum Vitae">
+      <img src="{{ '/assets/img/home/CVblack.png' | relative_url }}" alt="Curriculum Vitae">
     </a>
 
 
@@ -77,7 +77,7 @@ title: Home
   <a href="#map-lightbox">
   <img
     class="bio-image-left travel-map-thumb"
-    src="{{ '/assets/img/maptrips.png' | relative_url }}"
+    src="{{ '/assets/img/home/maptrips.png' | relative_url }}"
     alt="Academic journey map">
 </a>
 
@@ -87,7 +87,7 @@ title: Home
 
   <img
 
-    src="{{ '/assets/img/maptrips.png' | relative_url }}"
+    src="{{ '/assets/img/home/maptrips.png' | relative_url }}"
 
     alt="Academic journey map">
 
@@ -127,7 +127,7 @@ title: Home
   
   <img
     class="bio-image-right"
-    src="{{ '/assets/img/profile_pic.jpg' | relative_url }}"
+    src="{{ '/assets/img/home/profile_pic.jpg' | relative_url }}"
     alt="Description">
 
   <p>
