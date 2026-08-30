@@ -1,0 +1,23 @@
+{% assign nfl_moments = include.post.key_moments %}
+{% if nfl_moments and nfl_moments.size > 0 %}
+  <ol class="nfl-key-moments">
+    {% for moment in nfl_moments %}
+      <li>
+        <div class="nfl-moment-meta">
+          {% if moment.quarter %}<span>{{ moment.quarter }}</span>{% endif %}
+          {% if moment.clock %}<span>{{ moment.clock }}</span>{% endif %}
+        </div>
+        <h4>{{ moment.title }}</h4>
+        <div>{{ moment.text | markdownify }}</div>
+        {% if moment.image %}
+          <figure>
+            <img src="{{ moment.image | relative_url }}" alt="{{ moment.image_alt }}" loading="lazy">
+            {% if moment.image_caption %}<figcaption>{{ moment.image_caption }}</figcaption>{% endif %}
+          </figure>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+{% else %}
+  <p class="nfl-panel-placeholder">The decisive plays and their tactical context will be added after the game.</p>
+{% endif %}

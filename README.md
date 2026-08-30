@@ -34,15 +34,15 @@ Then open `http://localhost:4000`.
 
 ## The QB Room
 
-NFL analyses are collection documents stored by season under `_nfl/`. A new article automatically appears on the deployed archive at `/andreamaselli.github.io/me/qb-room/` and in the same-season previous/next navigation.
+Game data is stored by season under `_nfl/`. Collection documents are not published as standalone pages; each one becomes an interactive entry at `/andreamaselli.github.io/me/qb-room/` with inline Stats, Tactical Analysis, and Key Moments panels.
 
 Use filenames such as `_nfl/2026/week-01-opponent.md` and this front matter:
 
 ```yaml
 ---
-title: "Article headline"
-description: "Short archive and search description."
-date: 2026-09-13
+title: "Week 1: Packers at Opponent"
+description: "Metadata description; not displayed in the archive."
+date: 2026-09-12
 game_date: 2026-09-13
 season: 2026
 week_label: "Week 1"
@@ -50,31 +50,45 @@ week_order: 1
 phase: regular
 opponent: Opponent Name
 opponent_abbr: OPP
-home_away: home
-team_score: 27
-opponent_score: 20
-status: Final
-thesis: "The main interpretation of the game in one sentence."
+home_away: away
+team_logo: /assets/img/nfl/gb.png
+opponent_logo: /assets/img/nfl/opp.png
+team_score:
+opponent_score:
+status: Scheduled
+kickoff: "3:25 PM CDT"
+stadium: Stadium Name
+city: City, State
+stats_ready: false
 stats_game_label: Game
-stats_season_label: Season
-stats_note: Explanation and source for the statistics.
+stats_season_label: 2026 Season
 stats:
-  - metric: Offensive EPA/play
-    game: "+0.17"
-    season: "+0.08"
+  - id: offensive_epa_per_play
+    group: Efficiency
+    metric: Offensive EPA/play
+    game:
+    season:
+tactical:
+  game_script:
+  offense:
+  defense:
+key_moments: []
 ---
 ```
 
-Insert the statistics table where it belongs in the article with:
+Keep `stats_ready: false` before the game. Afterward, set it to `true`, fill each metric's `game` and `season` values, and optionally add `stats_note` with methodology or source information. Preserve metric IDs so values can be used consistently in future quantitative work.
 
-```liquid
-{% include nfl-stats.html stats=page.stats %}
+Tactical fields accept Markdown. Key moments use structured entries and may include an image:
+
+```yaml
+key_moments:
+  - quarter: Q4
+    clock: "2:14"
+    title: "Moment title"
+    text: "What happened and why it mattered."
+    image: /assets/img/nfl/2026/week-01/example.jpg
+    image_alt: "Meaningful description"
+    image_caption: "Optional caption"
 ```
 
-Store new article-specific images under `assets/img/nfl/<season>/<week>/` and render them with:
-
-```liquid
-{% include nfl-figure.html src="/assets/img/nfl/2026/week-01/example.jpg" alt="Meaningful description" caption="Caption" credit="Source" %}
-```
-
-Use the NFL season year for `season`, including for playoff games played in January of the following calendar year. Use `week_order` to place regular-season and postseason articles in the intended sequence. Set `date` to the publication date and avoid future dates, because Jekyll does not publish future-dated documents by default. Restart the local Jekyll server after changing collection configuration.
+Use the NFL season year for `season`, including playoff games played in January of the following calendar year. Use `week_order` to control reverse-chronological display. Set `date` to a non-future publication date and restart the local Jekyll server after changing collection configuration.

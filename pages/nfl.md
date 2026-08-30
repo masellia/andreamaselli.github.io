@@ -19,7 +19,6 @@ permalink: /me/qb-room/
 
   {% if nfl_seasons.size > 0 %}
     <div class="nfl-archive">
-      {% assign nfl_feature_shown = false %}
       {% for nfl_season in nfl_seasons %}
         {% assign nfl_season_posts = nfl_season.items | sort: 'week_order' | reverse %}
         <section class="nfl-season" aria-labelledby="nfl-season-{{ nfl_season.name }}">
@@ -30,13 +29,7 @@ permalink: /me/qb-room/
 
           <div class="nfl-season-list">
             {% for nfl_post in nfl_season_posts %}
-              {% if nfl_feature_shown %}
-                {% assign nfl_is_featured = false %}
-              {% else %}
-                {% assign nfl_is_featured = true %}
-                {% assign nfl_feature_shown = true %}
-              {% endif %}
-              {% include nfl-archive-entry.html post=nfl_post featured=nfl_is_featured %}
+              {% include nfl-archive-entry.html post=nfl_post %}
             {% endfor %}
           </div>
         </section>

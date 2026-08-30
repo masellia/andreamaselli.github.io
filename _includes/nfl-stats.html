@@ -1,24 +1,34 @@
-{% assign nfl_stats = include.stats | default: page.stats %}
-{% if nfl_stats and nfl_stats.size > 0 %}
+{% assign nfl_stats_post = include.post %}
+{% assign nfl_stats = nfl_stats_post.stats %}
+{% if nfl_stats_post.stats_ready and nfl_stats and nfl_stats.size > 0 %}
   <div class="nfl-stats-wrap">
     <table class="nfl-stats">
       <thead>
         <tr>
           <th scope="col">Metric</th>
-          <th scope="col">{{ page.stats_game_label | default: 'Game' }}</th>
-          <th scope="col">{{ page.stats_season_label | default: 'Season' }}</th>
+          <th scope="col">{{ nfl_stats_post.stats_game_label | default: 'Game' }}</th>
+          <th scope="col">{{ nfl_stats_post.stats_season_label | default: 'Season' }}</th>
         </tr>
       </thead>
       <tbody>
+        {% assign nfl_stats_group = '' %}
         {% for stat in nfl_stats %}
+          {% if stat.group and stat.group != nfl_stats_group %}
+            <tr class="nfl-stats-group">
+              <th colspan="3" scope="colgroup">{{ stat.group }}</th>
+            </tr>
+            {% assign nfl_stats_group = stat.group %}
+          {% endif %}
           <tr>
             <th scope="row">{{ stat.metric }}</th>
-            <td>{{ stat.game }}</td>
-            <td>{{ stat.season }}</td>
+            <td>{% if stat.game != nil %}{{ stat.game }}{% else %}&mdash;{% endif %}</td>
+            <td>{% if stat.season != nil %}{{ stat.season }}{% else %}&mdash;{% endif %}</td>
           </tr>
         {% endfor %}
       </tbody>
     </table>
-    {% if page.stats_note %}<p class="nfl-stats-note">{{ page.stats_note }}</p>{% endif %}
+    {% if nfl_stats_post.stats_note %}<p class="nfl-stats-note">{{ nfl_stats_post.stats_note }}</p>{% endif %}
   </div>
+{% else %}
+  <p class="nfl-panel-placeholder">Game and season metrics will be available after the final whistle.</p>
 {% endif %}

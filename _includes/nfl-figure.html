@@ -1,9 +1,0 @@
-<figure class="nfl-article-figure{% if include.wide %} nfl-article-figure-wide{% endif %}">
-  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" loading="lazy">
-  {% if include.caption or include.credit %}
-    <figcaption>
-      {% if include.caption %}{{ include.caption }}{% endif %}
-      {% if include.credit %}<span>{{ include.credit }}</span>{% endif %}
-    </figcaption>
-  {% endif %}
-</figure>
