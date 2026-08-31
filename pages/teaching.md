@@ -38,11 +38,14 @@ permalink: /teaching/
 
   <section class="teaching-timeline">
 
-    <div class="teaching-entry teaching-left">
+    <div class="teaching-entry teaching-left teaching-current-entry">
       <div class="teaching-year">2026–on</div>
       <div class="teaching-course">The Dynamics of Asymmetric Binaries [Lecturer]</div>
       <div class="teaching-info">Gran Sasso Science Institute</div>
       <div class="teaching-details">PhD Course · Semester II</div>
+      <div class="teaching-syllabus">
+        <a href="{{ '/assets/pdf/teaching/syllabus.pdf' | relative_url }}" target="_blank" rel="noopener">Syllabus of the course</a>
+      </div>
     </div>
 
   </section>
