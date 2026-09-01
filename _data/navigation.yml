@@ -1,5 +1,7 @@
 - title: Home
   url: /
+- title: News
+  url: /news/
 - title: Research
   url: /research/
   children:
