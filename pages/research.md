@@ -84,7 +84,7 @@ I am interested in the theoretical modelling of these objects in General Relativ
   <div class="research-collaborations-layout">
     <div class="research-collaborations-copy">
       <p class="research-collaborations-intro">
-        I am currently a member of the INFN Specific Initiative <a href="https://web.infn.it/CSN4/index.php/it/17-esperimenti/195-teongrav-home" target="_blank" rel="noopener">TEONGRAV</a>, "Theory of Gravitational Wave Sources," as well as of the following international collaborations developing the science case for future gravitational-wave observatories and advancing strong-gravity research.
+        I am currently a member of the INFN Specific Initiative <a href="https://web.infn.it/CSN4/index.php/it/17-esperimenti/195-teongrav-home" target="_blank" rel="noopener">TEONGRAV</a>, "Theory of Gravitational Wave Sources", as well as of the following international collaborations developing the science case for future gravitational-wave observatories and advancing strong-gravity research.
       </p>
     </div>
 

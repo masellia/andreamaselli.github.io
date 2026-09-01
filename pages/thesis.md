@@ -268,7 +268,7 @@ A data-analysis framework
 
     <div class="thesis-entry thesis-right bachelor-entry">
       <div class="thesis-year">2026-2027</div>
-      <div class="thesis-student"> Charlotte Rizo-Crastes Radulea @ Gran Sasso Science Institute </div>
+      <div class="thesis-student"> Charlotte Rizo-Crastes @ Gran Sasso Science Institute </div>
       <div class="thesis-advisor">Internship from École normale supérieure Paris-Saclay</div>
     </div>
 
