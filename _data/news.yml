@@ -13,8 +13,8 @@
   date: 8 July 2027
   title: "The GSSI hosts the 2027 (first) LISA Consortium meeting"
   text: "L'Aquila and the Gran Sasso Science Institute will organize the 2027 LISA Consortium meeting, from the 5th - 8th of July 2027. As the first meeting, since the reboot of the whole Consortium, it will be a great occasion to discuss and plan the Consortium work all together. Stay tuned for further news!."
-  image: LISA_logo
-  image_alt:
+  image: /assets/img/news/LISA_logo.jpg
+  image_alt: "LISA Consortium logo"
   image_caption:
   url:
   link_label:
