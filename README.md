@@ -23,6 +23,7 @@ Then open `http://localhost:4000`.
 
 - `_config.yml`: site metadata and external profiles
 - `_data/navigation.yml`: navigation menu
+- `_data/news.yml`: homepage news strip
 - `index.md`: homepage text
 - `pages/*.md`: internal pages
 - `assets/css/main.css`: visual design

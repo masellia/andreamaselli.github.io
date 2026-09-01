@@ -1,0 +1,12 @@
+# Homepage news strip. Entries appear in this order; keep the newest first.
+- date: Group news
+  title: "Congratulations, Sara!"
+  text: "Congratulations to Sara on earning her PhD."
+  url:
+  link_label:
+
+- date: Events
+  title: "Conference organized"
+  text: "News and details about conferences organized by the group will appear here."
+  url:
+  link_label:
