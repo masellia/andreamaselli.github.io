@@ -326,6 +326,7 @@ body {
 
 .home-news {
   overflow: hidden;
+  margin-top: var(--section-first-gap);
   padding: 2.8rem 7vw 2.5rem;
   background: #252525;
   color: #ffffff;
@@ -341,6 +342,7 @@ body {
 
 .home-news-heading {
   display: flex;
+  align-self: start;
   align-items: flex-end;
   gap: 1rem;
   padding-bottom: 1rem;
@@ -373,47 +375,17 @@ body {
   line-height: 1;
 }
 
-.home-news-scroll {
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
-  padding: 0 0 1rem;
-  scrollbar-color: var(--accent) #3a3a3a;
-  scrollbar-width: thin;
-  scroll-snap-type: x proximity;
-}
-
-.home-news-scroll:focus-visible {
-  outline: 1px solid var(--accent);
-  outline-offset: 5px;
-}
-
-.home-news-scroll::-webkit-scrollbar {
-  height: 4px;
-}
-
-.home-news-scroll::-webkit-scrollbar-track {
-  background: #3a3a3a;
-}
-
-.home-news-scroll::-webkit-scrollbar-thumb {
-  background: var(--accent);
-}
-
-.home-news-track {
-  display: flex;
-  width: max-content;
+.home-news-list {
+  width: 100%;
 }
 
 .home-news-item {
-  flex: 0 0 clamp(330px, 44vw, 520px);
-  min-height: 132px;
-  padding: 0.35rem 2.5rem 0.5rem 0;
-  scroll-snap-align: start;
+  padding: 0.35rem 0 1.35rem;
 }
 
 .home-news-item + .home-news-item {
-  padding-left: 2.5rem;
-  border-left: 1px solid #555555;
+  padding-top: 1.35rem;
+  border-top: 1px solid #555555;
 }
 
 .home-news-date {
@@ -457,6 +429,7 @@ body {
 
 @media (max-width: 820px) {
   .home-news {
+    margin-top: 3rem;
     padding-top: 2.2rem;
     padding-bottom: 2rem;
   }
@@ -479,15 +452,6 @@ body {
     font-size: 32px;
   }
 
-  .home-news-item {
-    flex-basis: min(82vw, 430px);
-    min-height: 125px;
-    padding-right: 1.5rem;
-  }
-
-  .home-news-item + .home-news-item {
-    padding-left: 1.5rem;
-  }
 }
 
 

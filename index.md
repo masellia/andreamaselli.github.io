@@ -61,21 +61,19 @@ title: Home
       </div>
     </header>
 
-    <div class="home-news-scroll" tabindex="0" aria-label="Latest news; scroll horizontally for more">
-      <div class="home-news-track">
-        {% for item in site.data.news limit: 8 %}
-          <article class="home-news-item">
-            {% if item.date %}<div class="home-news-date">{{ item.date }}</div>{% endif %}
-            <h3>{{ item.title }}</h3>
-            {% if item.text %}<p>{{ item.text }}</p>{% endif %}
-            {% if item.url %}
-              <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if item.url contains '://' %} target="_blank" rel="noopener"{% endif %}>
-                {{ item.link_label | default: 'Read more' }}
-              </a>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
+    <div class="home-news-list">
+      {% for item in site.data.news limit: 8 %}
+        <article class="home-news-item">
+          {% if item.date %}<div class="home-news-date">{{ item.date }}</div>{% endif %}
+          <h3>{{ item.title }}</h3>
+          {% if item.text %}<p>{{ item.text }}</p>{% endif %}
+          {% if item.url %}
+            <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if item.url contains '://' %} target="_blank" rel="noopener"{% endif %}>
+              {{ item.link_label | default: 'Read more' }}
+            </a>
+          {% endif %}
+        </article>
+      {% endfor %}
     </div>
   </div>
 </section>
