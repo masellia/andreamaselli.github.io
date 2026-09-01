@@ -55,7 +55,7 @@ permalink: /thesis/
   <div class="thesis-entry thesis-right">
     <div class="thesis-year">2023-2026</div>
     <div class="thesis-student"> Sara Gliorio @ Gran Sasso Science Institute </div>
-    <div class="thesis-title"> Asymmetric Binaries as fundamental physics probes</div>
+    <div class="thesis-title"> When asymmetric binaries meet fundamental physics</div>
   </div>
 
   <div class="thesis-entry thesis-left">
