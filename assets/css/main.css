@@ -2784,7 +2784,7 @@ body {
 }
 
 .news-entry-with-image {
-  grid-template-columns: 145px minmax(0, 1fr) minmax(220px, 310px);
+  grid-template-columns: 145px minmax(0, 1fr) minmax(190px, 260px);
 }
 
 .news-entry-meta span,
@@ -2820,6 +2820,7 @@ body {
   color: #444444;
   font-size: 16px;
   line-height: 1.65;
+  text-align: justify;
 }
 
 .news-entry-text p {
@@ -2853,7 +2854,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 240px;
+  max-height: 200px;
   object-fit: cover;
 }
 
