@@ -22,11 +22,12 @@ permalink: /news/
         <h2>Group Notes</h2>
       </header>
 
-      {% for item in site.data.news %}
+      {% assign news_items = site.data.news | sort: 'date' | reverse %}
+      {% for item in news_items %}
         <article class="news-entry{% if item.image %} news-entry-with-image{% endif %}" aria-labelledby="news-entry-{{ forloop.index }}">
           <div class="news-entry-meta">
             {% if item.category %}<span>{{ item.category }}</span>{% endif %}
-            {% if item.date %}<time>{{ item.date }}</time>{% endif %}
+            {% if item.date %}<time datetime="{{ item.date }}">{{ item.date | date: '%-d %B %Y' }}</time>{% endif %}
           </div>
 
           <div class="news-entry-copy">

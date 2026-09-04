@@ -2831,6 +2831,16 @@ body {
   margin-bottom: 0;
 }
 
+.news-entry-text a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.news-entry-text a:hover,
+.news-entry-text a:focus-visible {
+  text-decoration: underline;
+}
+
 .news-entry-copy > a {
   display: inline-block;
   margin-top: 1rem;

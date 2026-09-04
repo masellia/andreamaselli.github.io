@@ -1,4 +1,4 @@
-# News archive. Entries appear in this order; keep the newest first.
+# News archive. Use quoted YYYY-MM-DD dates; the page sorts newest first.
 #- category: Group news
 #  date:
 #  title: "Congratulations, Sara!"
@@ -10,9 +10,9 @@
 #  link_label:
 
 - category: Events
-  date: "29 July 2026"
+  date: "2026-07-29"
   title: "The GSSI hosts the 2027 (first) LISA Consortium meeting"
-  text: "L'Aquila and the Gran Sasso Science Institute will organize the 2027 LISA Consortium meeting, from the 5th - 8th of July 2027. As the first meeting, since the reboot of the whole Consortium, it will be a great occasion to discuss and plan the Consortium work all together. Stay tuned for further news!."
+  text: "L'Aquila and the Gran Sasso Science Institute will organize the 2027 LISA Consortium meeting, from the 5th - 8th of July 2027. As the first meeting, since the reboot of the whole Consortium, it will be a great occasion to discuss and plan the Consortium work all together. Stay tuned for further news!"
   image: /assets/img/news/LISA_logo.jpg
   image_alt: "LISA Consortium logo"
   image_caption:
@@ -20,9 +20,9 @@
   link_label:
 
 - category: Projects
-  date: "1 October 2027"
+  date: "2026-10-01"
   title: "The STRONG Action officially begins"
-  text: "The Marie Skłodowska-Curie Staff Exchanges project STRONG, dedicated to investigating gravity in its most extreme regimes, kicks off on 1 October 2026. STRONG will bring together experts from around the world to advance theoretical and computational tools for modelling compact objects and their gravitational-wave emission. The project aims to probe strong-field gravity, characterise astrophysical environments, and explore possible extensions of general relativity and the Standard Model of particle physics, as well as new cosmological scenarios. Follow the action  [here](https://masellia.github.io/strong-action/)!"
+  text: "The Marie Skłodowska-Curie Staff Exchanges project STRONG, dedicated to investigating gravity in its most extreme regimes, kicks off on 1 October 2026. STRONG will bring together experts from around the world to advance theoretical and computational tools for modelling compact objects and their gravitational-wave emission. The project aims to probe strong-field gravity, characterise astrophysical environments, and explore possible extensions of general relativity and the Standard Model of particle physics, as well as new cosmological scenarios. Follow the action [here](https://masellia.github.io/strong-action/)!"
   image:
   image_alt:
   image_caption:
