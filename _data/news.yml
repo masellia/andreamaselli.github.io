@@ -22,7 +22,7 @@
 - category: Projects
   date: "1 October 2027"
   title: "The STRONG Action officially begins"
-  text: "The Marie Skłodowska-Curie Staff Exchanges project STRONG, dedicated to investigating gravity in its most extreme regimes, kicks off on 1 October 2026. STRONG will bring together experts from around the world to advance theoretical and computational tools for modelling compact objects and their gravitational-wave emission. The project aims to probe strong-field gravity, characterise astrophysical environments, and explore possible extensions of general relativity and the Standard Model of particle physics, as well as new cosmological scenarios. Follow the action [here](https://masellia.github.io/strong-action/)!"
+  text: "The Marie Skłodowska-Curie Staff Exchanges project STRONG, dedicated to investigating gravity in its most extreme regimes, kicks off on 1 October 2026. STRONG will bring together experts from around the world to advance theoretical and computational tools for modelling compact objects and their gravitational-wave emission. The project aims to probe strong-field gravity, characterise astrophysical environments, and explore possible extensions of general relativity and the Standard Model of particle physics, as well as new cosmological scenarios. Follow the action <a href="https://masellia.github.io/strong-action/" target="_blank" rel="noopener noreferrer">here</a>"
   image:
   image_alt:
   image_caption:
