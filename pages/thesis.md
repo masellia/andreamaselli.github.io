@@ -120,7 +120,8 @@ sources for future ground and space based interferometers </div>
     <div class="thesis-entry thesis-right master-entry">
       <div class="thesis-year">2026</div>
       <div class="thesis-student">Giovanni Benetti @ University of Padova</div>
-      <div class="thesis-title">TBA</div>
+      <div class="thesis-title">Ultralight bosons and supermassive black holes:
+new fundamental physics from GW observations</div>
     </div>
 
     <div class="thesis-entry thesis-left master-entry">
