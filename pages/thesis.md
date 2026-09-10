@@ -27,6 +27,12 @@ permalink: /thesis/
 
   <section class="thesis-timeline phd-timeline">
 
+  <div class="thesis-entry thesis-left">
+    <div class="thesis-year">2026-on</div>
+    <div class="thesis-student"> Luca Nagni @ Gran Sasso Science Institute </div>
+    <div class="thesis-title">TBA</div>
+  </div>
+
   <div class="thesis-entry thesis-right">
     <div class="thesis-year">2026-on</div>
     <div class="thesis-student"> Nicole Grillo @ Gran Sasso Science Institute </div>
