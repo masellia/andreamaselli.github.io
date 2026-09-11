@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+description: Andrea Maselli, Associate Professor of Theoretical Physics at the Gran Sasso Science Institute. Research in gravitation, black holes, neutron stars, and gravitational-wave physics.
 ---
 
 <section class="home-wix">

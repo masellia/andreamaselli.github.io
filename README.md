@@ -13,10 +13,10 @@ Then open `http://localhost:4000`.
 
 ## GitHub Pages deployment
 
-1. Create a repository, e.g. `andreamaselli.github.io` or `personal-website`.
+1. Use the `masellia.github.io` repository so the site is published at `https://masellia.github.io/`.
 2. Upload these files.
 3. In GitHub, enable Pages from the repository settings.
-4. Replace placeholder links in `_config.yml`.
+4. Review the site metadata and profile links in `_config.yml`.
 5. Add real images in `assets/img/`, especially `hero.jpg`.
 
 ## Main editable files
@@ -35,7 +35,7 @@ Then open `http://localhost:4000`.
 
 ## The QB Room
 
-Game data is stored by season under `_nfl/`. Collection documents are not published as standalone pages; each one becomes an interactive entry at `/andreamaselli.github.io/me/qb-room/` with inline Stats, Tactical Analysis, and Key Moments panels.
+Game data is stored by season under `_nfl/`. Collection documents are not published as standalone pages; each one becomes an interactive entry at `/me/qb-room/` with inline Stats, Tactical Analysis, and Key Moments panels.
 
 Use filenames such as `_nfl/2026/week-01-opponent.md` and this front matter:
 

@@ -3,8 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     {% seo %}
+    {% if page.url == '/' %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": {{ site.title | jsonify }},
+          "url": {{ site.url | append: '/' | jsonify }},
+          "image": {{ '/assets/img/home/profile_pic.jpg' | absolute_url | jsonify }},
+          "email": {{ site.email | prepend: 'mailto:' | jsonify }},
+          "jobTitle": {{ site.subtitle | jsonify }},
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.institution | jsonify }},
+            "url": "https://www.gssi.it/"
+          },
+          "sameAs": {{ site.social.links | jsonify }}
+        }
+      </script>
+    {% endif %}
     <link rel="icon" href="{{ '/assets/img/home/Hole_emoji.svg' | relative_url }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>

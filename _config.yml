@@ -1,20 +1,29 @@
 title: Andrea Maselli
 subtitle: Associate Professor in Theoretical Physics
+tagline: Associate Professor in Theoretical Physics
+description: Andrea Maselli is an Associate Professor of Theoretical Physics at the Gran Sasso Science Institute, working on gravitation, compact objects, and gravitational waves.
 email: andrea.maselli@gssi.it
 institution: Gran Sasso Science Institute
-baseurl: "/andreamaselli.github.io"
+baseurl: ""
 url: "https://masellia.github.io"
+locale: en_GB
 permalink: pretty
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+author:
+  name: Andrea Maselli
+  url: https://masellia.github.io/
+
 social:
-  inspire: https://inspirehep.net/authors/1077802
-  scholar: https://scholar.google.com/citations?user=PLACEHOLDER
-  orcid: https://orcid.org/PLACEHOLDER
-  github: https://github.com/PLACEHOLDER
+  name: Andrea Maselli
+  links:
+    - https://inspirehep.net/authors/1189872
+    - https://scholar.google.com/citations?user=fUBWIzgAAAAJ&hl=en
+    - https://orcid.org/0000-0001-8515-8525
+    - https://github.com/masellia
 
 collections:
   pages:
