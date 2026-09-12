@@ -46,7 +46,7 @@
   - title: 'Adiabatic evolution of asymmetric binaries on generic orbits with new fundamental fields I: characterization of gravitational wave fluxes'
     authors: S. Gliorio, M. Della Rocca, S. Barsanti, L. Gualtieri, A. Maselli, T. P. Sotiriou
     arxiv: '2603.10116'
-    doi: 1103/b3lv-8r4p
+    doi: 10.1103/b3lv-8r4p
     bibtex: |
       @article{Gliorio:2026yvh,
           author = "Gliorio, Sara and Della Rocca, Matteo and Barsanti, Susanna and Gualtieri, Leonardo and Maselli, Andrea and Sotiriou, Thomas P.",
@@ -54,7 +54,7 @@
           eprint = "2603.10116",
           archivePrefix = "arXiv",
           primaryClass = "gr-qc",
-          doi = "1103/b3lv-8r4p",
+          doi = "10.1103/b3lv-8r4p",
           journal = "Phys. Rev. D",
           volume = "114",
           number = "4",
